@@ -1,0 +1,5 @@
+001 # 0 # 0 # sky # sky # "cloudy"
+002 # 0 # 0 # mountain, mount # mountain # "rocky"
+003 # 0 # 0 # mountain, mount # mountain # "rocky"
+004 # 0 # 0 # mountain, mount # mountain # "rocky"
+005 # 0 # 0 # tree # trees # ""

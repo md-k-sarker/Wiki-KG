@@ -1,0 +1,1211 @@
+Program started.............
+Program starts at: 08.10.2020  03.01.38 AM
+Working with confFile: Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_wiki_concepts_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00011945
+	ADE_train_00011989
+	ADE_train_00011944
+	ADE_train_00011988
+	ADE_train_00011987
+	ADE_train_00011986
+	ADE_train_00011949
+	ADE_train_00011948
+	ADE_train_00011947
+	ADE_train_00011946
+	ADE_train_00011981
+	ADE_train_00011980
+	ADE_train_00011985
+	ADE_train_00011984
+	ADE_train_00011983
+	ADE_train_00011982
+	ADE_train_00011956
+	ADE_train_00011955
+	ADE_train_00011999
+	ADE_train_00012009
+	ADE_train_00011954
+	ADE_train_00011998
+	ADE_train_00012008
+	ADE_train_00011953
+	ADE_train_00011997
+	ADE_train_00011959
+	ADE_train_00011958
+	ADE_train_00011957
+	ADE_train_00012003
+	ADE_train_00011992
+	ADE_train_00012002
+	ADE_train_00011991
+	ADE_train_00012001
+	ADE_train_00011990
+	ADE_train_00012000
+	ADE_train_00012007
+	ADE_train_00011952
+	ADE_train_00011996
+	ADE_train_00012006
+	ADE_train_00011951
+	ADE_train_00011995
+	ADE_train_00012005
+	ADE_train_00011950
+	ADE_train_00011994
+	ADE_train_00012004
+	ADE_train_00011993
+	ADE_train_00011967
+	ADE_train_00011966
+	ADE_train_00011965
+	ADE_train_00012019
+	ADE_train_00011964
+	ADE_train_00011969
+	ADE_train_00011968
+	ADE_train_00012014
+	ADE_train_00012013
+	ADE_train_00012012
+	ADE_train_00012011
+	ADE_train_00012018
+	ADE_train_00011963
+	ADE_train_00012017
+	ADE_train_00011962
+	ADE_train_00012016
+	ADE_train_00011961
+	ADE_train_00012015
+	ADE_train_00011960
+	ADE_train_00012010
+	ADE_train_00011978
+	ADE_train_00011977
+	ADE_train_00011976
+	ADE_train_00011975
+	ADE_train_00011979
+	ADE_train_00012025
+	ADE_train_00011970
+	ADE_train_00012024
+	ADE_train_00012023
+	ADE_train_00012022
+	ADE_train_00011974
+	ADE_train_00012028
+	ADE_train_00011973
+	ADE_train_00012027
+	ADE_train_00011972
+	ADE_train_00012026
+	ADE_train_00011971
+	ADE_train_00012021
+	ADE_train_00012020
+negIndivs from conf:
+	ADE_train_00020100
+	ADE_train_00020101
+	ADE_train_00011669
+	ADE_train_00011668
+	ADE_train_00011667
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00011662
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00011666
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00011665
+	ADE_train_00019745
+	ADE_train_00011664
+	ADE_train_00011663
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00000931
+	ADE_train_00020098
+	ADE_train_00020099
+	ADE_train_00011679
+	ADE_train_00011678
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00011673
+	ADE_train_00019717
+	ADE_train_00011672
+	ADE_train_00019716
+	ADE_train_00011671
+	ADE_train_00011670
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00011677
+	ADE_train_00019713
+	ADE_train_00011676
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00011675
+	ADE_train_00011674
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00011689
+	ADE_train_00019729
+	ADE_train_00011684
+	ADE_train_00019728
+	ADE_train_00011683
+	ADE_train_00019727
+	ADE_train_00011682
+	ADE_train_00011681
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00011688
+	ADE_train_00019724
+	ADE_train_00011687
+	ADE_train_00019723
+	ADE_train_00011686
+	ADE_train_00011685
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00011680
+	ADE_train_00011695
+	ADE_train_00019739
+	ADE_train_00011694
+	ADE_train_00019738
+	ADE_train_00011693
+	ADE_train_00011692
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00011697
+	ADE_train_00011696
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+	ADE_train_00011691
+	ADE_train_00011690
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.01.38 AM
+Total positive types (direct+indirect) found using all objectProperty: 166
+Total negative types (direct+indirect) found using all objectProperty: 373
+
+Algorithm ends at: 08.10.2020  03.01.40 AM
+
+Algorithm duration: 2.255 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:Sky)
+	 coverage_score: 0.8950276243093923
+	 precision: 0.8367346938775511
+	 recall: 0.9647058823529412
+	 f_measure: 0.8961748633879782
+solution 2: ∃ :imageContains.(:Nature)
+	 coverage_score: 0.850828729281768
+	 precision: 0.7636363636363637
+	 recall: 0.9882352941176471
+	 f_measure: 0.8615384615384616
+solution 3: ∃ :imageContains.(:Universe)
+	 coverage_score: 0.850828729281768
+	 precision: 0.7636363636363637
+	 recall: 0.9882352941176471
+	 f_measure: 0.8615384615384616
+solution 4: ∃ :imageContains.(:Main_topic_classifications)
+	 coverage_score: 0.5911602209944752
+	 precision: 0.535031847133758
+	 recall: 0.9882352941176471
+	 f_measure: 0.694214876033058
+solution 5: ∃ :imageContains.(:Plants_by_morphology)
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8648648648648649
+	 recall: 0.3764705882352941
+	 f_measure: 0.5245901639344263
+solution 6: ∃ :imageContains.(:Trees)
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8648648648648649
+	 recall: 0.3764705882352941
+	 f_measure: 0.5245901639344263
+solution 7: ∃ :imageContains.(:Plant_morphology)
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8648648648648649
+	 recall: 0.3764705882352941
+	 f_measure: 0.5245901639344263
+solution 8: ∃ :imageContains.((:Sky) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 9: ∃ :imageContains.((:Sky) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 10: ∃ :imageContains.((:Sky) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 11: ∃ :imageContains.((:Sky) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 12: ∃ :imageContains.((:Sky) ⊓ (:Life ⊓ :Branches_of_botany))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 13: ∃ :imageContains.((:Sky) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 14: ∃ :imageContains.((:Sky) ⊓ (:Branches_of_biology ⊓ :Organisms))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 15: ∃ :imageContains.((:Sky) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 16: ∃ :imageContains.((:Sky) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6795580110497238
+	 precision: 0.8857142857142857
+	 recall: 0.36470588235294116
+	 f_measure: 0.5166666666666666
+solution 17: ∃ :imageContains.((:Universe) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 18: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 19: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 20: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 21: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 22: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 23: ∃ :imageContains.((:Plants ⊓ :Branches_of_botany) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 24: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 25: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 26: ∃ :imageContains.((:Branches_of_botany ⊓ :Organisms) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 27: ∃ :imageContains.((:Universe) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 28: ∃ :imageContains.((:Universe) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 29: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 30: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 31: ∃ :imageContains.((:Universe) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 32: ∃ :imageContains.((:Universe) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 33: ∃ :imageContains.((:Branches_of_botany ⊓ :Organisms) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 34: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 35: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 36: ∃ :imageContains.((:Plants ⊓ :Branches_of_botany) ⊓ (:Nature))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 37: ∃ :imageContains.((:Universe) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 38: ∃ :imageContains.((:Universe) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 39: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 40: ∃ :imageContains.((:Universe) ⊓ (:Life ⊓ :Branches_of_botany))
+	 coverage_score: 0.6685082872928176
+	 precision: 0.8205128205128205
+	 recall: 0.3764705882352941
+	 f_measure: 0.5161290322580645
+solution 41: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Plants) ⊓ (:Nature))
+	 coverage_score: 0.6629834254143646
+	 precision: 0.8
+	 recall: 0.3764705882352941
+	 f_measure: 0.512
+solution 42: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Plants) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.6629834254143646
+	 precision: 0.8
+	 recall: 0.3764705882352941
+	 f_measure: 0.512
+solution 43: ∃ :imageContains.((:Universe) ⊓ (:Branches_of_biology ⊓ :Organisms))
+	 coverage_score: 0.6574585635359116
+	 precision: 0.7804878048780488
+	 recall: 0.3764705882352941
+	 f_measure: 0.5079365079365079
+solution 44: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 45: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 46: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 47: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 48: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 49: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Life ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 50: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 51: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 52: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 53: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 54: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 55: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 56: ∃ :imageContains.((:Branches_of_botany ⊓ :Organisms) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 57: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 58: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 59: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 60: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 61: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 62: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 63: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 64: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 65: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 66: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 67: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 68: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 69: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 70: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 71: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 72: ∃ :imageContains.((:Branches_of_botany ⊓ :Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 73: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 74: ∃ :imageContains.((:Plants ⊓ :Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 75: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 76: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 77: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 78: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 79: ∃ :imageContains.((:Life) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 80: ∃ :imageContains.((:Life) ⊓ (:Life ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 81: ∃ :imageContains.((:Organisms) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 82: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 83: ∃ :imageContains.((:Branches_of_biology ⊓ :Organisms) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 84: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 85: ∃ :imageContains.((:Life) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 86: ∃ :imageContains.((:Life) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 87: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 88: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 89: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 90: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Branches_of_biology ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 91: ∃ :imageContains.((:Branches_of_botany ⊓ :Organisms) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 92: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 93: ∃ :imageContains.((:Organisms) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 94: ∃ :imageContains.((:Branches_of_botany ⊓ :Organisms) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 95: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 96: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 97: ∃ :imageContains.((:Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 98: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Organisms) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 99: ∃ :imageContains.((:Organisms) ⊓ (:Life ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 100: ∃ :imageContains.((:Life) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 101: ∃ :imageContains.((:Life) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 102: ∃ :imageContains.((:Life ⊓ :Branches_of_biology) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 103: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Life ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 104: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 105: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 106: ∃ :imageContains.((:Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Life))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 107: ∃ :imageContains.((:Life) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 108: ∃ :imageContains.((:Organisms) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 109: ∃ :imageContains.((:Plants ⊓ :Branches_of_botany) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 110: ∃ :imageContains.((:Plants ⊓ :Branches_of_biology) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 111: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Plants ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 112: ∃ :imageContains.((:Plants ⊓ :Branches_of_botany) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 113: ∃ :imageContains.((:Organisms) ⊓ (:Branches_of_botany ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 114: ∃ :imageContains.((:Organisms) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 115: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 116: ∃ :imageContains.((:Life) ⊓ (:Plants ⊓ :Branches_of_botany))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 117: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 118: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Life ⊓ :Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 119: ∃ :imageContains.((:Life ⊓ :Branches_of_botany) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 120: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Organisms))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 121: ∃ :imageContains.((:Branches_of_biology) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 122: ∃ :imageContains.(:Branches_of_botany ⊓ :Organisms)
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 123: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Life))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 124: ∃ :imageContains.(:Plants ⊓ :Branches_of_botany)
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 125: ∃ :imageContains.(:Plants ⊓ :Branches_of_biology)
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 126: ∃ :imageContains.((:Life) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 127: ∃ :imageContains.(:Life ⊓ :Branches_of_botany)
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 128: ∃ :imageContains.((:Organisms) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 129: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Plants))
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 130: ∃ :imageContains.(:Branches_of_botany)
+	 coverage_score: 0.6408839779005525
+	 precision: 0.7272727272727273
+	 recall: 0.3764705882352941
+	 f_measure: 0.49612403100775193
+solution 131: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Plants) ⊓ (:Plants))
+	 coverage_score: 0.6353591160220995
+	 precision: 0.7111111111111111
+	 recall: 0.3764705882352941
+	 f_measure: 0.4923076923076923
+solution 132: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Plants) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.6353591160220995
+	 precision: 0.7111111111111111
+	 recall: 0.3764705882352941
+	 f_measure: 0.4923076923076923
+solution 133: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Plants)
+	 coverage_score: 0.6353591160220995
+	 precision: 0.7111111111111111
+	 recall: 0.3764705882352941
+	 f_measure: 0.4923076923076923
+solution 134: ∃ :imageContains.(:Plants)
+	 coverage_score: 0.6353591160220995
+	 precision: 0.7111111111111111
+	 recall: 0.3764705882352941
+	 f_measure: 0.4923076923076923
+solution 135: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Life) ⊓ (:Subfields_by_academic_discipline ⊓ :Organisms))
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 136: ∃ :imageContains.((:Organisms) ⊓ (:Branches_of_biology ⊓ :Organisms))
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 137: ∃ :imageContains.((:Life) ⊓ (:Branches_of_biology ⊓ :Organisms))
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 138: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Organisms)
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 139: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Life)
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 140: ∃ :imageContains.(:Life ⊓ :Branches_of_biology)
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 141: ∃ :imageContains.(:Branches_of_biology ⊓ :Organisms)
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 142: ∃ :imageContains.(:Branches_of_biology)
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 143: ∃ :imageContains.(:Organisms)
+	 coverage_score: 0.6298342541436464
+	 precision: 0.6956521739130435
+	 recall: 0.3764705882352941
+	 f_measure: 0.48854961832061067
+solution 144: ∃ :imageContains.(:Life)
+	 coverage_score: 0.6187845303867403
+	 precision: 0.6666666666666666
+	 recall: 0.3764705882352941
+	 f_measure: 0.4812030075187971
+solution 145: ∃ :imageContains.(:Academic_disciplines)
+	 coverage_score: 0.40331491712707185
+	 precision: 0.3883495145631068
+	 recall: 0.47058823529411764
+	 f_measure: 0.425531914893617
+solution 146: ∃ :imageContains.(:Subfields_by_academic_discipline)
+	 coverage_score: 0.4143646408839779
+	 precision: 0.3939393939393939
+	 recall: 0.4588235294117647
+	 f_measure: 0.4239130434782608
+solution 147: ∃ :imageContains.(:Nature ⊓ :Science)
+	 coverage_score: 0.56353591160221
+	 precision: 0.6
+	 recall: 0.21176470588235294
+	 f_measure: 0.31304347826086953
+solution 148: ∃ :imageContains.(:Universe ⊓ :Science)
+	 coverage_score: 0.56353591160221
+	 precision: 0.6
+	 recall: 0.21176470588235294
+	 f_measure: 0.31304347826086953
+solution 149: ∃ :imageContains.(:Science)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5142857142857142
+	 recall: 0.21176470588235294
+	 f_measure: 0.3
+solution 150: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Nature)
+	 coverage_score: 0.56353591160221
+	 precision: 0.625
+	 recall: 0.17647058823529413
+	 f_measure: 0.27522935779816515
+solution 151: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Universe)
+	 coverage_score: 0.56353591160221
+	 precision: 0.625
+	 recall: 0.17647058823529413
+	 f_measure: 0.27522935779816515
+solution 152: ∃ :imageContains.(:Matter)
+	 coverage_score: 0.569060773480663
+	 precision: 0.6666666666666666
+	 recall: 0.16470588235294117
+	 f_measure: 0.2641509433962264
+solution 153: ∃ :imageContains.(:Culture)
+	 coverage_score: 0.287292817679558
+	 precision: 0.25
+	 recall: 0.25882352941176473
+	 f_measure: 0.254335260115607
+solution 154: ∃ :imageContains.(:Phases_of_matter)
+	 coverage_score: 0.5966850828729282
+	 precision: 1.0
+	 recall: 0.1411764705882353
+	 f_measure: 0.24742268041237114
+solution 155: ∃ :imageContains.(:Society)
+	 coverage_score: 0.287292817679558
+	 precision: 0.2441860465116279
+	 recall: 0.24705882352941178
+	 f_measure: 0.24561403508771928
+solution 156: ∃ :imageContains.(:Phenomena)
+	 coverage_score: 0.569060773480663
+	 precision: 0.7058823529411765
+	 recall: 0.1411764705882353
+	 f_measure: 0.2352941176470588
+solution 157: ∃ :imageContains.(:Phenomena ⊓ :Phases_of_matter)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 158: ∃ :imageContains.(:Matter ⊓ :Phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 159: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Science)
+	 coverage_score: 0.4861878453038674
+	 precision: 0.3
+	 recall: 0.07058823529411765
+	 f_measure: 0.11428571428571428
+solution 160: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Phenomena)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.4444444444444444
+	 recall: 0.047058823529411764
+	 f_measure: 0.0851063829787234
+solution 161: ∃ :imageContains.(:Branches_of_botany ⊓ :Phenomena)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 162: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Nature))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 163: ∃ :imageContains.(:Plants ⊓ :Phenomena)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 164: ∃ :imageContains.(:Branches_of_botany ⊓ :Nature)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 165: ∃ :imageContains.(:Branches_of_botany ⊓ :Universe)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 166: ∃ :imageContains.((:Branches_of_botany) ⊓ (:Universe))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 167: ∃ :imageContains.(:Plants ⊓ :Universe)
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 168: ∃ :imageContains.((:Universe) ⊓ (:Plants))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 169: ∃ :imageContains.(:Phenomena ⊓ :Organisms)
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 170: ∃ :imageContains.(:Branches_of_biology ⊓ :Phenomena)
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 171: ∃ :imageContains.(:Life ⊓ :Phenomena)
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 172: ∃ :imageContains.(:Plants ⊓ :Nature)
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 173: ∃ :imageContains.((:Plants) ⊓ (:Nature))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.375
+	 recall: 0.03529411764705882
+	 f_measure: 0.06451612903225806
+solution 174: ∃ :imageContains.(:Branches_of_biology ⊓ :Universe)
+	 coverage_score: 0.5138121546961326
+	 precision: 0.3333333333333333
+	 recall: 0.03529411764705882
+	 f_measure: 0.06382978723404256
+solution 175: ∃ :imageContains.((:Universe) ⊓ (:Branches_of_biology))
+	 coverage_score: 0.5138121546961326
+	 precision: 0.3333333333333333
+	 recall: 0.03529411764705882
+	 f_measure: 0.06382978723404256
+solution 176: ∃ :imageContains.(:Branches_of_biology ⊓ :Nature)
+	 coverage_score: 0.5138121546961326
+	 precision: 0.3333333333333333
+	 recall: 0.03529411764705882
+	 f_measure: 0.06382978723404256
+solution 177: ∃ :imageContains.((:Branches_of_biology) ⊓ (:Nature))
+	 coverage_score: 0.5138121546961326
+	 precision: 0.3333333333333333
+	 recall: 0.03529411764705882
+	 f_measure: 0.06382978723404256
+solution 178: ∃ :imageContains.(:Nature ⊓ :Organisms)
+	 coverage_score: 0.5082872928176796
+	 precision: 0.3
+	 recall: 0.03529411764705882
+	 f_measure: 0.06315789473684211
+solution 179: ∃ :imageContains.((:Organisms) ⊓ (:Nature))
+	 coverage_score: 0.5082872928176796
+	 precision: 0.3
+	 recall: 0.03529411764705882
+	 f_measure: 0.06315789473684211
+solution 180: ∃ :imageContains.((:Universe) ⊓ (:Organisms))
+	 coverage_score: 0.5082872928176796
+	 precision: 0.3
+	 recall: 0.03529411764705882
+	 f_measure: 0.06315789473684211
+solution 181: ∃ :imageContains.(:Universe ⊓ :Organisms)
+	 coverage_score: 0.5082872928176796
+	 precision: 0.3
+	 recall: 0.03529411764705882
+	 f_measure: 0.06315789473684211
+solution 182: ∃ :imageContains.((:Universe) ⊓ (:Life))
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2727272727272727
+	 recall: 0.03529411764705882
+	 f_measure: 0.0625
+solution 183: ∃ :imageContains.(:Life ⊓ :Universe)
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2727272727272727
+	 recall: 0.03529411764705882
+	 f_measure: 0.0625
+solution 184: ∃ :imageContains.((:Life) ⊓ (:Nature))
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2727272727272727
+	 recall: 0.03529411764705882
+	 f_measure: 0.0625
+solution 185: ∃ :imageContains.(:Life ⊓ :Nature)
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2727272727272727
+	 recall: 0.03529411764705882
+	 f_measure: 0.0625
+solution 186: ∃ :imageContains.(:Branches_of_botany ⊓ :Science)
+	 coverage_score: 0.49171270718232046
+	 precision: 0.23076923076923078
+	 recall: 0.03529411764705882
+	 f_measure: 0.06122448979591837
+solution 187: ∃ :imageContains.(:Plants ⊓ :Science)
+	 coverage_score: 0.4861878453038674
+	 precision: 0.21428571428571427
+	 recall: 0.03529411764705882
+	 f_measure: 0.0606060606060606
+solution 188: ∃ :imageContains.(:Science ⊓ :Organisms)
+	 coverage_score: 0.48066298342541436
+	 precision: 0.2
+	 recall: 0.03529411764705882
+	 f_measure: 0.060000000000000005
+solution 189: ∃ :imageContains.(:Branches_of_biology ⊓ :Science)
+	 coverage_score: 0.48066298342541436
+	 precision: 0.2
+	 recall: 0.03529411764705882
+	 f_measure: 0.060000000000000005
+solution 190: ∃ :imageContains.(:Life ⊓ :Science)
+	 coverage_score: 0.48066298342541436
+	 precision: 0.2
+	 recall: 0.03529411764705882
+	 f_measure: 0.060000000000000005
+solution 191: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Phases_of_matter)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 192: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Matter)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.4
+	 recall: 0.023529411764705882
+	 f_measure: 0.044444444444444446
+solution 193: ∃ :imageContains.(:Sky ⊓ :Phenomena)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 194: ∃ :imageContains.(:Sky ⊓ :Science)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 195: ∃ :imageContains.(:Sky ⊓ :Subfields_by_academic_discipline)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+
+Total solutions found: 195
+
+F1 average: 0.40843904968613376
+Precision average: 0.6779797228442414
+Recall average: 0.31203619909502256
+Coverage average: 0.615441280634651
+
+F1 max: 0.8961748633879782
+Precision max: 1.0
+Recall max: 0.9882352941176471
+Coverage max: 0.8950276243093923
+
+Total solutions found: 195
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_wiki_concepts_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.01.40 AM
+Program duration: 2.268 sec

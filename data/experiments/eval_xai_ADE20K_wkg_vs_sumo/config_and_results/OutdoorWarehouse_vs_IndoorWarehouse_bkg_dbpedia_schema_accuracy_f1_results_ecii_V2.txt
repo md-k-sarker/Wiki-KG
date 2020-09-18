@@ -1,0 +1,665 @@
+Program started.............
+Program starts at: 08.12.2020  12.45.41 PM
+Working with confFile: OutdoorWarehouse_vs_IndoorWarehouse_bkg_dbpedia_schema_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00019754
+	ADE_train_00019756
+	ADE_train_00019755
+negIndivs from conf:
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019750
+	ADE_train_00019730
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019739
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019710
+	ADE_train_00019753
+	ADE_train_00019712
+	ADE_train_00019711
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019719
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.12.2020  12.45.41 PM
+Total positive types (direct+indirect) found using all objectProperty: 12
+Total negative types (direct+indirect) found using all objectProperty: 15
+
+Algorithm ends at: 08.12.2020  12.45.56 PM
+
+Algorithm duration: 14.296 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.((:Road ⊓ null) ⊓ (:RouteOfTransportation))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 2: ∃ :imageContains.((:Road ⊓ null) ⊓ (null))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 3: ∃ :imageContains.((:Road ⊓ null) ⊓ (:Place))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 4: ∃ :imageContains.((:Road ⊓ null) ⊓ (null))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 5: ∃ :imageContains.((:Road ⊓ null) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 6: ∃ :imageContains.((:Road ⊓ null) ⊓ (:Building))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 7: ∃ :imageContains.((null) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 8: ∃ :imageContains.(:Road ⊓ null)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 9: ∃ :imageContains.(:Building ⊓ null)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 10: ∃ :imageContains.(null)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 11: ∃ :imageContains.(:Building)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 12: ∃ :imageContains.(:RouteOfTransportation)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 13: ∃ :imageContains.(:Road)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 14: ∃ :imageContains.(:Infrastructure)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 15: ∃ :imageContains.(null)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 16: ∃ :imageContains.((null) ⊓ (:Place))
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 17: ∃ :imageContains.(:Place)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 18: ∃ :imageContains.(null)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 19: ∃ :imageContains.(:Location)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 20: ∃ :imageContains.(:ArchitecturalStructure)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 21: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 22: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 23: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 24: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 25: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 26: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Building ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 27: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 28: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Location ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 29: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Infrastructure))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 30: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:RouteOfTransportation))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 31: ∃ :imageContains.((:ArchitecturalStructure) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 32: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 33: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Place))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 34: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (:Building))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 35: ∃ :imageContains.((null) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 36: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Gate))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 37: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 38: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (:RouteOfTransportation))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 39: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (:Road))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 40: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 41: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (:Place))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 42: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Location ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 43: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 44: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Building))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 45: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 46: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Location ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 47: ∃ :imageContains.((:Location) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 48: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 49: ∃ :imageContains.((:Location ⊓ null ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 50: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Building ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 51: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 52: ∃ :imageContains.((null) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 53: ∃ :imageContains.((:Place ⊓ :Location ⊓ ¬ null) ⊓ (:Road))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 54: ∃ :imageContains.((:Infrastructure) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 55: ∃ :imageContains.((:Location) ⊓ (:Location ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 56: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:RouteOfTransportation))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 57: ∃ :imageContains.((:Infrastructure) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 58: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Gate))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 59: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Infrastructure))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 60: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Road))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 61: ∃ :imageContains.((:Location) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 62: ∃ :imageContains.((:Gate ⊓ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 63: ∃ :imageContains.((:ArchitecturalStructure) ⊓ (:Location ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 64: ∃ :imageContains.((null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 65: ∃ :imageContains.((null) ⊓ (:Location ⊓ ¬ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 66: ∃ :imageContains.((:Building ⊓ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 67: ∃ :imageContains.((:Building ⊓ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 68: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Building))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 69: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Infrastructure))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 70: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Gate))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 71: ∃ :imageContains.((null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 72: ∃ :imageContains.((:ArchitecturalStructure) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 73: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 74: ∃ :imageContains.((:Building ⊓ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 75: ∃ :imageContains.((:Gate) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 76: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 77: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Place))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 78: ∃ :imageContains.((:Gate ⊓ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 79: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Place))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 80: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Building))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 81: ∃ :imageContains.((:Location) ⊓ (:Building ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 82: ∃ :imageContains.((:Building ⊓ null) ⊓ (:RouteOfTransportation))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 83: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Infrastructure))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 84: ∃ :imageContains.((:Building ⊓ null) ⊓ (:Place))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 85: ∃ :imageContains.((:ArchitecturalStructure) ⊓ (:Building ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 86: ∃ :imageContains.((:Gate ⊓ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 87: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:RouteOfTransportation))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 88: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Road))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 89: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Road))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 90: ∃ :imageContains.((null) ⊓ (:Building ⊓ null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 91: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 92: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Building))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 93: ∃ :imageContains.((:Location) ⊓ (:Place))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 94: ∃ :imageContains.((null) ⊓ (:Building))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 95: ∃ :imageContains.((null) ⊓ (:Gate))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 96: ∃ :imageContains.((:Location) ⊓ (null))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 97: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Place ⊓ :Location ⊓ ¬ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 98: ∃ :imageContains.((:Location) ⊓ (:Place ⊓ :Location ⊓ ¬ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 99: ∃ :imageContains.((:ArchitecturalStructure) ⊓ (:Place ⊓ :Location ⊓ ¬ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 100: ∃ :imageContains.((null) ⊓ (:Place ⊓ :Location ⊓ ¬ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 101: ∃ :imageContains.((:Gate) ⊓ (:Location ⊓ null ⊓ ¬ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 102: ∃ :imageContains.((:ArchitecturalStructure) ⊓ (:Gate ⊓ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 103: ∃ :imageContains.(:Location ⊓ null ⊓ ¬ null)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 104: ∃ :imageContains.(:Place ⊓ :Location ⊓ ¬ null)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 105: ∃ :imageContains.((null) ⊓ (:Gate ⊓ null))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 106: ∃ :imageContains.((:Gate ⊓ null) ⊓ (:Location))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 107: ∃ :imageContains.((:Location ⊓ ¬ null) ⊓ (:Gate))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 108: ∃ :imageContains.(:Location ⊓ ¬ null)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 109: ∃ :imageContains.(:Gate ⊓ null)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 110: ∃ :imageContains.(null)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 111: ∃ :imageContains.(:Gate)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+
+Total solutions found: 111
+
+F1 average: 0.57014157014157
+Precision average: 0.9211711711711712
+Recall average: 0.4534534534534542
+Coverage average: 0.9669123669123685
+
+F1 max: 1.0
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 1.0
+
+Total solutions found: 111
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/OutdoorWarehouse_vs_IndoorWarehouse_bkg_dbpedia_schema_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.12.2020  12.45.56 PM
+Program duration: 14.315 sec

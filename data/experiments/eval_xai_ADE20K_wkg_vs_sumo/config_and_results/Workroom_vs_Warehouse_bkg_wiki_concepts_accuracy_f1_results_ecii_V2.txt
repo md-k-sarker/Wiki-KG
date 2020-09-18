@@ -1,0 +1,1004 @@
+Program started.............
+Program starts at: 08.10.2020  03.01.21 AM
+Working with confFile: Workroom_vs_Warehouse_bkg_wiki_concepts_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00020098
+	ADE_train_00020099
+	ADE_train_00020100
+	ADE_train_00020101
+negIndivs from conf:
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019739
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.01.21 AM
+Total positive types (direct+indirect) found using all objectProperty: 15
+Total negative types (direct+indirect) found using all objectProperty: 154
+
+Algorithm ends at: 08.10.2020  03.01.22 AM
+
+Algorithm duration: 0.931 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:machine_interaction ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 2: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 3: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 4: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 5: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 6: ∃ :imageContains.((:Metalworking_hand_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 7: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 8: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 9: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 10: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 11: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 12: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 13: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 14: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 15: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 16: ∃ :imageContains.((:Hand_tools ⊓ :Tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 17: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 18: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 19: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_behavior ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 20: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 21: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 22: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 23: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 24: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 25: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 26: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 27: ∃ :imageContains.((:machine_interaction ⊓ :Tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 28: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 29: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 30: ∃ :imageContains.((:machine_interaction ⊓ :Tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 31: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 32: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 33: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 34: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 35: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 36: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 37: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 38: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:machine_interaction ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 39: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 40: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 41: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 42: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 43: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 44: ∃ :imageContains.((:Metalworking_hand_tools ⊓ :Mechanical_hand_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 45: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 46: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 47: ∃ :imageContains.((:machine_interaction ⊓ :Tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 48: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 49: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 50: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 51: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 52: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 53: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 54: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 55: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 56: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:machine_interaction))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 57: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 58: ∃ :imageContains.((:Books) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 59: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Human_communication))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 60: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Human_behavior))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 61: ∃ :imageContains.((:machine_interaction ⊓ :Tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 62: ∃ :imageContains.((:Books) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 63: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 64: ∃ :imageContains.((:machine_interaction) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 65: ∃ :imageContains.((:machine_interaction ⊓ :Tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 66: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 67: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 68: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 69: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Books))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 70: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:machine_interaction))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 71: ∃ :imageContains.((:Human_communication) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 72: ∃ :imageContains.((:Human_communication ⊓ :Metalworking_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 73: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 74: ∃ :imageContains.((:Human_communication) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 75: ∃ :imageContains.((:Hand_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 76: ∃ :imageContains.((:Hand_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 77: ∃ :imageContains.((:Hand_tools) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 78: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_communication))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 79: ∃ :imageContains.((:Mechanical_hand_tools) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 80: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 81: ∃ :imageContains.((:Books) ⊓ (:machine_interaction ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 82: ∃ :imageContains.((:Wrenches) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 83: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 84: ∃ :imageContains.((:Hand_tools ⊓ :Tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 85: ∃ :imageContains.((:Tools ⊓ :Mechanical_hand_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 86: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 87: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 88: ∃ :imageContains.((:Metalworking_hand_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 89: ∃ :imageContains.((:machine_interaction) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 90: ∃ :imageContains.((:Human_communication) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 91: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Books))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 92: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 93: ∃ :imageContains.((:Books) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 94: ∃ :imageContains.((:machine_interaction) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 95: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Human_behavior))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 96: ∃ :imageContains.((:Human_behavior) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 97: ∃ :imageContains.((:Wrenches) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 98: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 99: ∃ :imageContains.((:Hand_tools) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 100: ∃ :imageContains.((:machine_interaction) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 101: ∃ :imageContains.((:Human_communication) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 102: ∃ :imageContains.((:Hand_tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 103: ∃ :imageContains.((:Mechanical_hand_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 104: ∃ :imageContains.((:machine_interaction ⊓ :Tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 105: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Human_behavior))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 106: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 107: ∃ :imageContains.((:Books) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 108: ∃ :imageContains.((:Wrenches) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 109: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Human_behavior))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 110: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 111: ∃ :imageContains.((:Human_behavior) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 112: ∃ :imageContains.((:machine_interaction) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 113: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 114: ∃ :imageContains.((:machine_interaction ⊓ :Metalworking_tools) ⊓ (:Hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 115: ∃ :imageContains.((:machine_interaction) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 116: ∃ :imageContains.((:Books) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 117: ∃ :imageContains.((:Books) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 118: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:machine_interaction))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 119: ∃ :imageContains.((:Human_behavior) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 120: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Metalworking_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 121: ∃ :imageContains.((:Metalworking_hand_tools ⊓ :Mechanical_hand_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 122: ∃ :imageContains.((:Human_communication) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 123: ∃ :imageContains.((:Human_communication ⊓ :Tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 124: ∃ :imageContains.((:Hand_tools ⊓ :Metalworking_tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 125: ∃ :imageContains.((:Human_communication) ⊓ (:machine_interaction ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 126: ∃ :imageContains.((:machine_interaction) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 127: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 128: ∃ :imageContains.((:Books) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 129: ∃ :imageContains.((:Human_behavior) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 130: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 131: ∃ :imageContains.((:Metalworking_hand_tools) ⊓ (:Tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 132: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Human_behavior))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 133: ∃ :imageContains.((:Human_behavior ⊓ :Metalworking_tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 134: ∃ :imageContains.((:Hand_tools) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 135: ∃ :imageContains.((:Books) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 136: ∃ :imageContains.((:machine_interaction) ⊓ (:machine_interaction ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 137: ∃ :imageContains.((:Human_behavior ⊓ :Tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 138: ∃ :imageContains.((:Hand_tools) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 139: ∃ :imageContains.((:Human_behavior) ⊓ (:Hand_tools ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 140: ∃ :imageContains.((:Mechanical_hand_tools) ⊓ (:Metalworking_hand_tools ⊓ :Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 141: ∃ :imageContains.((:Human_communication) ⊓ (:Human_behavior ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 142: ∃ :imageContains.((:Human_behavior) ⊓ (:Human_communication ⊓ :Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 143: ∃ :imageContains.((:Human_communication) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 144: ∃ :imageContains.((:Metalworking_tools ⊓ :Mechanical_hand_tools) ⊓ (:Wrenches))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 145: ∃ :imageContains.((:Hand_tools) ⊓ (:Human_communication ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 146: ∃ :imageContains.((:Human_communication) ⊓ (:Hand_tools ⊓ :Tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 147: ∃ :imageContains.(:machine_interaction ⊓ :Metalworking_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 148: ∃ :imageContains.(:Tools ⊓ :Mechanical_hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 149: ∃ :imageContains.(:Metalworking_hand_tools ⊓ :Mechanical_hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 150: ∃ :imageContains.((:Metalworking_hand_tools) ⊓ (:Mechanical_hand_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 151: ∃ :imageContains.(:Hand_tools ⊓ :Tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 152: ∃ :imageContains.(:Human_behavior ⊓ :Metalworking_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 153: ∃ :imageContains.(:Human_communication ⊓ :Tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 154: ∃ :imageContains.((:machine_interaction) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 155: ∃ :imageContains.(:Human_communication ⊓ :Metalworking_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 156: ∃ :imageContains.((:Human_behavior) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 157: ∃ :imageContains.((:Mechanical_hand_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 158: ∃ :imageContains.(:Hand_tools ⊓ :Metalworking_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 159: ∃ :imageContains.((:Hand_tools) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 160: ∃ :imageContains.((:Human_communication) ⊓ (:Metalworking_tools))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 161: ∃ :imageContains.(:Metalworking_tools ⊓ :Mechanical_hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 162: ∃ :imageContains.(:machine_interaction ⊓ :Tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 163: ∃ :imageContains.(:machine_interaction)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 164: ∃ :imageContains.(:Wrenches)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 165: ∃ :imageContains.(:Metalworking_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 166: ∃ :imageContains.(:Mechanical_hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 167: ∃ :imageContains.(:Human_communication)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 168: ∃ :imageContains.(:Pliers)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 169: ∃ :imageContains.(:Hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 170: ∃ :imageContains.(:Metalworking_hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 171: ∃ :imageContains.(:Books)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 172: ∃ :imageContains.(:Human_behavior ⊓ :Tools)
+	 coverage_score: 0.9152542372881356
+	 precision: 0.3333333333333333
+	 recall: 0.25
+	 f_measure: 0.28571428571428575
+solution 173: ∃ :imageContains.(:Human_behavior)
+	 coverage_score: 0.9152542372881356
+	 precision: 0.3333333333333333
+	 recall: 0.25
+	 f_measure: 0.28571428571428575
+solution 174: ∃ :imageContains.(:Tools)
+	 coverage_score: 0.4406779661016949
+	 precision: 0.06060606060606061
+	 recall: 0.5
+	 f_measure: 0.10810810810810813
+solution 175: ∃ :imageContains.(:Technology_by_type)
+	 coverage_score: 0.423728813559322
+	 precision: 0.058823529411764705
+	 recall: 0.5
+	 f_measure: 0.10526315789473684
+solution 176: ∃ :imageContains.(:Technology)
+	 coverage_score: 0.3728813559322034
+	 precision: 0.05405405405405406
+	 recall: 0.5
+	 f_measure: 0.0975609756097561
+solution 177: ∃ :imageContains.(:Main_topic_classifications)
+	 coverage_score: 0.3559322033898305
+	 precision: 0.05263157894736842
+	 recall: 0.5
+	 f_measure: 0.09523809523809525
+solution 178: ∃ :imageContains.(:Humanities)
+	 coverage_score: 0.3898305084745763
+	 precision: 0.029411764705882353
+	 recall: 0.25
+	 f_measure: 0.05263157894736842
+
+Total solutions found: 178
+
+F1 average: 0.3900574746473402
+Precision average: 0.9658550205302912
+Recall average: 0.2556179775280899
+Coverage average: 0.9332508093696434
+
+F1 max: 0.4
+Precision max: 1.0
+Recall max: 0.5
+Coverage max: 0.9491525423728814
+
+Total solutions found: 178
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Workroom_vs_Warehouse_bkg_wiki_concepts_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.01.22 AM
+Program duration: 0.949 sec

@@ -1,0 +1,8 @@
+001 # 0 # 0 # mountain, mount # mountain # ""
+002 # 0 # 0 # mountain, mount # mountain # "rocky"
+003 # 0 # 0 # mountain, mount # mountain # ""
+004 # 0 # 0 # snow # snow # ""
+005 # 0 # 1 # tree # tree # ""
+006 # 0 # 0 # tree # trees # ""
+007 # 0 # 0 # tree # tree # ""
+008 # 0 # 0 # tree # trees # ""

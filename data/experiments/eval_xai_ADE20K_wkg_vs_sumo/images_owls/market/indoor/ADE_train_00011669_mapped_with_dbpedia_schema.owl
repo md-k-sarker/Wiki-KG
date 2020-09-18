@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/dbpedia#"
+     xml:base="http://www.daselab.org/ontologies/dbpedia"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dbpedia="http://www.daselab.org/ontologies/dbpedia#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/dbpedia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/dbpedia#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Food -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Person -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Plant -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#ADE_train_00011669 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/dbpedia#ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_016_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_017_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_018_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_106_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_107_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_115_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_116_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_141_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_142_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_143_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_144_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_145_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_146_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_197_0_ADE_train_00011669"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_198_0_ADE_train_00011669"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_016_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_016_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_017_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_017_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_018_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_018_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_106_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_106_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_107_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_107_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_115_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_115_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_116_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_116_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_141_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_141_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_142_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_142_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_143_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_143_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_144_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_144_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_145_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_145_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_146_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_146_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_197_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_197_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_198_0_ADE_train_00011669 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_198_0_ADE_train_00011669">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.0) https://github.com/owlcs/owlapi -->
+

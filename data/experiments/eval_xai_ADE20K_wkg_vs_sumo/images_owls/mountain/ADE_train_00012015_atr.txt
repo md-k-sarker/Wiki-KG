@@ -1,0 +1,6 @@
+001 # 0 # 0 # sky # sky # ""
+002 # 0 # 0 # mountain, mount # mountain # ""
+003 # 0 # 0 # earth, ground # ground # ""
+004 # 0 # 0 # mountain, mount # mountain # ""
+001 # 1 # 0 # clouds # clouds # ""
+005 # 0 # 0 # building, edifice # buildings # ""

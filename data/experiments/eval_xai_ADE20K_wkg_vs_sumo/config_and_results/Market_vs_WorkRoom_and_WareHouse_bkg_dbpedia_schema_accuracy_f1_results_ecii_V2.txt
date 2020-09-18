@@ -1,0 +1,1311 @@
+Program started.............
+Program starts at: 08.12.2020  12.40.08 PM
+Working with confFile: Market_vs_WorkRoom_and_WareHouse_bkg_dbpedia_schema_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00011679
+	ADE_train_00011678
+	ADE_train_00011675
+	ADE_train_00011697
+	ADE_train_00011674
+	ADE_train_00011696
+	ADE_train_00011677
+	ADE_train_00011676
+	ADE_train_00011671
+	ADE_train_00011693
+	ADE_train_00011670
+	ADE_train_00011692
+	ADE_train_00011673
+	ADE_train_00011695
+	ADE_train_00011672
+	ADE_train_00011694
+	ADE_train_00011691
+	ADE_train_00011690
+	ADE_train_00000931
+	ADE_train_00011668
+	ADE_train_00011667
+	ADE_train_00011689
+	ADE_train_00011669
+	ADE_train_00011664
+	ADE_train_00011686
+	ADE_train_00011663
+	ADE_train_00011685
+	ADE_train_00011666
+	ADE_train_00011688
+	ADE_train_00011665
+	ADE_train_00011687
+	ADE_train_00011682
+	ADE_train_00011681
+	ADE_train_00011662
+	ADE_train_00011684
+	ADE_train_00011683
+	ADE_train_00011680
+negIndivs from conf:
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00020099
+	ADE_train_00019709
+	ADE_train_00020098
+	ADE_train_00019708
+	ADE_train_00019750
+	ADE_train_00019730
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019739
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00020101
+	ADE_train_00020100
+	ADE_train_00019753
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019719
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.12.2020  12.40.08 PM
+Total positive types (direct+indirect) found using all objectProperty: 41
+Total negative types (direct+indirect) found using all objectProperty: 29
+
+Algorithm ends at: 08.12.2020  12.41.15 PM
+
+Algorithm duration: 66.686 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.((null ⊓ :Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 2: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 3: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 4: ∃ :imageContains.((:Person ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 5: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 6: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 7: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 8: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 9: ∃ :imageContains.((null ⊓ :Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 10: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 11: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 12: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 13: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 14: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 15: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 16: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 17: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 18: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 19: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 20: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 21: ∃ :imageContains.((null ⊓ :Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 22: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 23: ∃ :imageContains.((:Person ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 24: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 25: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 26: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 27: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 28: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 29: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 30: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 31: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 32: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 33: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 34: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 35: ∃ :imageContains.((null ⊓ :Person) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 36: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 37: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 38: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 39: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 40: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 41: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 42: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 43: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 44: ∃ :imageContains.((null ⊓ :Person) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 45: ∃ :imageContains.((null ⊓ :Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 46: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 47: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 48: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 49: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 50: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 51: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 52: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 53: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 54: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 55: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 56: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 57: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 58: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 59: ∃ :imageContains.((null ⊓ :Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 60: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 61: ∃ :imageContains.((:Person ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 62: ∃ :imageContains.((:Person ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 63: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 64: ∃ :imageContains.((null ⊓ null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 65: ∃ :imageContains.((null ⊓ :Person) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 66: ∃ :imageContains.((null ⊓ :Person) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 67: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 68: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 69: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 70: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 71: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 72: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 73: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 74: ∃ :imageContains.((null ⊓ null) ⊓ (:Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 75: ∃ :imageContains.((:Person ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 76: ∃ :imageContains.((null ⊓ :Person) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 77: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 78: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 79: ∃ :imageContains.((:Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 80: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 81: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 82: ∃ :imageContains.((null ⊓ :Person) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 83: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 84: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 85: ∃ :imageContains.((:Person ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 86: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 87: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 88: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 89: ∃ :imageContains.((:Person ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 90: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 91: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 92: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 93: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 94: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 95: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 96: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 97: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 98: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 99: ∃ :imageContains.((:Person) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 100: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 101: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 102: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 103: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 104: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 105: ∃ :imageContains.((:Agent) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 106: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 107: ∃ :imageContains.((:Person ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 108: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 109: ∃ :imageContains.((:Person) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 110: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 111: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 112: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 113: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 114: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 115: ∃ :imageContains.((:Person) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 116: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 117: ∃ :imageContains.((:Agent) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 118: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 119: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 120: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 121: ∃ :imageContains.((:Agent) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 122: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 123: ∃ :imageContains.((null ⊓ null) ⊓ (:Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 124: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 125: ∃ :imageContains.((:Person ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 126: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 127: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 128: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 129: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 130: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 131: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 132: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 133: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 134: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 135: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 136: ∃ :imageContains.((null ⊓ :Person) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 137: ∃ :imageContains.((:Person) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 138: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 139: ∃ :imageContains.((null ⊓ null) ⊓ (:Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 140: ∃ :imageContains.((null ⊓ :Person) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 141: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 142: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 143: ∃ :imageContains.((:Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 144: ∃ :imageContains.((:Person ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 145: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 146: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 147: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 148: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 149: ∃ :imageContains.((:Person) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 150: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 151: ∃ :imageContains.((:Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 152: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 153: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 154: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 155: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 156: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 157: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 158: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 159: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 160: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 161: ∃ :imageContains.((:Agent) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 162: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 163: ∃ :imageContains.((:Agent) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 164: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 165: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 166: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 167: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 168: ∃ :imageContains.((:Person) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 169: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 170: ∃ :imageContains.((null) ⊓ (null ⊓ :Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 171: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 172: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 173: ∃ :imageContains.((null) ⊓ (:Person ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 174: ∃ :imageContains.((:Agent) ⊓ (null ⊓ null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 175: ∃ :imageContains.((:Agent) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 176: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 177: ∃ :imageContains.((:Agent) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 178: ∃ :imageContains.(:Person ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 179: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 180: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 181: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 182: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 183: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 184: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 185: ∃ :imageContains.(:Person ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 186: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 187: ∃ :imageContains.((:Person) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 188: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 189: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 190: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 191: ∃ :imageContains.((null) ⊓ (:Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 192: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 193: ∃ :imageContains.((null) ⊓ (:Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 194: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 195: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 196: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 197: ∃ :imageContains.(null ⊓ :Person)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 198: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 199: ∃ :imageContains.(null ⊓ :Person)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 200: ∃ :imageContains.((null) ⊓ (:Person))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 201: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 202: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 203: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 204: ∃ :imageContains.((:Person) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 205: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 206: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 207: ∃ :imageContains.(:Person ⊓ null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 208: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 209: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 210: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 211: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 212: ∃ :imageContains.(:Person)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 213: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 214: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 215: ∃ :imageContains.(null)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 216: ∃ :imageContains.(:Agent)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 217: ∃ :imageContains.(:Place)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.8181818181818182
+	 recall: 0.4864864864864865
+	 f_measure: 0.6101694915254238
+solution 218: ∃ :imageContains.(null)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.8181818181818182
+	 recall: 0.4864864864864865
+	 f_measure: 0.6101694915254238
+solution 219: ∃ :imageContains.(:Location)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.8181818181818182
+	 recall: 0.4864864864864865
+	 f_measure: 0.6101694915254238
+solution 220: ∃ :imageContains.(:ArchitecturalStructure)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.8181818181818182
+	 recall: 0.4864864864864865
+	 f_measure: 0.6101694915254238
+solution 221: ∃ :imageContains.(:Building ⊓ null)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.85
+	 recall: 0.4594594594594595
+	 f_measure: 0.5964912280701754
+solution 222: ∃ :imageContains.(null)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.85
+	 recall: 0.4594594594594595
+	 f_measure: 0.5964912280701754
+solution 223: ∃ :imageContains.(:Building)
+	 coverage_score: 0.7604166666666666
+	 precision: 0.85
+	 recall: 0.4594594594594595
+	 f_measure: 0.5964912280701754
+solution 224: ∃ :imageContains.(:Food ⊓ null)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 225: ∃ :imageContains.(:Food ⊓ null)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 226: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 227: ∃ :imageContains.(:Food)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 228: ∃ :imageContains.(null)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 229: ∃ :imageContains.(null)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 230: ∃ :imageContains.(:Eukaryote ⊓ null)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 231: ∃ :imageContains.(null)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 232: ∃ :imageContains.(:Eukaryote)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+
+Total solutions found: 232
+
+F1 average: 0.7996853333841013
+Precision average: 0.7427703761755482
+Recall average: 0.9041239515377429
+Coverage average: 0.8358477011494251
+
+F1 max: 0.8235294117647058
+Precision max: 1.0
+Recall max: 0.9459459459459459
+Coverage max: 0.84375
+
+Total solutions found: 232
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Market_vs_WorkRoom_and_WareHouse_bkg_dbpedia_schema_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.12.2020  12.41.15 PM
+Program duration: 66.73 sec

@@ -1,0 +1,3 @@
+001 # 0 # 0 # sky # sky # ""
+002 # 0 # 0 # moon # moon # ""
+003 # 0 # 0 # mountain, mount # mountain # ""

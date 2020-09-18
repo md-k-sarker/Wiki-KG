@@ -1,0 +1,389 @@
+Program started.............
+Program starts at: 08.10.2020  03.01.30 AM
+Working with confFile: Warehouse_vs_Workroom_bkg_wiki_pages_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019739
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+negIndivs from conf:
+	ADE_train_00020100
+	ADE_train_00020101
+	ADE_train_00020098
+	ADE_train_00020099
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.01.30 AM
+Total positive types (direct+indirect) found using all objectProperty: 109
+Total negative types (direct+indirect) found using all objectProperty: 35
+
+Algorithm ends at: 08.10.2020  03.01.31 AM
+
+Algorithm duration: 0.989 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:Floor)
+	 coverage_score: 0.864406779661017
+	 precision: 0.9433962264150944
+	 recall: 0.9090909090909091
+	 f_measure: 0.9259259259259259
+solution 2: ∃ :imageContains.(:Ceiling)
+	 coverage_score: 0.8135593220338984
+	 precision: 0.9782608695652174
+	 recall: 0.8181818181818182
+	 f_measure: 0.8910891089108911
+solution 3: ∃ :imageContains.(:Wall)
+	 coverage_score: 0.6949152542372882
+	 precision: 0.9111111111111111
+	 recall: 0.7454545454545455
+	 f_measure: 0.8200000000000001
+solution 4: ∃ :imageContains.(:Box)
+	 coverage_score: 0.3220338983050847
+	 precision: 0.8260869565217391
+	 recall: 0.34545454545454546
+	 f_measure: 0.4871794871794872
+solution 5: ∃ :imageContains.(:Pallet)
+	 coverage_score: 0.3559322033898305
+	 precision: 1.0
+	 recall: 0.3090909090909091
+	 f_measure: 0.4722222222222222
+solution 6: ∃ :imageContains.(:Person)
+	 coverage_score: 0.288135593220339
+	 precision: 1.0
+	 recall: 0.23636363636363636
+	 f_measure: 0.3823529411764706
+solution 7: ∃ :imageContains.(:Forklift)
+	 coverage_score: 0.22033898305084745
+	 precision: 1.0
+	 recall: 0.16363636363636364
+	 f_measure: 0.28125
+solution 8: ∃ :imageContains.(:Door)
+	 coverage_score: 0.1694915254237288
+	 precision: 0.8
+	 recall: 0.14545454545454545
+	 f_measure: 0.24615384615384614
+solution 9: ∃ :imageContains.(:Cart)
+	 coverage_score: 0.1864406779661017
+	 precision: 1.0
+	 recall: 0.12727272727272726
+	 f_measure: 0.22580645161290322
+solution 10: ∃ :imageContains.(:Crate)
+	 coverage_score: 0.15254237288135594
+	 precision: 1.0
+	 recall: 0.09090909090909091
+	 f_measure: 0.16666666666666669
+solution 11: ∃ :imageContains.(:Main_topic_classifications)
+	 coverage_score: 0.13559322033898305
+	 precision: 0.8333333333333334
+	 recall: 0.09090909090909091
+	 f_measure: 0.16393442622950818
+solution 12: ∃ :imageContains.(:Window)
+	 coverage_score: 0.11864406779661017
+	 precision: 0.7142857142857143
+	 recall: 0.09090909090909091
+	 f_measure: 0.16129032258064518
+solution 13: ∃ :imageContains.((:Culture) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 14: ∃ :imageContains.((:Technology) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 15: ∃ :imageContains.((:Technology) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 16: ∃ :imageContains.((:Society) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 17: ∃ :imageContains.((:Technology ⊓ :Culture) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 18: ∃ :imageContains.((:Culture) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 19: ∃ :imageContains.((:Society) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 20: ∃ :imageContains.((:Technology) ⊓ (:Society))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 21: ∃ :imageContains.(:Technology ⊓ :Society)
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 22: ∃ :imageContains.((:Technology) ⊓ (:Culture))
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 23: ∃ :imageContains.(:Technology ⊓ :Culture)
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 24: ∃ :imageContains.(:Society)
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 25: ∃ :imageContains.(:Culture)
+	 coverage_score: 0.13559322033898305
+	 precision: 1.0
+	 recall: 0.07272727272727272
+	 f_measure: 0.13559322033898305
+solution 26: ∃ :imageContains.(:Technology)
+	 coverage_score: 0.11864406779661017
+	 precision: 0.8
+	 recall: 0.07272727272727272
+	 f_measure: 0.13333333333333333
+solution 27: ∃ :imageContains.((:Window) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.11864406779661017
+	 precision: 1.0
+	 recall: 0.05454545454545454
+	 f_measure: 0.10344827586206896
+solution 28: ∃ :imageContains.((:Window) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.11864406779661017
+	 precision: 1.0
+	 recall: 0.05454545454545454
+	 f_measure: 0.10344827586206896
+solution 29: ∃ :imageContains.((:Window) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.11864406779661017
+	 precision: 1.0
+	 recall: 0.05454545454545454
+	 f_measure: 0.10344827586206896
+solution 30: ∃ :imageContains.(:Sign)
+	 coverage_score: 0.11864406779661017
+	 precision: 1.0
+	 recall: 0.05454545454545454
+	 f_measure: 0.10344827586206896
+solution 31: ∃ :imageContains.((:Door) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.1016949152542373
+	 precision: 1.0
+	 recall: 0.03636363636363636
+	 f_measure: 0.07017543859649122
+solution 32: ∃ :imageContains.((:Door) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.1016949152542373
+	 precision: 1.0
+	 recall: 0.03636363636363636
+	 f_measure: 0.07017543859649122
+solution 33: ∃ :imageContains.((:Door) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.1016949152542373
+	 precision: 1.0
+	 recall: 0.03636363636363636
+	 f_measure: 0.07017543859649122
+solution 34: ∃ :imageContains.(:Bag)
+	 coverage_score: 0.0847457627118644
+	 precision: 0.6666666666666666
+	 recall: 0.03636363636363636
+	 f_measure: 0.06896551724137931
+solution 35: ∃ :imageContains.((:Forklift) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 36: ∃ :imageContains.((:Floor) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 37: ∃ :imageContains.((:Wall) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 38: ∃ :imageContains.((:Pallet) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 39: ∃ :imageContains.((:Floor) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 40: ∃ :imageContains.((:Forklift) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 41: ∃ :imageContains.((:Wall) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 42: ∃ :imageContains.((:Pallet) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 43: ∃ :imageContains.((:Box) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 44: ∃ :imageContains.((:Box) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 45: ∃ :imageContains.((:Sign) ⊓ (:Technology ⊓ :Culture))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 46: ∃ :imageContains.((:Sign) ⊓ (:Technology ⊓ :Society))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 47: ∃ :imageContains.((:Box) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 48: ∃ :imageContains.((:Forklift) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 49: ∃ :imageContains.((:Floor) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 50: ∃ :imageContains.((:Wall) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 51: ∃ :imageContains.((:Pallet) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 52: ∃ :imageContains.((:Sign) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 53: ∃ :imageContains.(:Sacks)
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 54: ∃ :imageContains.(:Toilet)
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+solution 55: ∃ :imageContains.(:Sink)
+	 coverage_score: 0.0847457627118644
+	 precision: 1.0
+	 recall: 0.01818181818181818
+	 f_measure: 0.03571428571428572
+
+Total solutions found: 55
+
+F1 average: 0.15569457332505124
+Precision average: 0.9722389250527069
+Recall average: 0.10611570247933887
+Coverage average: 0.16086286594761165
+
+F1 max: 0.9259259259259259
+Precision max: 1.0
+Recall max: 0.9090909090909091
+Coverage max: 0.864406779661017
+
+Total solutions found: 55
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Warehouse_vs_Workroom_bkg_wiki_pages_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.01.31 AM
+Program duration: 0.994 sec

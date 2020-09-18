@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2df8acc-cf1d-4adb-aaf8-999e48425068" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xlhw269IFi6dvcsRfsBEvvBONB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/ade20k" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="wiki.creation.datadump" />
+      <recent name="Util" />
+      <recent name="" />
+      <recent name="wiki.creation" />
+      <recent name="analysis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/wiki/creation/pagescrap" />
+      <recent name="$PROJECT_DIR$/src/main/java/creation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WikiKGStats">
+    <configuration name="MapWithOtherKG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.MapWithOtherKG" />
+      <module name="java" />
+      <option name="VM_PARAMETERS" value="-Xmx16048m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapWithWiki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMapWithWiki" />
+      <module name="wiki_analysis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikiKGStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="analysis.WikiKGStats" />
+      <module name="java" />
+      <option name="VM_PARAMETERS" value="-Xmx16048m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestMapWithWiki" />
+      <item itemvalue="Application.MapWithOtherKG" />
+      <item itemvalue="Application.WikiKGStats" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WikiKGStats" />
+        <item itemvalue="Application.MapWithOtherKG" />
+        <item itemvalue="Application.TestMapWithWiki" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2df8acc-cf1d-4adb-aaf8-999e48425068" name="Default Changelist" comment="" />
+      <created>1581626823118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581626823118</updated>
+      <workItem from="1581626828184" duration="26337000" />
+      <workItem from="1582577324639" duration="18000" />
+      <workItem from="1596833495460" duration="2129000" />
+      <workItem from="1597081724546" duration="11569000" />
+      <workItem from="1597711699549" duration="612000" />
+      <workItem from="1597735526325" duration="9446000" />
+      <workItem from="1598016438552" duration="5118000" />
+      <workItem from="1599412716723" duration="1880000" />
+      <workItem from="1600441032483" duration="2567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597738770779">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="424" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1597738770779" />
+    <state x="-1267" y="237" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597351604984">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1267" y="237" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597351604984" />
+    <state x="417" y="-1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597354550480">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="417" y="-1057" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1597354550480" />
+    <state x="-1293" y="-137" key="CommitChangelistDialog2" timestamp="1597356344389">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1293" y="-137" key="CommitChangelistDialog2/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597356344389" />
+    <state x="-1864" y="-138" width="1835" height="1013" key="DiffContextDialog" timestamp="1597740472312">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1864" y="-138" width="1835" height="1013" key="DiffContextDialog/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1597740472312" />
+    <state width="1878" height="219" key="GridCell.Tab.0.bottom" timestamp="1599659971210">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1650" height="315" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597358340453" />
+    <state width="1878" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1599659971210" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597613740850" />
+    <state width="1878" height="219" key="GridCell.Tab.0.center" timestamp="1599659971210">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1650" height="315" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597358340452" />
+    <state width="1878" height="219" key="GridCell.Tab.0.center/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1599659971210" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597613740850" />
+    <state width="1878" height="219" key="GridCell.Tab.0.left" timestamp="1599659971209">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1650" height="315" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597358340452" />
+    <state width="1878" height="219" key="GridCell.Tab.0.left/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1599659971209" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597613740849" />
+    <state width="1878" height="219" key="GridCell.Tab.0.right" timestamp="1599659971210">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1650" height="315" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597358340453" />
+    <state width="1878" height="219" key="GridCell.Tab.0.right/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1599659971210" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597613740850" />
+    <state x="-1358" y="-33" key="Maven.ArtifactSearchDialog" timestamp="1597351966675">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1358" y="-33" key="Maven.ArtifactSearchDialog/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@-1920.-157.1920.1057" timestamp="1597351966675" />
+    <state x="-1395" y="-157" width="1240" height="1011" key="dock-window-1" timestamp="1598116362814">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1395" y="-157" width="1240" height="1011" key="dock-window-1/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1597741669016" />
+    <state x="-1395" y="-157" width="1240" height="1011" key="dock-window-1/0.23.1440.877/0.-1057.1920.1057/-1920.-157.1920.1057@0.-1057.1920.1057" timestamp="1598116362814" />
+    <state x="470" y="-834" width="798" height="591" key="find.popup" timestamp="1600441864139">
+      <screen x="0" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="470" y="-834" width="798" height="591" key="find.popup/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1600441864139" />
+    <state x="421" y="216" width="598" height="490" key="find.popup/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.23.1440.877" timestamp="1597081807380" />
+  </component>
+</project>

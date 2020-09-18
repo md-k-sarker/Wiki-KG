@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/dbpedia#"
+     xml:base="http://www.daselab.org/ontologies/dbpedia"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dbpedia="http://www.daselab.org/ontologies/dbpedia#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/dbpedia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/dbpedia#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Building -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Building"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Flag -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Flag"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Person -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#Plant -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#ADE_train_00011682 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/dbpedia#ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_004_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_005_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_007_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_008_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_010_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_011_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_012_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_013_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_019_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_021_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_022_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_023_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_024_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_025_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_026_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_027_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_028_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_029_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_030_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_031_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_032_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_033_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_034_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_035_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_036_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_037_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_038_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_039_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_040_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_041_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_044_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_047_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_048_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_049_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_051_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_054_0_ADE_train_00011682"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/dbpedia#obj_059_0_ADE_train_00011682"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_004_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_004_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Building"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_005_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_005_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Plant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_007_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_007_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_008_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_008_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_010_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_010_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_011_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_011_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_012_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_012_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Flag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_013_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_013_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_019_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_019_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Flag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_021_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_021_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_022_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_022_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_023_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_023_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_024_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_024_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_025_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_025_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_026_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_026_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_027_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_027_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_028_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_028_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_029_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_029_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_030_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_030_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_031_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_031_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_032_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_032_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_033_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_033_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_034_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_034_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_035_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_035_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_036_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_036_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_037_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_037_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_038_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_038_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_039_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_039_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_040_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_040_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_041_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_041_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_044_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_044_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_047_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_047_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_048_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_048_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_049_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_049_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_051_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_051_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_054_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_054_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/dbpedia#obj_059_0_ADE_train_00011682 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/dbpedia#obj_059_0_ADE_train_00011682">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/dbpedia#Flag"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.0) https://github.com/owlcs/owlapi -->
+

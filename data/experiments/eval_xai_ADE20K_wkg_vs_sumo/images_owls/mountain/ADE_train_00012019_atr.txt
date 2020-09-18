@@ -1,0 +1,5 @@
+001 # 0 # 0 # sky # sky # ""
+002 # 0 # 0 # moon # moon # ""
+003 # 0 # 0 # hill # hill # ""
+004 # 0 # 0 # mountain, mount # mountains # ""
+005 # 0 # 0 # tree # tree # ""

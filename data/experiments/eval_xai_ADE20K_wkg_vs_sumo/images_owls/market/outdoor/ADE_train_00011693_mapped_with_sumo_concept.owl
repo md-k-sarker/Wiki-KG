@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.org/ontologies/sumo#"
+     xml:base="http://www.daselab.org/ontologies/sumo"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sumo="http://www.daselab.org/ontologies/sumo#">
+    <owl:Ontology rdf:about="http://www.daselab.org/ontologies/sumo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.org/ontologies/sumo#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Building -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Building"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Chair -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Chair"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Meat -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Meat"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Sidewalk -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Sidewalk"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Steps -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Steps"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Table -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Table"/>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.org/ontologies/sumo#Wall"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#ADE_train_00011693 -->
+
+    <owl:Thing rdf:about="http://www.daselab.org/ontologies/sumo#ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_001_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_002_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_006_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_007_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_008_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_009_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_013_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_018_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_025_0_ADE_train_00011693"/>
+        <imageContains rdf:resource="http://www.daselab.org/ontologies/sumo#obj_034_0_ADE_train_00011693"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_001_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_001_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Sidewalk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_002_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_002_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Wall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_006_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_006_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Table"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_007_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_007_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Table"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_008_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_008_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Table"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_009_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_009_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Building"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_013_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_013_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Table"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_018_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_018_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Steps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_025_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_025_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Chair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.org/ontologies/sumo#obj_034_0_ADE_train_00011693 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.org/ontologies/sumo#obj_034_0_ADE_train_00011693">
+        <rdf:type rdf:resource="http://www.daselab.org/ontologies/sumo#Meat"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.0) https://github.com/owlcs/owlapi -->
+

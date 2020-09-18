@@ -1,0 +1,993 @@
+Academic disciplines
+/wiki/Category:Academic_disciplines
+url: https://en.wikipedia.org/wiki/Category:Academic_disciplines
+<!doctype html>
+<html class="client-nojs" lang="en" dir="ltr">
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Category:Academic disciplines - Wikipedia</title> 
+  <script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRequestId":"Xczb6wpAIDAAAIxkIpIAAABH","wgCSPNonce":!1,"wgCanonicalNamespace":"Category","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":14,"wgPageName":"Category:Academic_disciplines","wgTitle":"Academic disciplines","wgCurRevisionId":883667408,"wgRevisionId":883667408,"wgArticleId":693763,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Commons category link is on Wikidata","Main topic classifications","Academia"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":
+"Category:Academic_disciplines","wgRelevantArticleId":693763,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q6642719","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.action.view.categoryPage.styles":"ready","ext.categoryTree.styles"
+:"ready","mediawiki.helplink":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.tmh.thumbnail.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["ext.categoryTree","site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns",
+"ext.centralNotice.geoIP","ext.centralNotice.startUp","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"];</script> 
+  <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script> 
+  <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.categoryTree.styles%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.action.view.categoryPage.styles%7Cmediawiki.helplink%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"> 
+  <script async src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script> 
+  <meta name="ResourceLoaderDynamicStyles" content=""> 
+  <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"> 
+  <meta name="generator" content="MediaWiki 1.35.0-wmf.5"> 
+  <meta name="referrer" content="origin"> 
+  <meta name="referrer" content="origin-when-crossorigin"> 
+  <meta name="referrer" content="origin-when-cross-origin"> 
+  <link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Category:Academic_disciplines&amp;action=edit"> 
+  <link rel="edit" title="Edit this page" href="/w/index.php?title=Category:Academic_disciplines&amp;action=edit"> 
+  <link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"> 
+  <link rel="shortcut icon" href="/static/favicon/wikipedia.ico"> 
+  <link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"> 
+  <link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"> 
+  <link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"> 
+  <link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"> 
+  <link rel="canonical" href="https://en.wikipedia.org/wiki/Category:Academic_disciplines"> 
+  <link rel="dns-prefetch" href="//login.wikimedia.org"> 
+  <link rel="dns-prefetch" href="//meta.wikimedia.org"> 
+  <!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]--> 
+ </head> 
+ <body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-14 ns-subject mw-editable page-Category_Academic_disciplines rootpage-Category_Academic_disciplines skin-vector action-view"> 
+  <div id="mw-page-base" class="noprint"></div> 
+  <div id="mw-head-base" class="noprint"></div> 
+  <div id="content" class="mw-body" role="main"> 
+   <a id="top"></a> 
+   <div id="siteNotice" class="mw-body-content">
+    <!-- CentralNotice -->
+   </div> 
+   <div class="mw-indicators mw-body-content"> 
+    <div id="mw-indicator-mw-helplink" class="mw-indicator">
+     <a href="/wiki/Help:Category" target="_blank" class="mw-helplink">Help</a>
+    </div> 
+   </div> 
+   <h1 id="firstHeading" class="firstHeading" lang="en">Category:Academic disciplines</h1> 
+   <div id="bodyContent" class="mw-body-content"> 
+    <div id="siteSub" class="noprint">
+     From Wikipedia, the free encyclopedia
+    </div> 
+    <div id="contentSub"></div> 
+    <div id="jump-to-nav"></div> 
+    <a class="mw-jump-link" href="#mw-head">Jump to navigation</a> 
+    <a class="mw-jump-link" href="#p-search">Jump to search</a> 
+    <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+     <div class="mw-parser-output">
+      <table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000"> 
+       <tbody>
+        <tr> 
+         <td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376"></td> 
+         <td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a href="https://commons.wikimedia.org/wiki/Category:Academic_disciplines" class="extiw" title="commons:Category:Academic disciplines"><span style="">Academic disciplines</span></a></b></i>.</td>
+        </tr> 
+       </tbody>
+      </table> 
+      <table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000"> 
+       <tbody>
+        <tr> 
+         <td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png" decoding="async" width="40" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/60px-Wiktionary-logo-en-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/80px-Wiktionary-logo-en-v2.svg.png 2x" data-file-width="512" data-file-height="512"></td> 
+         <td class="mbox-text plainlist">Look up <i><b><a href="https://en.wiktionary.org/wiki/Special:Search/academic_disciplines" class="extiw" title="wiktionary:Special:Search/academic disciplines">academic disciplines</a></b></i> in Wiktionary, the free dictionary.</td>
+        </tr> 
+       </tbody>
+      </table> 
+      <div role="note" class="hatnote navigation-not-searchable relarticle mainarticle">
+       The main article for this 
+       <a href="/wiki/Help:Categories" title="Help:Categories">category</a> is 
+       <b><a href="/wiki/Discipline_(academia)" title="Discipline (academia)">Discipline (academia)</a></b>.
+      </div> 
+      <!-- 
+NewPP limit report
+Parsed by mw1264
+Cached time: 20191030014242
+Cache expiry: 2592000
+Dynamic content: false
+Complications: []
+CPU time usage: 0.076 seconds
+Real time usage: 0.119 seconds
+Preprocessor visited node count: 239/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 4835/2097152 bytes
+Template argument size: 495/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Number of Wikibase entities loaded: 0/400
+Lua time usage: 0.023/10.000 seconds
+Lua memory usage: 1.32 MB/50 MB
+--> 
+      <!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   94.466      1 -total
+ 68.96%   65.141      1 Template:Commons_category
+ 29.17%   27.556      1 Template:Commons
+ 28.99%   27.381      2 Template:Sister_project
+ 25.03%   23.646      2 Template:Side_box
+ 23.85%   22.527      1 Template:Cat_main
+  7.78%    7.350      1 Template:Replace
+  6.95%    6.563      1 Template:Wiktionary
+--> 
+      <!-- Saved in parser cache with key enwiki:pcache:idhash:693763-0!canonical and timestamp 20191030014242 and revision id 883667408
+ --> 
+     </div>
+     <div class="mw-category-generated" lang="en" dir="ltr">
+      <div id="mw-subcategories"> 
+       <h2>Subcategories</h2> 
+       <p>This category has the following 26 subcategories, out of 26 total. </p>
+       <div lang="en" dir="ltr" class="mw-content-ltr">
+        <div class="mw-category">
+         <div class="mw-category-group">
+          <h3>&nbsp;</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Subfields_by_academic_discipline" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Subfields_by_academic_discipline" title="Category:Subfields by academic discipline">Subfields by academic discipline</a>‎ 
+              <span title="Contains 35 subcategories, 0 pages, and 0 files" dir="ltr">(35 C)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>*</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Scholars_and_academics_by_subject" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Scholars_and_academics_by_subject" title="Category:Scholars and academics by subject">Scholars and academics by subject</a>‎ 
+              <span title="Contains 100 subcategories, 0 pages, and 0 files" dir="ltr">(100 C)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Works_by_academic_discipline" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Works_by_academic_discipline" title="Category:Works by academic discipline">Works by academic discipline</a>‎ 
+              <span title="Contains 36 subcategories, 0 pages, and 0 files" dir="ltr">(36 C)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Education_by_subject" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Education_by_subject" title="Category:Education by subject">Education by subject</a>‎ 
+              <span title="Contains 66 subcategories, 30 pages, and 0 files" dir="ltr">(66 C, 30 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>A</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Applied_disciplines" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Applied_disciplines" title="Category:Applied disciplines">Applied disciplines</a>‎ 
+              <span title="Contains 8 subcategories, 3 pages, and 0 files" dir="ltr">(8 C, 3 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Architectural_theory" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Architectural_theory" title="Category:Architectural theory">Architectural theory</a>‎ 
+              <span title="Contains 1 subcategory, 57 pages, and 0 files" dir="ltr">(1 C, 57 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Art_history" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Art_history" title="Category:Art history">Art history</a>‎ 
+              <span title="Contains 39 subcategories, 154 pages, and 0 files" dir="ltr">(39 C, 154 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>B</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Biblical_studies" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Biblical_studies" title="Category:Biblical studies">Biblical studies</a>‎ 
+              <span title="Contains 13 subcategories, 26 pages, and 0 files" dir="ltr">(13 C, 26 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>C</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Communication_studies" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Communication_studies" title="Category:Communication studies">Communication studies</a>‎ 
+              <span title="Contains 10 subcategories, 38 pages, and 0 files" dir="ltr">(10 C, 38 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>E</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Environmental_studies" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Environmental_studies" title="Category:Environmental studies">Environmental studies</a>‎ 
+              <span title="Contains 9 subcategories, 18 pages, and 0 files" dir="ltr">(9 C, 18 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Euthenics" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Euthenics" title="Category:Euthenics">Euthenics</a>‎ 
+              <span title="Contains 14 subcategories, 13 pages, and 0 files" dir="ltr">(14 C, 13 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>H</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Humanities" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Humanities" title="Category:Humanities">Humanities</a>‎ 
+              <span title="Contains 42 subcategories, 43 pages, and 0 files" dir="ltr">(42 C, 43 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>I</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Academic_discipline_interactions" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Academic_discipline_interactions" title="Category:Academic discipline interactions">Academic discipline interactions</a>‎ 
+              <span title="Contains 5 subcategories, 7 pages, and 0 files" dir="ltr">(5 C, 7 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>J</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Jurisprudence" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Jurisprudence" title="Category:Jurisprudence">Jurisprudence</a>‎ 
+              <span title="Contains 9 subcategories, 24 pages, and 0 files" dir="ltr">(9 C, 24 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>L</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Liberal_arts_education" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Liberal_arts_education" title="Category:Liberal arts education">Liberal arts education</a>‎ 
+              <span title="Contains 1 subcategory, 14 pages, and 0 files" dir="ltr">(1 C, 14 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>M</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Musicology" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Musicology" title="Category:Musicology">Musicology</a>‎ 
+              <span title="Contains 20 subcategories, 89 pages, and 0 files" dir="ltr">(20 C, 89 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>P</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Professional_studies" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Professional_studies" title="Category:Professional studies">Professional studies</a>‎ 
+              <span title="Contains 8 subcategories, 5 pages, and 0 files" dir="ltr">(8 C, 5 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>R</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Religious_studies" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Religious_studies" title="Category:Religious studies">Religious studies</a>‎ 
+              <span title="Contains 25 subcategories, 68 pages, and 0 files" dir="ltr">(25 C, 68 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Research_institutes_by_academic_discipline" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Research_institutes_by_academic_discipline" title="Category:Research institutes by academic discipline">Research institutes by academic discipline</a>‎ 
+              <span title="Contains 49 subcategories, 0 pages, and 0 files" dir="ltr">(49 C)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>S</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Science_and_technology_studies" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Science_and_technology_studies" title="Category:Science and technology studies">Science and technology studies</a>‎ 
+              <span title="Contains 16 subcategories, 73 pages, and 0 files" dir="ltr">(16 C, 73 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Scientific_disciplines" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Scientific_disciplines" title="Category:Scientific disciplines">Scientific disciplines</a>‎ 
+              <span title="Contains 6 subcategories, 5 pages, and 0 files" dir="ltr">(6 C, 5 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Sexology" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Sexology" title="Category:Sexology">Sexology</a>‎ 
+              <span title="Contains 17 subcategories, 73 pages, and 0 files" dir="ltr">(17 C, 73 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Social_sciences" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Social_sciences" title="Category:Social sciences">Social sciences</a>‎ 
+              <span title="Contains 44 subcategories, 38 pages, and 0 files" dir="ltr">(44 C, 38 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li> 
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Sustainable_development" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Sustainable_development" title="Category:Sustainable development">Sustainable development</a>‎ 
+              <span title="Contains 12 subcategories, 83 pages, and 0 files" dir="ltr">(12 C, 83 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>T</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Textual_scholarship" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:Textual_scholarship" title="Category:Textual scholarship">Textual scholarship</a>‎ 
+              <span title="Contains 2 subcategories, 128 pages, and 0 files" dir="ltr">(2 C, 128 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>U</h3> 
+          <ul>
+           <li>
+            <div class="CategoryTreeSection">
+             <div class="CategoryTreeItem">
+              <span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="University_and_college_departments_by_discipline" data-ct-state="collapsed">►</span> </span> 
+              <a href="/wiki/Category:University_and_college_departments_by_discipline" title="Category:University and college departments by discipline">University and college departments by discipline</a>‎ 
+              <span title="Contains 8 subcategories, 2 pages, and 0 files" dir="ltr">(8 C, 2 P)</span>
+             </div>
+             <div class="CategoryTreeChildren" style="display:none"></div>
+            </div></li>
+          </ul>
+         </div>
+        </div>
+       </div> 
+      </div>
+      <div id="mw-pages"> 
+       <h2><span id="Pages_in_category"></span>Pages in category "Academic disciplines"</h2> 
+       <p>The following 40 pages are in this category, out of 40 total. This list may not reflect recent changes (<a href="/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date?" title="Wikipedia:FAQ/Categorization">learn more</a>). </p>
+       <div lang="en" dir="ltr" class="mw-content-ltr">
+        <div class="mw-category">
+         <div class="mw-category-group">
+          <h3>&nbsp;</h3> 
+          <ul>
+           <li><a href="/wiki/Discipline_(academia)" title="Discipline (academia)">Discipline (academia)</a></li> 
+           <li><a href="/wiki/List_of_academic_fields" title="List of academic fields">List of academic fields</a></li> 
+           <li><a href="/wiki/Outline_of_academic_disciplines" title="Outline of academic disciplines">Outline of academic disciplines</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>A</h3> 
+          <ul>
+           <li><a href="/wiki/Architectural_analytics" title="Architectural analytics">Architectural analytics</a></li> 
+           <li><a href="/wiki/Arts_administration" title="Arts administration">Arts administration</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>B</h3> 
+          <ul>
+           <li><a href="/wiki/Business_informatics" title="Business informatics">Business informatics</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>C</h3> 
+          <ul>
+           <li><a href="/wiki/Clinical_physiology" title="Clinical physiology">Clinical physiology</a></li> 
+           <li><a href="/wiki/Communication_studies" title="Communication studies">Communication studies</a></li> 
+           <li><a href="/wiki/Comparative_law" title="Comparative law">Comparative law</a></li> 
+           <li><span class="redirect-in-category"><a href="/wiki/Construction_history" class="mw-redirect" title="Construction history">Construction history</a></span></li> 
+           <li><a href="/wiki/Critical_terrorism_studies" title="Critical terrorism studies">Critical terrorism studies</a></li> 
+           <li><a href="/wiki/Curriculum_studies" title="Curriculum studies">Curriculum studies</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>D</h3> 
+          <ul>
+           <li><a href="/wiki/Design_studies" title="Design studies">Design studies</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>E</h3> 
+          <ul>
+           <li><a href="/wiki/Economic_history" title="Economic history">Economic history</a></li> 
+           <li><a href="/wiki/English_studies" title="English studies">English studies</a></li> 
+           <li><a href="/wiki/Environmental_science" title="Environmental science">Environmental science</a></li> 
+           <li><a href="/wiki/Environmental_studies" title="Environmental studies">Environmental studies</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>H</h3> 
+          <ul>
+           <li><a href="/wiki/History_of_art_criticism" title="History of art criticism">History of art criticism</a></li> 
+           <li><a href="/wiki/Human_services" title="Human services">Human services</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>I</h3> 
+          <ul>
+           <li><a href="/wiki/Industrial_arts" title="Industrial arts">Industrial arts</a></li> 
+           <li><a href="/wiki/Integrated_modification_methodology" title="Integrated modification methodology">Integrated modification methodology</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>J</h3> 
+          <ul>
+           <li><a href="/wiki/Jurisprudence" title="Jurisprudence">Jurisprudence</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>L</h3> 
+          <ul>
+           <li><a href="/wiki/Legal_history" title="Legal history">Legal history</a></li> 
+           <li><a href="/wiki/List_of_fields_of_doctoral_studies_in_the_United_States" title="List of fields of doctoral studies in the United States">List of fields of doctoral studies in the United States</a></li> 
+           <li><a href="/wiki/Liturgics" title="Liturgics">Liturgics</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>M</h3> 
+          <ul>
+           <li><a href="/wiki/M%C4%81ori_science" title="Māori science">Māori science</a></li> 
+           <li><a href="/wiki/Medical_entomology" title="Medical entomology">Medical entomology</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>P</h3> 
+          <ul>
+           <li><a href="/wiki/Philology" title="Philology">Philology</a></li> 
+           <li><a href="/wiki/Politics_in_education" title="Politics in education">Politics in education</a></li> 
+           <li><a href="/wiki/Postgraduate_research" title="Postgraduate research">Postgraduate research</a></li> 
+           <li><a href="/wiki/Praxeology" title="Praxeology">Praxeology</a></li> 
+           <li><a href="/wiki/Public_interest_design" title="Public interest design">Public interest design</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>S</h3> 
+          <ul>
+           <li><a href="/wiki/Social_savings" title="Social savings">Social savings</a></li> 
+           <li><a href="/wiki/Social_science" title="Social science">Social science</a></li> 
+           <li><a href="/wiki/Social_work" title="Social work">Social work</a></li> 
+           <li><a href="/wiki/Sustainability_studies" title="Sustainability studies">Sustainability studies</a></li> 
+           <li><a href="/wiki/Sustainable_development" title="Sustainable development">Sustainable development</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>T</h3> 
+          <ul>
+           <li><a href="/wiki/Textual_scholarship" title="Textual scholarship">Textual scholarship</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>U</h3> 
+          <ul>
+           <li><a href="/wiki/Utopian_studies" title="Utopian studies">Utopian studies</a></li>
+          </ul>
+         </div>
+         <div class="mw-category-group">
+          <h3>V</h3> 
+          <ul>
+           <li><a href="/wiki/Visual_communication" title="Visual communication">Visual communication</a></li>
+          </ul>
+         </div>
+        </div>
+       </div> 
+      </div>
+     </div>
+     <noscript>
+      <img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;">
+     </noscript>
+    </div> 
+    <div class="printfooter">
+     Retrieved from "
+     <a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Category:Academic_disciplines&amp;oldid=883667408">https://en.wikipedia.org/w/index.php?title=Category:Academic_disciplines&amp;oldid=883667408</a>"
+    </div> 
+    <div id="catlinks" class="catlinks" data-mw="interface">
+     <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+      <a href="/wiki/Help:Category" title="Help:Category">Categories</a>: 
+      <ul>
+       <li><a href="/wiki/Category:Main_topic_classifications" title="Category:Main topic classifications">Main topic classifications</a></li>
+       <li><a href="/wiki/Category:Academia" title="Category:Academia">Academia</a></li>
+      </ul>
+     </div>
+     <div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-ns-shown">
+      Hidden categories: 
+      <ul>
+       <li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li>
+      </ul>
+     </div>
+    </div> 
+    <div class="visualClear"></div> 
+   </div> 
+  </div> 
+  <div id="mw-data-after-content"> 
+   <div class="read-more-container"></div> 
+  </div> 
+  <div id="mw-navigation"> 
+   <h2>Navigation menu</h2> 
+   <div id="mw-head"> 
+    <div id="p-personal" role="navigation" aria-labelledby="p-personal-label"> 
+     <h3 id="p-personal-label">Personal tools</h3> 
+     <ul> 
+      <li id="pt-anonuserpage">Not logged in</li>
+      <li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li>
+      <li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li>
+      <li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Category%3AAcademic+disciplines" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li>
+      <li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Category%3AAcademic+disciplines" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li> 
+     </ul> 
+    </div> 
+    <div id="left-navigation"> 
+     <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label"> 
+      <h3 id="p-namespaces-label">Namespaces</h3> 
+      <ul> 
+       <li id="ca-nstab-category" class="selected"><a href="/wiki/Category:Academic_disciplines" title="View the category page [c]" accesskey="c">Category</a></li>
+       <li id="ca-talk"><a href="/wiki/Category_talk:Academic_disciplines" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Talk</a></li> 
+      </ul> 
+     </div> 
+     <div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label"> 
+      <input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label"> 
+      <h3 id="p-variants-label"> <span>Variants</span> </h3> 
+      <ul class="menu"> 
+      </ul> 
+     </div> 
+    </div> 
+    <div id="right-navigation"> 
+     <div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label"> 
+      <h3 id="p-views-label">Views</h3> 
+      <ul> 
+       <li id="ca-view" class="collapsible selected"><a href="/wiki/Category:Academic_disciplines">Read</a></li>
+       <li id="ca-edit" class="collapsible"><a href="/w/index.php?title=Category:Academic_disciplines&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></li>
+       <li id="ca-history" class="collapsible"><a href="/w/index.php?title=Category:Academic_disciplines&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li> 
+      </ul> 
+     </div> 
+     <div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label"> 
+      <input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label"> 
+      <h3 id="p-cactions-label"><span>More</span></h3> 
+      <ul class="menu"> 
+      </ul> 
+     </div> 
+     <div id="p-search" role="search"> 
+      <h3> <label for="searchInput">Search</label> </h3> 
+      <form action="/w/index.php" id="searchform"> 
+       <div id="simpleSearch"> 
+        <input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput">
+        <input type="hidden" value="Special:Search" name="title">
+        <input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton">
+        <input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="mw-panel"> 
+    <div id="p-logo" role="banner">
+     <a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a>
+    </div> 
+    <div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label"> 
+     <h3 id="p-navigation-label">Navigation</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+       <li id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+       <li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+       <li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+       <li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+       <li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+       <li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label"> 
+     <h3 id="p-interaction-label">Interaction</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+       <li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+       <li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+       <li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+       <li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label"> 
+     <h3 id="p-tb-label">Tools</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Category:Academic_disciplines" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+       <li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Category:Academic_disciplines" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+       <li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+       <li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+       <li id="t-permalink"><a href="/w/index.php?title=Category:Academic_disciplines&amp;oldid=883667408" title="Permanent link to this revision of the page">Permanent link</a></li>
+       <li id="t-info"><a href="/w/index.php?title=Category:Academic_disciplines&amp;action=info" title="More information about this page">Page information</a></li>
+       <li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q6642719" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="portal" role="navigation" id="p-wikibase-otherprojects" aria-labelledby="p-wikibase-otherprojects-label"> 
+     <h3 id="p-wikibase-otherprojects-label">In other projects</h3> 
+     <div class="body"> 
+      <ul> 
+       <li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Academic_disciplines" hreflang="en">Wikimedia Commons</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label"> 
+     <h3 id="p-coll-print_export-label">Print/export</h3> 
+     <div class="body"> 
+      <ul> 
+       <li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Category%3AAcademic+disciplines">Create a book</a></li>
+       <li id="coll-download-as-rl"><a href="/w/index.php?title=Special:ElectronPdf&amp;page=Category%3AAcademic+disciplines&amp;action=show-download-screen">Download as PDF</a></li>
+       <li id="t-print"><a href="/w/index.php?title=Category:Academic_disciplines&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"> 
+     <h3 id="p-lang-label">Languages</h3> 
+     <div class="body"> 
+      <ul> 
+       <li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA_%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9" title="تصنيف:تخصصات أكاديمية – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target">العربية</a></li>
+       <li class="interlanguage-link interwiki-ast"><a href="https://ast.wikipedia.org/wiki/Categor%C3%ADa:Disciplines_acad%C3%A9miques" title="Categoría:Disciplines académiques – Asturian" lang="ast" hreflang="ast" class="interlanguage-link-target">Asturianu</a></li>
+       <li class="interlanguage-link interwiki-az"><a href="https://az.wikipedia.org/wiki/Kateqoriya:Akademik_elm_sah%C9%99l%C9%99ri" title="Kateqoriya:Akademik elm sahələri – Azerbaijani" lang="az" hreflang="az" class="interlanguage-link-target">Azərbaycanca</a></li>
+       <li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A6%AF%E0%A6%BC%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%A3%E0%A7%80:%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%B6%E0%A6%BE%E0%A6%96%E0%A6%BE" title="বিষয়শ্রেণী:জ্ঞানের শাখা – Bangla" lang="bn" hreflang="bn" class="interlanguage-link-target">বাংলা</a></li>
+       <li class="interlanguage-link interwiki-zh-min-nan"><a href="https://zh-min-nan.wikipedia.org/wiki/L%C5%ABi-pia%CC%8Dt:Ha%CC%8Dk-kho" title="Lūi-pia̍t:Ha̍k-kho – Chinese (Min Nan)" lang="nan" hreflang="nan" class="interlanguage-link-target">Bân-lâm-gú</a></li>
+       <li class="interlanguage-link interwiki-ba"><a href="https://ba.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA_%D1%84%D3%99%D0%BD%D0%B4%D3%99%D1%80" title="Категория:Академик фәндәр – Bashkir" lang="ba" hreflang="ba" class="interlanguage-link-target">Башҡортса</a></li>
+       <li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D1%8D%D0%B3%D0%BE%D1%80%D1%8B%D1%8F:%D0%90%D0%BA%D0%B0%D0%B4%D1%8D%D0%BC%D1%96%D1%87%D0%BD%D1%8B%D1%8F_%D0%B4%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%BD%D1%96" title="Катэгорыя:Акадэмічныя даследаванні – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li>
+       <li class="interlanguage-link interwiki-be-x-old"><a href="https://be-x-old.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D1%8D%D0%B3%D0%BE%D1%80%D1%8B%D1%8F:%D0%90%D0%BA%D0%B0%D0%B4%D1%8D%D0%BC%D1%96%D1%87%D0%BD%D1%8B%D1%8F_%D0%B4%D0%B0%D1%81%D1%8C%D0%BB%D0%B5%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D1%8C%D0%BD%D1%96" title="Катэгорыя:Акадэмічныя дасьледаваньні – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target">Беларуская (тарашкевіца)‎</a></li>
+       <li class="interlanguage-link interwiki-bh"><a href="https://bh.wikipedia.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A3%E0%A5%80:%E0%A4%8F%E0%A4%95%E0%A5%88%E0%A4%A1%E0%A4%AE%E0%A4%BF%E0%A4%95_%E0%A4%AC%E0%A4%BF%E0%A4%B8%E0%A4%AF" title="श्रेणी:एकैडमिक बिसय – Bhojpuri" lang="bh" hreflang="bh" class="interlanguage-link-target">भोजपुरी</a></li>
+       <li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%BD%D0%B8_%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B8" title="Категория:Академични дисциплини – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target">Български</a></li>
+       <li class="interlanguage-link interwiki-bs"><a href="https://bs.wikipedia.org/wiki/Kategorija:Akademske_discipline" title="Kategorija:Akademske discipline – Bosnian" lang="bs" hreflang="bs" class="interlanguage-link-target">Bosanski</a></li>
+       <li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Kategorie:Akademick%C3%A9_discipl%C3%ADny" title="Kategorie:Akademické disciplíny – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li>
+       <li class="interlanguage-link interwiki-cy"><a href="https://cy.wikipedia.org/wiki/Categori:Disgyblaethau_academaidd" title="Categori:Disgyblaethau academaidd – Welsh" lang="cy" hreflang="cy" class="interlanguage-link-target">Cymraeg</a></li>
+       <li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Kategori:Akademiske_discipliner" title="Kategori:Akademiske discipliner – Danish" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li>
+       <li class="interlanguage-link interwiki-se"><a href="https://se.wikipedia.org/wiki/Kategoriija:Universitehtaf%C3%A1gat" title="Kategoriija:Universitehtafágat – Northern Sami" lang="se" hreflang="se" class="interlanguage-link-target">Davvisámegiella</a></li>
+       <li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Kategorie:Wissenschaftliches_Fachgebiet" title="Kategorie:Wissenschaftliches Fachgebiet – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li>
+       <li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1:%CE%91%CE%BA%CE%B1%CE%B4%CE%B7%CE%BC%CE%B1%CF%8A%CE%BA%CE%BF%CE%AF_%CE%BA%CE%BB%CE%AC%CE%B4%CE%BF%CE%B9" title="Κατηγορία:Ακαδημαϊκοί κλάδοι – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li>
+       <li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Disciplinas_acad%C3%A9micas" title="Categoría:Disciplinas académicas – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li>
+       <li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Kategorio:Universitataj_studfakoj" title="Kategorio:Universitataj studfakoj – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target">Esperanto</a></li>
+       <li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Kategoria:Jakintza_adar_akademikoak" title="Kategoria:Jakintza adar akademikoak – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target">Euskara</a></li>
+       <li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B1%D8%AF%D9%87:%D8%B1%D8%B4%D8%AA%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C" title="رده:رشته‌های دانشگاهی – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li>
+       <li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Discipline_acad%C3%A9mique" title="Catégorie:Discipline académique – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li>
+       <li class="interlanguage-link interwiki-gv"><a href="https://gv.wikipedia.org/wiki/Ronney:Keirdyn_scoillaragh" title="Ronney:Keirdyn scoillaragh – Manx" lang="gv" hreflang="gv" class="interlanguage-link-target">Gaelg</a></li>
+       <li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Categor%C3%ADa:Disciplinas_acad%C3%A9micas" title="Categoría:Disciplinas académicas – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target">Galego</a></li>
+       <li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A5%98:%ED%95%99%EB%AC%B8_%EB%B6%84%EC%95%BC" title="분류:학문 분야 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li>
+       <li class="interlanguage-link interwiki-hy"><a href="https://hy.wikipedia.org/wiki/%D4%BF%D5%A1%D5%BF%D5%A5%D5%A3%D5%B8%D6%80%D5%AB%D5%A1:%D4%B1%D5%AF%D5%A1%D5%A4%D5%A5%D5%B4%D5%AB%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A1%D5%BC%D5%A1%D6%80%D5%AF%D5%A1%D5%B6%D5%A5%D6%80" title="Կատեգորիա:Ակադեմիական առարկաներ – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target">Հայերեն</a></li>
+       <li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%A3%E0%A5%80:%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9C%E0%A4%A8_%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF" title="श्रेणी:विद्यार्जन विषय – Hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">हिन्दी</a></li>
+       <li class="interlanguage-link interwiki-io"><a href="https://io.wikipedia.org/wiki/Kategorio:Akademiala_diciplini" title="Kategorio:Akademiala diciplini – Ido" lang="io" hreflang="io" class="interlanguage-link-target">Ido</a></li>
+       <li class="interlanguage-link interwiki-ilo"><a href="https://ilo.wikipedia.org/wiki/Kategoria:Dagiti_akademiko_a_disiplina" title="Kategoria:Dagiti akademiko a disiplina – Iloko" lang="ilo" hreflang="ilo" class="interlanguage-link-target">Ilokano</a></li>
+       <li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Kategori:Disiplin_akademik" title="Kategori:Disiplin akademik – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li>
+       <li class="interlanguage-link interwiki-ia"><a href="https://ia.wikipedia.org/wiki/Categoria:Disciplinas_academic" title="Categoria:Disciplinas academic – Interlingua" lang="ia" hreflang="ia" class="interlanguage-link-target">Interlingua</a></li>
+       <li class="interlanguage-link interwiki-ie"><a href="https://ie.wikipedia.org/wiki/Categorie:Academic_disciplines" title="Categorie:Academic disciplines – Interlingue" lang="ie" hreflang="ie" class="interlanguage-link-target">Interlingue</a></li>
+       <li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Categoria:Discipline_accademiche" title="Categoria:Discipline accademiche – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li>
+       <li class="interlanguage-link interwiki-jv"><a href="https://jv.wikipedia.org/wiki/Kategori:Dhisiplin_akadhemik" title="Kategori:Dhisiplin akadhemik – Javanese" lang="jv" hreflang="jv" class="interlanguage-link-target">Jawa</a></li>
+       <li class="interlanguage-link interwiki-krc"><a href="https://krc.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F_%D1%82%D0%B8%D0%BD%D1%82%D0%B8%D1%83%D0%BB%D0%B5" title="Категория:Академия тинтиуле – Karachay-Balkar" lang="krc" hreflang="krc" class="interlanguage-link-target">Къарачай-малкъар</a></li>
+       <li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%90%E1%83%A2%E1%83%94%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98%E1%83%90:%E1%83%90%E1%83%99%E1%83%90%E1%83%93%E1%83%94%E1%83%9B%E1%83%98%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%93%E1%83%98%E1%83%A1%E1%83%AA%E1%83%98%E1%83%9E%E1%83%9A%E1%83%98%E1%83%9C%E1%83%94%E1%83%91%E1%83%98" title="კატეგორია:აკადემიური დისციპლინები – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target">ქართული</a></li>
+       <li class="interlanguage-link interwiki-kk"><a href="https://kk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%B0%D1%82:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%BB%D1%8B%D2%9B_%D0%BF%D3%99%D0%BD%D0%B4%D0%B5%D1%80" title="Санат:Академиялық пәндер – Kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target">Қазақша</a></li>
+       <li class="interlanguage-link interwiki-kv"><a href="https://kv.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9D%D0%B0%D1%83%D0%BA%D0%B0%D1%8F%D1%81" title="Категория:Наукаяс – Komi" lang="kv" hreflang="kv" class="interlanguage-link-target">Коми</a></li>
+       <li class="interlanguage-link interwiki-ky"><a href="https://ky.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%98%D0%BB%D0%B8%D0%BC%D0%B4%D0%B5%D1%80" title="Категория:Илимдер – Kyrgyz" lang="ky" hreflang="ky" class="interlanguage-link-target">Кыргызча</a></li>
+       <li class="interlanguage-link interwiki-ltg"><a href="https://ltg.wikipedia.org/wiki/Kategoreja:Akademiskuos_zineibys" title="Kategoreja:Akademiskuos zineibys – Latgalian" lang="ltg" hreflang="ltg" class="interlanguage-link-target">Latgaļu</a></li>
+       <li class="interlanguage-link interwiki-la"><a href="https://la.wikipedia.org/wiki/Categoria:Disciplinae_academicae" title="Categoria:Disciplinae academicae – Latin" lang="la" hreflang="la" class="interlanguage-link-target">Latina</a></li>
+       <li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Kategorija:Akad%C4%93misk%C4%81s_discipl%C4%ABnas" title="Kategorija:Akadēmiskās disciplīnas – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target">Latviešu</a></li>
+       <li class="interlanguage-link interwiki-mk"><a href="https://mk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%81%D0%BA%D0%B8_%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B8" title="Категорија:Академски дисциплини – Macedonian" lang="mk" hreflang="mk" class="interlanguage-link-target">Македонски</a></li>
+       <li class="interlanguage-link interwiki-mr"><a href="https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%97:%E0%A4%B6%E0%A5%88%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B6%E0%A4%BE%E0%A4%96%E0%A4%BE" title="वर्ग:शैक्षणिक विद्याशाखा – Marathi" lang="mr" hreflang="mr" class="interlanguage-link-target">मराठी</a></li>
+       <li class="interlanguage-link interwiki-arz"><a href="https://arz.wikipedia.org/wiki/%D8%AA%D8%B5%D9%86%D9%8A%D9%81:%D8%AA%D8%AE%D8%B5%D8%B5%D8%A7%D8%AA_%D8%A7%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D9%87" title="تصنيف:تخصصات اكاديميه – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target">مصرى</a></li>
+       <li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Kategori:Disiplin_akademik" title="Kategori:Disiplin akademik – Malay" lang="ms" hreflang="ms" class="interlanguage-link-target">Bahasa Melayu</a></li>
+       <li class="interlanguage-link interwiki-mwl"><a href="https://mwl.wikipedia.org/wiki/Catadorie:Deciplinas_acad%C3%A9micas" title="Catadorie:Deciplinas académicas – Mirandese" lang="mwl" hreflang="mwl" class="interlanguage-link-target">Mirandés</a></li>
+       <li class="interlanguage-link interwiki-mdf"><a href="https://mdf.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B5:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%BD%D1%8C_%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D1%82%D1%82" title="Категорие:Академиянь дисциплитт – Moksha" lang="mdf" hreflang="mdf" class="interlanguage-link-target">Мокшень</a></li>
+       <li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%B8%D0%BB%D0%B0%D0%BB:%D0%A8%D0%B8%D0%BD%D0%B6%D0%BB%D1%8D%D1%85_%D1%83%D1%85%D0%B0%D0%B0%D0%BD%D1%8B_%D0%BC%D1%8D%D1%80%D0%B3%D1%8D%D0%B6%D0%BB%D0%B8%D0%B9%D0%BD_%D1%81%D0%B0%D0%BB%D0%B1%D0%B0%D1%80" title="Ангилал:Шинжлэх ухааны мэргэжлийн салбар – Mongolian" lang="mn" hreflang="mn" class="interlanguage-link-target">Монгол</a></li>
+       <li class="interlanguage-link interwiki-my"><a href="https://my.wikipedia.org/wiki/%E1%80%80%E1%80%8F%E1%80%B9%E1%80%8D:%E1%80%95%E1%80%8A%E1%80%AC%E1%80%9B%E1%80%B1%E1%80%B8_%E1%80%80%E1%80%BB%E1%80%84%E1%80%B7%E1%80%BA%E1%80%9D%E1%80%90%E1%80%BA%E1%80%94%E1%80%8A%E1%80%BA%E1%80%B8%E1%80%94%E1%80%AC%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8" title="ကဏ္ဍ:ပညာရေး ကျင့်ဝတ်နည်းနာများ – Burmese" lang="my" hreflang="my" class="interlanguage-link-target">မြန်မာဘာသာ</a></li>
+       <li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Category:%E5%AD%A6%E5%95%8F%E3%81%AE%E5%88%86%E9%87%8E" title="Category:学問の分野 – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li>
+       <li class="interlanguage-link interwiki-ce"><a href="https://ce.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8:%D0%94%D0%B5%D1%88%D0%B0%D1%80%D0%B0%D0%BD_%D0%B4%D0%B0%D0%BA%D1%8A%D0%BE%D1%88" title="Категори:Дешаран дакъош – Chechen" lang="ce" hreflang="ce" class="interlanguage-link-target">Нохчийн</a></li>
+       <li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Kategori:Akademiske_disipliner" title="Kategori:Akademiske disipliner – Norwegian" lang="no" hreflang="no" class="interlanguage-link-target">Norsk</a></li>
+       <li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Kategori:Akademiske_fag" title="Kategori:Akademiske fag – Norwegian Nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target">Norsk nynorsk</a></li>
+       <li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Categoria:Disciplinas_acad%C3%AAmicas" title="Categoria:Disciplinas acadêmicas – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li>
+       <li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Categorie:Discipline_academice" title="Categorie:Discipline academice – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li>
+       <li class="interlanguage-link interwiki-sco"><a href="https://sco.wikipedia.org/wiki/Category:Academic_disciplines" title="Category:Academic disciplines – Scots" lang="sco" hreflang="sco" class="interlanguage-link-target">Scots</a></li>
+       <li class="interlanguage-link interwiki-sq"><a href="https://sq.wikipedia.org/wiki/Kategoria:Disiplin%C3%AB_akademike" title="Kategoria:Disiplinë akademike – Albanian" lang="sq" hreflang="sq" class="interlanguage-link-target">Shqip</a></li>
+       <li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Category:Academic_disciplines" title="Category:Academic disciplines – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target">Simple English</a></li>
+       <li class="interlanguage-link interwiki-sd"><a href="https://sd.wikipedia.org/wiki/%D8%B2%D9%85%D8%B1%D9%88:%D8%AF%D8%B1%D8%B3%D9%8A_%D8%B9%D9%84%D9%85" title="زمرو:درسي علم – Sindhi" lang="sd" hreflang="sd" class="interlanguage-link-target">سنڌي</a></li>
+       <li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Kateg%C3%B3ria:Akademick%C3%A9_discipl%C3%ADny" title="Kategória:Akademické disciplíny – Slovak" lang="sk" hreflang="sk" class="interlanguage-link-target">Slovenčina</a></li>
+       <li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Kategorija:Akademske_discipline" title="Kategorija:Akademske discipline – Slovenian" lang="sl" hreflang="sl" class="interlanguage-link-target">Slovenščina</a></li>
+       <li class="interlanguage-link interwiki-cu"><a href="https://cu.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%97%EA%99%97:%D0%9E%D1%83%D1%87%D1%94%D0%BD%D0%B8%EA%99%97" title="Катигорїꙗ:Оучєниꙗ – Church Slavic" lang="cu" hreflang="cu" class="interlanguage-link-target">Словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ</a></li>
+       <li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%98%D0%B0:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%81%D0%BA%D0%B5_%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B5" title="Категорија:Академске дисциплине – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target">Српски / srpski</a></li>
+       <li class="interlanguage-link interwiki-sh"><a href="https://sh.wikipedia.org/wiki/Kategorija:Nauke" title="Kategorija:Nauke – Serbo-Croatian" lang="sh" hreflang="sh" class="interlanguage-link-target">Srpskohrvatski / српскохрватски</a></li>
+       <li class="interlanguage-link interwiki-su"><a href="https://su.wikipedia.org/wiki/Kategori:Disiplin_akademik" title="Kategori:Disiplin akademik – Sundanese" lang="su" hreflang="su" class="interlanguage-link-target">Sunda</a></li>
+       <li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Luokka:Yliopistolliset_oppiaineet" title="Luokka:Yliopistolliset oppiaineet – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li>
+       <li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Kategori:Akademiska_%C3%A4mnen" title="Kategori:Akademiska ämnen – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li>
+       <li class="interlanguage-link interwiki-tl"><a href="https://tl.wikipedia.org/wiki/Kategorya:Mga_disiplinang_pang-akademiya" title="Kategorya:Mga disiplinang pang-akademiya – Tagalog" lang="tl" hreflang="tl" class="interlanguage-link-target">Tagalog</a></li>
+       <li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81:%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AE%BF_%E0%AE%92%E0%AE%B4%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D" title="பகுப்பு:கல்வி ஒழுக்கம் – Tamil" lang="ta" hreflang="ta" class="interlanguage-link-target">தமிழ்</a></li>
+       <li class="interlanguage-link interwiki-tt"><a href="https://tt.wikipedia.org/wiki/%D0%A2%D3%A9%D1%80%D0%BA%D0%B5%D0%BC:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA_%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D0%B8%D0%BD%D0%B0%D0%BB%D0%B0%D1%80" title="Төркем:Академик дисциплиналар – Tatar" lang="tt" hreflang="tt" class="interlanguage-link-target">Татарча/tatarça</a></li>
+       <li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%AB%E0%B8%A1%E0%B8%A7%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88:%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2" title="หมวดหมู่:สาขาวิชา – Thai" lang="th" hreflang="th" class="interlanguage-link-target">ไทย</a></li>
+       <li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Kategori:Akademik_bilim_dallar%C4%B1" title="Kategori:Akademik bilim dalları – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li>
+       <li class="interlanguage-link interwiki-tk"><a href="https://tk.wikipedia.org/wiki/Kategori%C3%BDa:Ylymlar" title="Kategoriýa:Ylymlar – Turkmen" lang="tk" hreflang="tk" class="interlanguage-link-target">Türkmençe</a></li>
+       <li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D1%96%D1%8F:%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%87%D0%BD%D1%96_%D0%B4%D0%B8%D1%81%D1%86%D0%B8%D0%BF%D0%BB%D1%96%D0%BD%D0%B8" title="Категорія:Академічні дисципліни – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li>
+       <li class="interlanguage-link interwiki-ur"><a href="https://ur.wikipedia.org/wiki/%D8%B2%D9%85%D8%B1%DB%81:%D8%AF%D8%B1%D8%B3%DB%8C_%D8%B9%D9%84%D9%88%D9%85" title="زمرہ:درسی علوم – Urdu" lang="ur" hreflang="ur" class="interlanguage-link-target">اردو</a></li>
+       <li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:M%C3%B4n_h%E1%BB%8Dc" title="Thể loại:Môn học – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target">Tiếng Việt</a></li>
+       <li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/Category:%E5%AD%B8%E7%A7%91" title="Category:學科 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li> 
+      </ul> 
+      <div class="after-portlet after-portlet-lang">
+       <span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q6642719#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="footer" role="contentinfo"> 
+   <ul id="footer-info"> 
+    <li id="footer-info-lastmod"> This page was last edited on 16 February 2019, at 20:50<span class="anonymous-show">&nbsp;(UTC)</span>.</li> 
+    <li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>; additional terms may apply. By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li> 
+   </ul> 
+   <ul id="footer-places"> 
+    <li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li> 
+    <li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li> 
+    <li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li> 
+    <li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li> 
+    <li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li> 
+    <li id="footer-places-statslink"><a href="https://stats.wikimedia.org/v2/#/en.wikipedia.org">Statistics</a></li> 
+    <li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li> 
+    <li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Category:Academic_disciplines&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li> 
+   </ul> 
+   <ul id="footer-icons" class="noprint"> 
+    <li id="footer-copyrightico"> <a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"></a> </li> 
+    <li id="footer-poweredbyico"> <a href="https://www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a> </li> 
+   </ul> 
+   <div style="clear: both;"></div> 
+  </div> 
+  <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.076","walltime":"0.119","ppvisitednodes":{"value":239,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":4835,"limit":2097152},"templateargumentsize":{"value":495,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   94.466      1 -total"," 68.96%   65.141      1 Template:Commons_category"," 29.17%   27.556      1 Template:Commons"," 28.99%   27.381      2 Template:Sister_project"," 25.03%   23.646      2 Template:Side_box"," 23.85%   22.527      1 Template:Cat_main","  7.78%    7.350      1 Template:Replace","  6.95%    6.563      1 Template:Wiktionary"]},"scribunto":{"limitreport-timeusage":{"value":"0.023","limit":"10.000"},"limitreport-memusage":{"value":1381455,"limit":52428800}},"cachereport":{"origin":"mw1264","timestamp":"20191030014242","ttl":2592000,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":143,"wgHostname":"mw1327"});});</script>   
+ </body>
+</html>
+1Subfields by academic discipline
+1/wiki/Category:Subfields_by_academic_discipline
+1Scholars and academics by subject
+1/wiki/Category:Scholars_and_academics_by_subject
+1Works by academic discipline
+1/wiki/Category:Works_by_academic_discipline
+1Education by subject
+1/wiki/Category:Education_by_subject
+1Applied disciplines
+1/wiki/Category:Applied_disciplines
+1Architectural theory
+1/wiki/Category:Architectural_theory
+1Art history
+1/wiki/Category:Art_history
+1Biblical studies
+1/wiki/Category:Biblical_studies
+1Communication studies
+1/wiki/Category:Communication_studies
+1Environmental studies
+1/wiki/Category:Environmental_studies
+1Euthenics
+1/wiki/Category:Euthenics
+1Humanities
+1/wiki/Category:Humanities
+1Academic discipline interactions
+1/wiki/Category:Academic_discipline_interactions
+1Jurisprudence
+1/wiki/Category:Jurisprudence
+1Liberal arts education
+1/wiki/Category:Liberal_arts_education
+1Musicology
+1/wiki/Category:Musicology
+1Professional studies
+1/wiki/Category:Professional_studies
+1Religious studies
+1/wiki/Category:Religious_studies
+1Research institutes by academic discipline
+1/wiki/Category:Research_institutes_by_academic_discipline
+1Science and technology studies
+1/wiki/Category:Science_and_technology_studies
+1Scientific disciplines
+1/wiki/Category:Scientific_disciplines
+1Sexology
+1/wiki/Category:Sexology
+1Social sciences
+1/wiki/Category:Social_sciences
+1Sustainable development
+1/wiki/Category:Sustainable_development
+1Textual scholarship
+1/wiki/Category:Textual_scholarship
+1University and college departments by discipline
+1/wiki/Category:University_and_college_departments_by_discipline
+Business
+/wiki/Category:Business
+empty
+Concepts
+/wiki/Category:Concepts
+empty
+Crime
+/wiki/Category:Crime
+empty
+Culture
+/wiki/Category:Culture
+empty
+Economy
+/wiki/Category:Economy
+empty
+Education
+/wiki/Category:Education
+empty
+Energy
+/wiki/Category:Energy
+empty
+Entertainment
+/wiki/Category:Entertainment
+empty
+Events
+/wiki/Category:Events
+empty
+Food and drink
+/wiki/Category:Food_and_drink
+empty
+Geography
+/wiki/Category:Geography
+empty
+Government
+/wiki/Category:Government
+empty
+Health
+/wiki/Category:Health
+empty
+History
+/wiki/Category:History
+empty
+Human behavior
+/wiki/Category:Human_behavior
+empty
+Humanities
+/wiki/Category:Humanities
+empty
+Knowledge
+/wiki/Category:Knowledge
+empty
+Language
+/wiki/Category:Language
+empty
+Law
+/wiki/Category:Law
+empty
+Life
+/wiki/Category:Life
+empty
+Mathematics
+/wiki/Category:Mathematics
+empty
+Military
+/wiki/Category:Military
+empty
+Mind
+/wiki/Category:Mind
+empty
+Music
+/wiki/Category:Music
+empty
+Nature
+/wiki/Category:Nature
+empty
+Objects
+/wiki/Category:Objects
+empty
+Organizations
+/wiki/Category:Organizations
+empty
+People
+/wiki/Category:People
+empty
+Philosophy
+/wiki/Category:Philosophy
+empty
+Politics
+/wiki/Category:Politics
+empty
+Religion
+/wiki/Category:Religion
+empty
+Science
+/wiki/Category:Science
+empty
+Society
+/wiki/Category:Society
+empty
+Sports
+/wiki/Category:Sports
+empty
+Technology
+/wiki/Category:Technology
+empty
+Universe
+/wiki/Category:Universe
+empty
+World
+/wiki/Category:World
+empty
+
+Process finished with exit code 0

@@ -1,0 +1,620 @@
+Program started.............
+Program starts at: 08.10.2020  03.01.28 AM
+Working with confFile: OutdoorWarehouse_vs_IndoorWarehouse_bkg_sumo_concepts_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00019755
+	ADE_train_00019754
+	ADE_train_00019756
+negIndivs from conf:
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019720
+	ADE_train_00019729
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019711
+	ADE_train_00019710
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019740
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019709
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019731
+	ADE_train_00019730
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019739
+	ADE_train_00019738
+objProps from conf:
+	imageContains
+	__%!empty%!__
+Algorithm starts at: 08.10.2020  03.01.28 AM
+Total positive types (direct+indirect) found using all objectProperty: 48
+Total negative types (direct+indirect) found using all objectProperty: 54
+
+Algorithm ends at: 08.10.2020  03.01.30 AM
+
+Algorithm duration: 1.455 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:Object))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 2: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 3: ∃ :imageContains.((:Transitway) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 4: ∃ :imageContains.((:Object) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 5: ∃ :imageContains.((:Window) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 6: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:Physical))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 7: ∃ :imageContains.((:LandArea) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 8: ∃ :imageContains.((:Physical) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 9: ∃ :imageContains.((:Entity) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 10: ∃ :imageContains.((:Entity) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 11: ∃ :imageContains.((:Transitway) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 12: ∃ :imageContains.((:LandArea) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 13: ∃ :imageContains.((:Building) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 14: ∃ :imageContains.((:Window) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 15: ∃ :imageContains.((:StationaryArtifact) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 16: ∃ :imageContains.((:SelfConnectedObject ⊓ :LandArea) ⊓ (:Region))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 17: ∃ :imageContains.((:Artifact) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 18: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Region))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 19: ∃ :imageContains.((:Transitway) ⊓ (:StationaryArtifact))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 20: ∃ :imageContains.((:LandArea) ⊓ (:SelfConnectedObject))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 21: ∃ :imageContains.((:LandArea) ⊓ (:StationaryArtifact))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 22: ∃ :imageContains.((:Road) ⊓ (:StationaryArtifact))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 23: ∃ :imageContains.((:Artifact) ⊓ (:Transitway))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 24: ∃ :imageContains.((:Transitway) ⊓ (:LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 25: ∃ :imageContains.(:Transitway ⊓ :LandArea)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 26: ∃ :imageContains.(:SelfConnectedObject ⊓ :LandArea)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 27: ∃ :imageContains.((:Artifact) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 28: ∃ :imageContains.((:Artifact) ⊓ (:LandArea))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 29: ∃ :imageContains.((:Window) ⊓ (:Region))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 30: ∃ :imageContains.(:LandTransitway)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 31: ∃ :imageContains.(:LandArea)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 32: ∃ :imageContains.(:Transitway)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 33: ∃ :imageContains.(:Roadway)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 34: ∃ :imageContains.(:Road)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 35: ∃ :imageContains.(:SelfConnectedObject)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 36: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 37: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 38: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 39: ∃ :imageContains.((:TransitwayObstacle) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 40: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:TransitwayObstacle))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 41: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:Sidewalk))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 42: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:Building))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 43: ∃ :imageContains.((:SelfConnectedObject ⊓ :LandArea) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 44: ∃ :imageContains.((:Sidewalk) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 45: ∃ :imageContains.((:StationaryArtifact) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 46: ∃ :imageContains.((:Transitway ⊓ :LandArea) ⊓ (:Region))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 47: ∃ :imageContains.((:Artifact) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 48: ∃ :imageContains.((:TransitwayObstacle) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 49: ∃ :imageContains.((:Window) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 50: ∃ :imageContains.((:Artifact) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 51: ∃ :imageContains.((:Artifact) ⊓ (:Region))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 52: ∃ :imageContains.((:Artifact) ⊓ (:Roadway))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 53: ∃ :imageContains.((:StationaryArtifact) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 54: ∃ :imageContains.((:Roadway) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 55: ∃ :imageContains.((:StationaryArtifact) ⊓ (:Roadway))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 56: ∃ :imageContains.((:Road) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 57: ∃ :imageContains.((:Building) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 58: ∃ :imageContains.((:LandArea) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 59: ∃ :imageContains.((:Device) ⊓ (:LandTransitway))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 60: ∃ :imageContains.((:Artifact) ⊓ (:TransitwayObstacle))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 61: ∃ :imageContains.((:StationaryArtifact) ⊓ (:LandTransitway))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 62: ∃ :imageContains.((:TransitwayObstacle) ⊓ (:Region))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 63: ∃ :imageContains.((:StationaryArtifact) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 64: ∃ :imageContains.((:Artifact) ⊓ (:LandTransitway))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 65: ∃ :imageContains.((:Sidewalk) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 66: ∃ :imageContains.((:StationaryArtifact) ⊓ (:TransitwayObstacle))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 67: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 68: ∃ :imageContains.((:Transitway) ⊓ (:Device))
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 69: ∃ :imageContains.(:Sidewalk)
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 70: ∃ :imageContains.((:Window) ⊓ (:StationaryArtifact))
+	 coverage_score: 0.9636363636363636
+	 precision: 0.6
+	 recall: 1.0
+	 f_measure: 0.7499999999999999
+solution 71: ∃ :imageContains.(:Window)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.6
+	 recall: 1.0
+	 f_measure: 0.7499999999999999
+solution 72: ∃ :imageContains.(:Building)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 1.0
+	 f_measure: 0.6666666666666666
+solution 73: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 74: ∃ :imageContains.((:Wheel) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 75: ∃ :imageContains.((:Wheel) ⊓ (:Transitway ⊓ :LandArea))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 76: ∃ :imageContains.((:LocalizablePlace) ⊓ (:SelfConnectedObject ⊓ :LandArea))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 77: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Device))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 78: ∃ :imageContains.((:LocalizablePlace) ⊓ (:LandTransitway))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 79: ∃ :imageContains.((:LocalizablePlace) ⊓ (:LandArea))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 80: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Window))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 81: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Roadway))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 82: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Road))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 83: ∃ :imageContains.((:LocalizablePlace) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 84: ∃ :imageContains.((:Wheel) ⊓ (:Region))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 85: ∃ :imageContains.((:Wheel) ⊓ (:Device))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 86: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Transitway))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 87: ∃ :imageContains.((:LocalizablePlace) ⊓ (:TransitwayObstacle))
+	 coverage_score: 0.9636363636363636
+	 precision: 1.0
+	 recall: 0.3333333333333333
+	 f_measure: 0.5
+solution 88: ∃ :imageContains.((:Wheel) ⊓ (:StationaryArtifact))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 89: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Wheel))
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 90: ∃ :imageContains.(:Wheel)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 91: ∃ :imageContains.(:TransitwayObstacle)
+	 coverage_score: 0.8727272727272727
+	 precision: 0.25
+	 recall: 0.6666666666666666
+	 f_measure: 0.36363636363636365
+solution 92: ∃ :imageContains.((:Region) ⊓ (:Device))
+	 coverage_score: 0.4909090909090909
+	 precision: 0.06896551724137931
+	 recall: 0.6666666666666666
+	 f_measure: 0.125
+solution 93: ∃ :imageContains.(:Device)
+	 coverage_score: 0.4909090909090909
+	 precision: 0.06896551724137931
+	 recall: 0.6666666666666666
+	 f_measure: 0.125
+solution 94: ∃ :imageContains.((:LocalizablePlace) ⊓ (:Artifact))
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 95: ∃ :imageContains.(:LocalizablePlace)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 96: ∃ :imageContains.(:StationaryArtifact)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 97: ∃ :imageContains.(:Object)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 98: ∃ :imageContains.(:Entity)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 99: ∃ :imageContains.(:GeographicArea)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 100: ∃ :imageContains.(:Physical)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 101: ∃ :imageContains.(:Artifact)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+solution 102: ∃ :imageContains.(:Region)
+	 coverage_score: 0.05454545454545454
+	 precision: 0.05454545454545454
+	 recall: 1.0
+	 f_measure: 0.10344827586206896
+
+Total solutions found: 102
+
+F1 average: 0.7300831408843567
+Precision average: 0.8610670600528606
+Recall average: 0.7614379084967312
+Coverage average: 0.8909090909090921
+
+F1 max: 1.0
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 1.0
+
+Total solutions found: 102
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/OutdoorWarehouse_vs_IndoorWarehouse_bkg_sumo_concepts_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.01.30 AM
+Program duration: 1.464 sec

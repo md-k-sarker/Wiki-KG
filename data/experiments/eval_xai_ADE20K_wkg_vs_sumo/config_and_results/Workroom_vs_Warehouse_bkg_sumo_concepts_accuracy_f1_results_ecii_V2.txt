@@ -1,0 +1,579 @@
+Program started.............
+Program starts at: 08.10.2020  03.01.32 AM
+Working with confFile: Workroom_vs_Warehouse_bkg_sumo_concepts_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00020101
+	ADE_train_00020100
+	ADE_train_00020099
+	ADE_train_00020098
+negIndivs from conf:
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019720
+	ADE_train_00019729
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019740
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019709
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019731
+	ADE_train_00019730
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019739
+	ADE_train_00019738
+objProps from conf:
+	imageContains
+	__%!empty%!__
+Algorithm starts at: 08.10.2020  03.01.32 AM
+Total positive types (direct+indirect) found using all objectProperty: 44
+Total negative types (direct+indirect) found using all objectProperty: 84
+
+Algorithm ends at: 08.10.2020  03.01.34 AM
+
+Algorithm duration: 2.055 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:Furniture)
+	 coverage_score: 0.9322033898305084
+	 precision: 0.5
+	 recall: 0.75
+	 f_measure: 0.6
+solution 2: ∃ :imageContains.(:DurableGood)
+	 coverage_score: 0.8813559322033898
+	 precision: 0.3333333333333333
+	 recall: 0.75
+	 f_measure: 0.46153846153846156
+solution 3: ∃ :imageContains.((:Entity ⊓ ¬ :StationaryArtifact) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 4: ∃ :imageContains.((:Entity ⊓ ¬ :StationaryArtifact) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 5: ∃ :imageContains.((:Object ⊓ ¬ :Wall) ⊓ (:Entity ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 6: ∃ :imageContains.((:Physical ⊓ ¬ :StationaryArtifact) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 7: ∃ :imageContains.((:Artifact ⊓ ¬ :Ceiling) ⊓ (:Physical ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 8: ∃ :imageContains.((:Object ⊓ ¬ :Wall) ⊓ (:Object ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 9: ∃ :imageContains.((:Physical ⊓ ¬ :StationaryArtifact) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 10: ∃ :imageContains.((:Object ⊓ ¬ :StationaryArtifact) ⊓ (:Physical ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 11: ∃ :imageContains.((:Object ⊓ ¬ :Wall) ⊓ (:Physical ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 12: ∃ :imageContains.((:Physical ⊓ ¬ :Wall) ⊓ (:Physical ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 13: ∃ :imageContains.((:Entity ⊓ ¬ :Floor) ⊓ (:Entity ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 14: ∃ :imageContains.((:Object ⊓ ¬ :StationaryArtifact) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 15: ∃ :imageContains.((:Entity ⊓ ¬ :StationaryArtifact) ⊓ (:Physical ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 16: ∃ :imageContains.((:Entity ⊓ ¬ :Wall) ⊓ (:Physical ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 17: ∃ :imageContains.((:Object ⊓ ¬ :Wall) ⊓ (:Physical ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 18: ∃ :imageContains.((:Entity ⊓ ¬ :Floor) ⊓ (:Physical ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 19: ∃ :imageContains.((:Physical ⊓ ¬ :Wall) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 20: ∃ :imageContains.((:Object ⊓ ¬ :StationaryArtifact) ⊓ (:Physical ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 21: ∃ :imageContains.((:Artifact ⊓ ¬ :Wall) ⊓ (:Artifact ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 22: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Object ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 23: ∃ :imageContains.((:Object ⊓ ¬ :Wall) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 24: ∃ :imageContains.((:Entity ⊓ ¬ :StationaryArtifact) ⊓ (:Physical ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 25: ∃ :imageContains.((:Artifact ⊓ ¬ :Ceiling) ⊓ (:Entity ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 26: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Entity ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 27: ∃ :imageContains.((:Object ⊓ ¬ :StationaryArtifact) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 28: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Object ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 29: ∃ :imageContains.((:Physical ⊓ ¬ :Floor) ⊓ (:Artifact ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 30: ∃ :imageContains.((:Entity ⊓ ¬ :Floor) ⊓ (:Artifact ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 31: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 32: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 33: ∃ :imageContains.((:Artifact ⊓ ¬ :Ceiling) ⊓ (:Artifact ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 34: ∃ :imageContains.((:Entity ⊓ ¬ :Ceiling) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 35: ∃ :imageContains.((:Object ⊓ ¬ :Wall) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 36: ∃ :imageContains.((:Artifact ⊓ ¬ :StationaryArtifact) ⊓ (:Physical ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 37: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Physical ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 38: ∃ :imageContains.((:Physical ⊓ ¬ :Wall) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 39: ∃ :imageContains.((:Object ⊓ ¬ :StationaryArtifact) ⊓ (:Entity ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 40: ∃ :imageContains.((:Artifact ⊓ ¬ :Wall) ⊓ (:Physical ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 41: ∃ :imageContains.((:Entity ⊓ ¬ :Floor) ⊓ (:Artifact ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 42: ∃ :imageContains.((:Object ⊓ ¬ :Ceiling) ⊓ (:Physical ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 43: ∃ :imageContains.((:Entity ⊓ ¬ :Wall) ⊓ (:Artifact ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 44: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Object ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 45: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Object ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 46: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Physical ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 47: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Object ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 48: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Entity ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 49: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Physical ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 50: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Physical ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 51: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Artifact ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 52: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Artifact ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 53: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Artifact ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 54: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Physical ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 55: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Object ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 56: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Entity ⊓ ¬ :StationaryArtifact))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 57: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Entity ⊓ ¬ :Wall))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 58: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Entity ⊓ ¬ :Floor))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 59: ∃ :imageContains.((:EngineeringComponent) ⊓ (:Artifact ⊓ ¬ :Ceiling))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 60: ∃ :imageContains.(:Physical ⊓ ¬ :Ceiling)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 61: ∃ :imageContains.(:Object ⊓ ¬ :Floor)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 62: ∃ :imageContains.(:Entity ⊓ ¬ :Floor)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 63: ∃ :imageContains.(:Physical ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 64: ∃ :imageContains.(:Physical ⊓ ¬ :Floor)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 65: ∃ :imageContains.(:Object ⊓ ¬ :Ceiling)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 66: ∃ :imageContains.(:Physical ⊓ ¬ :Wall)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 67: ∃ :imageContains.(:Entity ⊓ ¬ :Ceiling)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 68: ∃ :imageContains.(:Artifact ⊓ ¬ :Wall)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 69: ∃ :imageContains.(:Artifact ⊓ ¬ :Floor)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 70: ∃ :imageContains.(:Artifact ⊓ ¬ :Ceiling)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 71: ∃ :imageContains.(:Artifact ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 72: ∃ :imageContains.(:Object ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 73: ∃ :imageContains.(:Entity ⊓ ¬ :Wall)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 74: ∃ :imageContains.(:Entity ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 75: ∃ :imageContains.(:Object ⊓ ¬ :Wall)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 76: ∃ :imageContains.(:Product)
+	 coverage_score: 0.847457627118644
+	 precision: 0.2727272727272727
+	 recall: 0.75
+	 f_measure: 0.39999999999999997
+solution 77: ∃ :imageContains.(:ManufacturedProduct)
+	 coverage_score: 0.847457627118644
+	 precision: 0.2727272727272727
+	 recall: 0.75
+	 f_measure: 0.39999999999999997
+solution 78: ∃ :imageContains.(:EngineeringComponent)
+	 coverage_score: 0.9322033898305084
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 79: ∃ :imageContains.(:Handle)
+	 coverage_score: 0.9322033898305084
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 80: ∃ :imageContains.(:Box)
+	 coverage_score: 0.6779661016949152
+	 precision: 0.17391304347826086
+	 recall: 1.0
+	 f_measure: 0.29629629629629634
+solution 81: ∃ :imageContains.(:TransitwayObstacle)
+	 coverage_score: 0.8305084745762712
+	 precision: 0.2
+	 recall: 0.5
+	 f_measure: 0.28571428571428575
+solution 82: ∃ :imageContains.(:Holder)
+	 coverage_score: 0.6610169491525424
+	 precision: 0.16666666666666666
+	 recall: 1.0
+	 f_measure: 0.2857142857142857
+solution 83: ∃ :imageContains.(:Container)
+	 coverage_score: 0.6610169491525424
+	 precision: 0.16666666666666666
+	 recall: 1.0
+	 f_measure: 0.2857142857142857
+solution 84: ∃ :imageContains.(:Device)
+	 coverage_score: 0.5084745762711864
+	 precision: 0.12121212121212122
+	 recall: 1.0
+	 f_measure: 0.21621621621621626
+solution 85: ∃ :imageContains.(:Wall)
+	 coverage_score: 0.3050847457627119
+	 precision: 0.08888888888888889
+	 recall: 1.0
+	 f_measure: 0.163265306122449
+solution 86: ∃ :imageContains.(:LocalizablePlace)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 87: ∃ :imageContains.(:StationaryArtifact)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 88: ∃ :imageContains.(:Object)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 89: ∃ :imageContains.(:Entity)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 90: ∃ :imageContains.(:GeographicArea)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 91: ∃ :imageContains.(:Physical)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 92: ∃ :imageContains.(:Artifact)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+solution 93: ∃ :imageContains.(:Region)
+	 coverage_score: 0.06779661016949153
+	 precision: 0.06779661016949153
+	 recall: 1.0
+	 f_measure: 0.12698412698412698
+
+Total solutions found: 93
+
+F1 average: 0.3685698797833969
+Precision average: 0.8262205177102844
+Recall average: 0.3790322580645161
+Coverage average: 0.847822125022781
+
+F1 max: 0.6
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 0.9491525423728814
+
+Total solutions found: 93
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Workroom_vs_Warehouse_bkg_sumo_concepts_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.01.34 AM
+Program duration: 2.062 sec

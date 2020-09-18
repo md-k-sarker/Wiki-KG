@@ -1,0 +1,1806 @@
+Program started.............
+Program starts at: 08.10.2020  03.03.14 AM
+Working with confFile: Market_vs_WorkRoom_and_WareHouse_bkg_wiki_pages_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00011669
+	ADE_train_00011668
+	ADE_train_00011667
+	ADE_train_00011662
+	ADE_train_00011666
+	ADE_train_00011665
+	ADE_train_00011664
+	ADE_train_00011663
+	ADE_train_00000931
+	ADE_train_00011679
+	ADE_train_00011678
+	ADE_train_00011673
+	ADE_train_00011672
+	ADE_train_00011671
+	ADE_train_00011670
+	ADE_train_00011677
+	ADE_train_00011676
+	ADE_train_00011675
+	ADE_train_00011674
+	ADE_train_00011689
+	ADE_train_00011684
+	ADE_train_00011683
+	ADE_train_00011682
+	ADE_train_00011681
+	ADE_train_00011688
+	ADE_train_00011687
+	ADE_train_00011686
+	ADE_train_00011685
+	ADE_train_00011680
+	ADE_train_00011695
+	ADE_train_00011694
+	ADE_train_00011693
+	ADE_train_00011692
+	ADE_train_00011697
+	ADE_train_00011696
+	ADE_train_00011691
+	ADE_train_00011690
+negIndivs from conf:
+	ADE_train_00020100
+	ADE_train_00020101
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00020098
+	ADE_train_00020099
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019739
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.03.14 AM
+Total positive types (direct+indirect) found using all objectProperty: 296
+Total negative types (direct+indirect) found using all objectProperty: 132
+
+Algorithm ends at: 08.10.2020  03.03.16 AM
+
+Algorithm duration: 2.502 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:Main_topic_classifications)
+	 coverage_score: 0.875
+	 precision: 0.8378378378378378
+	 recall: 0.8378378378378378
+	 f_measure: 0.8378378378378378
+solution 2: ∃ :imageContains.(:Person)
+	 coverage_score: 0.84375
+	 precision: 0.7291666666666666
+	 recall: 0.9459459459459459
+	 f_measure: 0.8235294117647058
+solution 3: ∃ :imageContains.(:Society)
+	 coverage_score: 0.8541666666666666
+	 precision: 0.8709677419354839
+	 recall: 0.7297297297297297
+	 f_measure: 0.7941176470588235
+solution 4: ∃ :imageContains.(:Culture)
+	 coverage_score: 0.8541666666666666
+	 precision: 0.8709677419354839
+	 recall: 0.7297297297297297
+	 f_measure: 0.7941176470588235
+solution 5: ∃ :imageContains.((:Society) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.8541666666666666
+	 precision: 0.896551724137931
+	 recall: 0.7027027027027027
+	 f_measure: 0.787878787878788
+solution 6: ∃ :imageContains.(:Society ⊓ :Academic_disciplines)
+	 coverage_score: 0.8541666666666666
+	 precision: 0.896551724137931
+	 recall: 0.7027027027027027
+	 f_measure: 0.787878787878788
+solution 7: ∃ :imageContains.(:Culture ⊓ :Academic_disciplines)
+	 coverage_score: 0.8541666666666666
+	 precision: 0.896551724137931
+	 recall: 0.7027027027027027
+	 f_measure: 0.787878787878788
+solution 8: ∃ :imageContains.(:Academic_disciplines)
+	 coverage_score: 0.8541666666666666
+	 precision: 0.896551724137931
+	 recall: 0.7027027027027027
+	 f_measure: 0.787878787878788
+solution 9: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 0.8333333333333334
+	 precision: 0.8888888888888888
+	 recall: 0.6486486486486487
+	 f_measure: 0.75
+solution 10: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Subfields_by_academic_discipline ⊓ :Society))
+	 coverage_score: 0.8333333333333334
+	 precision: 0.8888888888888888
+	 recall: 0.6486486486486487
+	 f_measure: 0.75
+solution 11: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 0.8333333333333334
+	 precision: 0.8888888888888888
+	 recall: 0.6486486486486487
+	 f_measure: 0.75
+solution 12: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Culture)
+	 coverage_score: 0.8333333333333334
+	 precision: 0.8888888888888888
+	 recall: 0.6486486486486487
+	 f_measure: 0.75
+solution 13: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Society)
+	 coverage_score: 0.8333333333333334
+	 precision: 0.8888888888888888
+	 recall: 0.6486486486486487
+	 f_measure: 0.75
+solution 14: ∃ :imageContains.(:Subfields_by_academic_discipline)
+	 coverage_score: 0.8333333333333334
+	 precision: 0.8888888888888888
+	 recall: 0.6486486486486487
+	 f_measure: 0.75
+solution 15: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Society))
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 16: ∃ :imageContains.((:Humanities ⊓ :Culture) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 17: ∃ :imageContains.((:Humanities) ⊓ (:Culture))
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 18: ∃ :imageContains.(:Government ⊓ :Society)
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 19: ∃ :imageContains.((:Society) ⊓ (:Government))
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 20: ∃ :imageContains.((:Humanities) ⊓ (:Society))
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 21: ∃ :imageContains.(:Humanities ⊓ :Society)
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 22: ∃ :imageContains.(:Culture ⊓ :Government)
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 23: ∃ :imageContains.(:Humanities ⊓ :Culture)
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 24: ∃ :imageContains.(:Government)
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 25: ∃ :imageContains.(:Policy)
+	 coverage_score: 0.7291666666666666
+	 precision: 0.9230769230769231
+	 recall: 0.32432432432432434
+	 f_measure: 0.48
+solution 26: ∃ :imageContains.(:Humanities)
+	 coverage_score: 0.7083333333333334
+	 precision: 0.8
+	 recall: 0.32432432432432434
+	 f_measure: 0.46153846153846156
+solution 27: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 28: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 29: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 30: ∃ :imageContains.((:Person) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 31: ∃ :imageContains.((:Person) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 32: ∃ :imageContains.((:Society) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 33: ∃ :imageContains.((:Government ⊓ :Society) ⊓ (:Culture))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 34: ∃ :imageContains.((:Government) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 35: ∃ :imageContains.((:Government ⊓ :Society) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 36: ∃ :imageContains.((:Society) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 37: ∃ :imageContains.(:Humanities ⊓ :Academic_disciplines)
+	 coverage_score: 0.7291666666666666
+	 precision: 1.0
+	 recall: 0.2972972972972973
+	 f_measure: 0.4583333333333333
+solution 38: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Humanities))
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 39: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Government))
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 40: ∃ :imageContains.((:Culture) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 41: ∃ :imageContains.((:Humanities ⊓ :Culture) ⊓ (:Policy))
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 42: ∃ :imageContains.(:Policy ⊓ :Humanities)
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 43: ∃ :imageContains.(:Culture ⊓ :Science)
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 44: ∃ :imageContains.(:Humanities ⊓ :Government)
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 45: ∃ :imageContains.(:Policy ⊓ :Science)
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 46: ∃ :imageContains.((:Humanities) ⊓ (:Government))
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 47: ∃ :imageContains.(:Government ⊓ :Science)
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 48: ∃ :imageContains.(:Science ⊓ :Society)
+	 coverage_score: 0.71875
+	 precision: 0.9166666666666666
+	 recall: 0.2972972972972973
+	 f_measure: 0.4489795918367347
+solution 49: ∃ :imageContains.(:Science)
+	 coverage_score: 0.7083333333333334
+	 precision: 0.8461538461538461
+	 recall: 0.2972972972972973
+	 f_measure: 0.44000000000000006
+solution 50: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 51: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 52: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 53: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 54: ∃ :imageContains.((:Government ⊓ :Society) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 55: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 56: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 57: ∃ :imageContains.((:Government) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 58: ∃ :imageContains.((:Academic_disciplines) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 59: ∃ :imageContains.((:Person) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 60: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Person))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 61: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Person))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 62: ∃ :imageContains.((:Government) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 63: ∃ :imageContains.(:Life ⊓ :Academic_disciplines)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 64: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Science)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 65: ∃ :imageContains.(:Life ⊓ :Government)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 66: ∃ :imageContains.(:Policy ⊓ :Academic_disciplines)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 67: ∃ :imageContains.((:Academic_disciplines) ⊓ (:Policy))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 68: ∃ :imageContains.(:Science ⊓ :Academic_disciplines)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 69: ∃ :imageContains.(:Life ⊓ :Society)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 70: ∃ :imageContains.((:Government) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 71: ∃ :imageContains.(:Life ⊓ :Culture)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 72: ∃ :imageContains.(:Government ⊓ :Academic_disciplines)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 73: ∃ :imageContains.(:Policy ⊓ :Life)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 74: ∃ :imageContains.(:Life)
+	 coverage_score: 0.71875
+	 precision: 1.0
+	 recall: 0.2702702702702703
+	 f_measure: 0.4255319148936171
+solution 75: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 0.9090909090909091
+	 recall: 0.2702702702702703
+	 f_measure: 0.4166666666666667
+solution 76: ∃ :imageContains.((:Government ⊓ :Science) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 0.9090909090909091
+	 recall: 0.2702702702702703
+	 f_measure: 0.4166666666666667
+solution 77: ∃ :imageContains.((:Culture) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 0.9090909090909091
+	 recall: 0.2702702702702703
+	 f_measure: 0.4166666666666667
+solution 78: ∃ :imageContains.((:Government ⊓ :Science) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 0.9090909090909091
+	 recall: 0.2702702702702703
+	 f_measure: 0.4166666666666667
+solution 79: ∃ :imageContains.((:Government ⊓ :Science) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 0.9090909090909091
+	 recall: 0.2702702702702703
+	 f_measure: 0.4166666666666667
+solution 80: ∃ :imageContains.(:Humanities ⊓ :Science)
+	 coverage_score: 0.6979166666666666
+	 precision: 0.8333333333333334
+	 recall: 0.2702702702702703
+	 f_measure: 0.4081632653061225
+solution 81: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 82: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 83: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 84: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 85: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 86: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 87: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 88: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 89: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 90: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 91: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 92: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 93: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Subfields_by_academic_discipline ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 94: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 95: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Humanities ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 96: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 97: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 98: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 99: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 100: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 101: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 102: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 103: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 104: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 105: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 106: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 107: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 108: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Humanities ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 109: ∃ :imageContains.((:Government ⊓ :Society) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 110: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 111: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 112: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 113: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 114: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 115: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 116: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 117: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 118: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 119: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 120: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 121: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 122: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 123: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Humanities ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 124: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 125: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 126: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 127: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 128: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 129: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 130: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 131: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 132: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 133: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 134: ∃ :imageContains.((:Humanities) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 135: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 136: ∃ :imageContains.((:Academic_disciplines) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 137: ∃ :imageContains.((:Humanities) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 138: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Government))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 139: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 140: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 141: ∃ :imageContains.((:Society) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 142: ∃ :imageContains.((:Government) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 143: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 144: ∃ :imageContains.((:Society) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 145: ∃ :imageContains.((:Humanities) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 146: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 147: ∃ :imageContains.((:Government) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 148: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 149: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 150: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 151: ∃ :imageContains.((:Society) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 152: ∃ :imageContains.((:Government ⊓ :Society) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 153: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 154: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 155: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 156: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 157: ∃ :imageContains.((:Government) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 158: ∃ :imageContains.((:Humanities) ⊓ (:Humanities ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 159: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 160: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 161: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 162: ∃ :imageContains.((:Humanities) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 163: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 164: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 165: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 166: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Subfields_by_academic_discipline))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 167: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Government))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 168: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 169: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 170: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 171: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 172: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 173: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 174: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 175: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 176: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 177: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 178: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 179: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 180: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 181: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 182: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 183: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 184: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 185: ∃ :imageContains.((:Culture ⊓ :Science) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 186: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 187: ∃ :imageContains.((:Humanities) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 188: ∃ :imageContains.((:Humanities) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 189: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 190: ∃ :imageContains.((:Society) ⊓ (:Humanities ⊓ :Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 191: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 192: ∃ :imageContains.((:Society) ⊓ (:Government ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 193: ∃ :imageContains.((:Government) ⊓ (:Policy ⊓ :Humanities))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 194: ∃ :imageContains.((:Culture ⊓ :Government) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 195: ∃ :imageContains.((:Government) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 196: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 197: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 198: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Humanities ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 199: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 200: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 201: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 202: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 203: ∃ :imageContains.((:Policy ⊓ :Humanities) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 204: ∃ :imageContains.((:Humanities) ⊓ (:Humanities ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 205: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Government))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 206: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Government ⊓ :Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 207: ∃ :imageContains.((:Humanities ⊓ :Academic_disciplines) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 208: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Person))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 209: ∃ :imageContains.((:Humanities) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 210: ∃ :imageContains.((:Humanities ⊓ :Society) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 211: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Society) ⊓ (:Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 212: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Culture ⊓ :Science))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 213: ∃ :imageContains.((:Academic_disciplines) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 214: ∃ :imageContains.(:Branches_of_biology ⊓ :Systems)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 215: ∃ :imageContains.((:Government) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 216: ∃ :imageContains.(:Branches_of_biology ⊓ :Government)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 217: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Government))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 218: ∃ :imageContains.((:Humanities) ⊓ (:Subfields_by_academic_discipline))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 219: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Systems)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 220: ∃ :imageContains.(:Life ⊓ :Systems)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 221: ∃ :imageContains.(:Life ⊓ :Humanities)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 222: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 223: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Government)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 224: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 225: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Humanities)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 226: ∃ :imageContains.(:Systems ⊓ :Science)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 227: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Society))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 228: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Life)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 229: ∃ :imageContains.(:Policy ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 230: ∃ :imageContains.(:Science ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 231: ∃ :imageContains.(:Culture ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 232: ∃ :imageContains.(:Policy ⊓ :Subfields_by_academic_discipline)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 233: ∃ :imageContains.(:Systems ⊓ :Academic_disciplines)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 234: ∃ :imageContains.(:Systems ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 235: ∃ :imageContains.(:Organisms ⊓ :Academic_disciplines)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 236: ∃ :imageContains.(:Government ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 237: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Culture))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 238: ∃ :imageContains.(:Life ⊓ :Branches_of_biology)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 239: ∃ :imageContains.(:Branches_of_biology ⊓ :Society)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 240: ∃ :imageContains.((:Humanities) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 241: ∃ :imageContains.(:Policy ⊓ :Branches_of_biology)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 242: ∃ :imageContains.((:Society) ⊓ (:Academic_disciplines))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 243: ∃ :imageContains.(:Branches_of_biology ⊓ :Science)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 244: ∃ :imageContains.(:Life ⊓ :Science)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 245: ∃ :imageContains.(:Branches_of_biology ⊓ :Culture)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 246: ∃ :imageContains.(:Organisms ⊓ :Society)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 247: ∃ :imageContains.((:Humanities) ⊓ (:Policy))
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 248: ∃ :imageContains.(:Branches_of_biology ⊓ :Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 249: ∃ :imageContains.(:Branches_of_biology)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 250: ∃ :imageContains.(:Organisms)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 251: ∃ :imageContains.(:Systems)
+	 coverage_score: 0.7083333333333334
+	 precision: 1.0
+	 recall: 0.24324324324324326
+	 f_measure: 0.391304347826087
+solution 252: ∃ :imageContains.((:Humanities) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 0.6979166666666666
+	 precision: 0.9
+	 recall: 0.24324324324324326
+	 f_measure: 0.3829787234042553
+solution 253: ∃ :imageContains.((:Humanities) ⊓ (:Subfields_by_academic_discipline ⊓ :Society))
+	 coverage_score: 0.6979166666666666
+	 precision: 0.9
+	 recall: 0.24324324324324326
+	 f_measure: 0.3829787234042553
+solution 254: ∃ :imageContains.(:Philosophy ⊓ :Systems)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 255: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Ontology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 256: ∃ :imageContains.(:Structure ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 257: ∃ :imageContains.(:Philosophy ⊓ :Government)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 258: ∃ :imageContains.(:Policy ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 259: ∃ :imageContains.(:Morphology ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 260: ∃ :imageContains.(:Life ⊓ :Ontology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 261: ∃ :imageContains.(:Ontology ⊓ :Culture)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 262: ∃ :imageContains.(:Form ⊓ :Systems)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 263: ∃ :imageContains.(:Morphology ⊓ :Systems)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 264: ∃ :imageContains.(:Government ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 265: ∃ :imageContains.(:Form ⊓ :Government)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 266: ∃ :imageContains.(:Morphology ⊓ :Government)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 267: ∃ :imageContains.(:Form ⊓ :Academic_disciplines)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 268: ∃ :imageContains.(:Morphology ⊓ :Ontology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 269: ∃ :imageContains.(:Morphology ⊓ :Culture)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 270: ∃ :imageContains.(:Form ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 271: ∃ :imageContains.(:Philosophy ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 272: ∃ :imageContains.(:Policy ⊓ :Ontology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 273: ∃ :imageContains.(:Systems ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 274: ∃ :imageContains.(:Structure ⊓ :Subfields_by_academic_discipline)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 275: ∃ :imageContains.(:Structure ⊓ :Morphology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 276: ∃ :imageContains.(:Morphology ⊓ :Humanities)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 277: ∃ :imageContains.(:Scientific_classification ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 278: ∃ :imageContains.(:Form ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 279: ∃ :imageContains.(:Ontology ⊓ :Science)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 280: ∃ :imageContains.(:Ontology ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 281: ∃ :imageContains.(:Structure ⊓ :Branches_of_biology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 282: ∃ :imageContains.(:Policy ⊓ :Form)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 283: ∃ :imageContains.(:Scientific_classification ⊓ :Academic_disciplines)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 284: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 285: ∃ :imageContains.(:Philosophy ⊓ :Life)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 286: ∃ :imageContains.(:Ontology ⊓ :Systems)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 287: ∃ :imageContains.(:Morphology ⊓ :Life)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 288: ∃ :imageContains.(:Humanities ⊓ :Branches_of_biology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 289: ∃ :imageContains.(:Ontology ⊓ :Government)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 290: ∃ :imageContains.(:Form ⊓ :Culture)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 291: ∃ :imageContains.(:Ontology ⊓ :Academic_disciplines)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 292: ∃ :imageContains.(:Humanities ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 293: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Form)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 294: ∃ :imageContains.(:Philosophy ⊓ :Society)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 295: ∃ :imageContains.(:Philosophy ⊓ :Branches_of_biology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 296: ∃ :imageContains.(:Form ⊓ :Science)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 297: ∃ :imageContains.(:Policy ⊓ :Morphology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 298: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Philosophy)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 299: ∃ :imageContains.(:Form ⊓ :Life)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 300: ∃ :imageContains.(:Structure ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 301: ∃ :imageContains.(:Morphology ⊓ :Philosophy)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 302: ∃ :imageContains.(:Form ⊓ :Branches_of_biology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 303: ∃ :imageContains.(:Philosophy ⊓ :Culture)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 304: ∃ :imageContains.(:Ontology ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 305: ∃ :imageContains.(:Morphology ⊓ :Society)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 306: ∃ :imageContains.(:Culture ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 307: ∃ :imageContains.(:Structure ⊓ :Life)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 308: ∃ :imageContains.(:Policy ⊓ :Philosophy)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 309: ∃ :imageContains.(:Morphology ⊓ :Branches_of_biology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 310: ∃ :imageContains.(:Structure ⊓ :Academic_disciplines)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 311: ∃ :imageContains.(:Branches_of_biology ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 312: ∃ :imageContains.(:Scientific_classification ⊓ :Society)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 313: ∃ :imageContains.(:Form ⊓ :Society)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 314: ∃ :imageContains.(:Morphology ⊓ :Academic_disciplines)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 315: ∃ :imageContains.(:Philosophy ⊓ :Science)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 316: ∃ :imageContains.(:Humanities ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 317: ∃ :imageContains.(:Ontology ⊓ :Society)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 318: ∃ :imageContains.(:Structure ⊓ :Science)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 319: ∃ :imageContains.(:Ontology ⊓ :Branches_of_biology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 320: ∃ :imageContains.(:Philosophy ⊓ :Organisms)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 321: ∃ :imageContains.(:Humanities ⊓ :Systems)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 322: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Morphology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 323: ∃ :imageContains.(:Philosophy ⊓ :Academic_disciplines)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 324: ∃ :imageContains.(:Form ⊓ :Morphology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 325: ∃ :imageContains.(:Life ⊓ :Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 326: ∃ :imageContains.(:Philosophy)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 327: ∃ :imageContains.(:Morphology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 328: ∃ :imageContains.(:Form)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 329: ∃ :imageContains.(:Ontology)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 330: ∃ :imageContains.(:Structure)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+solution 331: ∃ :imageContains.(:Scientific_classification)
+	 coverage_score: 0.6979166666666666
+	 precision: 1.0
+	 recall: 0.21621621621621623
+	 f_measure: 0.35555555555555557
+
+Total solutions found: 331
+
+F1 average: 0.40968346544721357
+Precision average: 0.9857722097594613
+Recall average: 0.26586102719033045
+Coverage average: 0.7141238670694852
+
+F1 max: 0.8378378378378378
+Precision max: 1.0
+Recall max: 0.9459459459459459
+Coverage max: 0.875
+
+Total solutions found: 331
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Market_vs_WorkRoom_and_WareHouse_bkg_wiki_pages_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.03.16 AM
+Program duration: 2.52 sec

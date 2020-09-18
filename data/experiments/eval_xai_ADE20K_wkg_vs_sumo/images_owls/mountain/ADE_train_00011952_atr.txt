@@ -1,0 +1,6 @@
+001 # 0 # 0 # sky # sky # ""
+002 # 0 # 0 # mountain, mount # mountain # "rocky"
+003 # 0 # 0 # rock, stone # rocks # ""
+004 # 0 # 0 # river # river water # ""
+005 # 0 # 0 # tree # trees # ""
+006 # 0 # 0 # tree # trees # ""

@@ -1,0 +1,1186 @@
+Program started.............
+Program starts at: 08.10.2020  03.02.35 AM
+Working with confFile: Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_sumo_concepts_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00012012
+	ADE_train_00012013
+	ADE_train_00012010
+	ADE_train_00012011
+	ADE_train_00011968
+	ADE_train_00011967
+	ADE_train_00011969
+	ADE_train_00011960
+	ADE_train_00012016
+	ADE_train_00012017
+	ADE_train_00011962
+	ADE_train_00012014
+	ADE_train_00012015
+	ADE_train_00011961
+	ADE_train_00011964
+	ADE_train_00011963
+	ADE_train_00012018
+	ADE_train_00011966
+	ADE_train_00012019
+	ADE_train_00011965
+	ADE_train_00012001
+	ADE_train_00012002
+	ADE_train_00011991
+	ADE_train_00012000
+	ADE_train_00011990
+	ADE_train_00011957
+	ADE_train_00011956
+	ADE_train_00011959
+	ADE_train_00011958
+	ADE_train_00011993
+	ADE_train_00012005
+	ADE_train_00012006
+	ADE_train_00011992
+	ADE_train_00011951
+	ADE_train_00011995
+	ADE_train_00012003
+	ADE_train_00012004
+	ADE_train_00011950
+	ADE_train_00011994
+	ADE_train_00011953
+	ADE_train_00011997
+	ADE_train_00012009
+	ADE_train_00011952
+	ADE_train_00011996
+	ADE_train_00012007
+	ADE_train_00011955
+	ADE_train_00011999
+	ADE_train_00012008
+	ADE_train_00011954
+	ADE_train_00011998
+	ADE_train_00011980
+	ADE_train_00011946
+	ADE_train_00011945
+	ADE_train_00011989
+	ADE_train_00011948
+	ADE_train_00011947
+	ADE_train_00011949
+	ADE_train_00011982
+	ADE_train_00011981
+	ADE_train_00011984
+	ADE_train_00011983
+	ADE_train_00011986
+	ADE_train_00011985
+	ADE_train_00011944
+	ADE_train_00011988
+	ADE_train_00011987
+	ADE_train_00012020
+	ADE_train_00012023
+	ADE_train_00012024
+	ADE_train_00012021
+	ADE_train_00012022
+	ADE_train_00011979
+	ADE_train_00011978
+	ADE_train_00011971
+	ADE_train_00012027
+	ADE_train_00012028
+	ADE_train_00011970
+	ADE_train_00011973
+	ADE_train_00012025
+	ADE_train_00012026
+	ADE_train_00011972
+	ADE_train_00011975
+	ADE_train_00011974
+	ADE_train_00011977
+	ADE_train_00011976
+negIndivs from conf:
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00011681
+	ADE_train_00011680
+	ADE_train_00011683
+	ADE_train_00019720
+	ADE_train_00011682
+	ADE_train_00011685
+	ADE_train_00019729
+	ADE_train_00011684
+	ADE_train_00011687
+	ADE_train_00011686
+	ADE_train_00011689
+	ADE_train_00019726
+	ADE_train_00011688
+	ADE_train_00019725
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00011670
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00020101
+	ADE_train_00011672
+	ADE_train_00019753
+	ADE_train_00020100
+	ADE_train_00011671
+	ADE_train_00019752
+	ADE_train_00011674
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00011673
+	ADE_train_00011676
+	ADE_train_00011675
+	ADE_train_00011678
+	ADE_train_00019715
+	ADE_train_00011677
+	ADE_train_00019714
+	ADE_train_00019717
+	ADE_train_00011679
+	ADE_train_00019716
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019740
+	ADE_train_00019742
+	ADE_train_00020099
+	ADE_train_00019741
+	ADE_train_00020098
+	ADE_train_00011663
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00011662
+	ADE_train_00011665
+	ADE_train_00011664
+	ADE_train_00019709
+	ADE_train_00011667
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00011666
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00011669
+	ADE_train_00019706
+	ADE_train_00011668
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00011690
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00011692
+	ADE_train_00011691
+	ADE_train_00011694
+	ADE_train_00019731
+	ADE_train_00011693
+	ADE_train_00019730
+	ADE_train_00000931
+	ADE_train_00011696
+	ADE_train_00011695
+	ADE_train_00011697
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019739
+	ADE_train_00019738
+objProps from conf:
+	imageContains
+	__%!empty%!__
+Algorithm starts at: 08.10.2020  03.02.35 AM
+Total positive types (direct+indirect) found using all objectProperty: 62
+Total negative types (direct+indirect) found using all objectProperty: 162
+
+Algorithm ends at: 08.10.2020  03.03.07 AM
+
+Algorithm duration: 31.745 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:UplandArea)
+	 coverage_score: 0.9558011049723757
+	 precision: 1.0
+	 recall: 0.9058823529411765
+	 f_measure: 0.9506172839506173
+solution 2: ∃ :imageContains.(:LandForm)
+	 coverage_score: 0.9558011049723757
+	 precision: 1.0
+	 recall: 0.9058823529411765
+	 f_measure: 0.9506172839506173
+solution 3: ∃ :imageContains.(:Mountain)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 4: ∃ :imageContains.(:Entity)
+	 coverage_score: 0.4585635359116022
+	 precision: 0.46368715083798884
+	 recall: 0.9764705882352941
+	 f_measure: 0.6287878787878788
+solution 5: ∃ :imageContains.(:Object)
+	 coverage_score: 0.4530386740331492
+	 precision: 0.4606741573033708
+	 recall: 0.9647058823529412
+	 f_measure: 0.623574144486692
+solution 6: ∃ :imageContains.(:Physical)
+	 coverage_score: 0.4530386740331492
+	 precision: 0.4606741573033708
+	 recall: 0.9647058823529412
+	 f_measure: 0.623574144486692
+solution 7: ∃ :imageContains.(:GeographicArea)
+	 coverage_score: 0.4419889502762431
+	 precision: 0.4540229885057471
+	 recall: 0.9294117647058824
+	 f_measure: 0.61003861003861
+solution 8: ∃ :imageContains.(:Region)
+	 coverage_score: 0.4419889502762431
+	 precision: 0.4540229885057471
+	 recall: 0.9294117647058824
+	 f_measure: 0.61003861003861
+solution 9: ∃ :imageContains.(:Tree)
+	 coverage_score: 0.6022099447513812
+	 precision: 0.7096774193548387
+	 recall: 0.25882352941176473
+	 f_measure: 0.37931034482758624
+solution 10: ∃ :imageContains.(:Graph)
+	 coverage_score: 0.6022099447513812
+	 precision: 0.7096774193548387
+	 recall: 0.25882352941176473
+	 f_measure: 0.37931034482758624
+solution 11: ∃ :imageContains.(:Abstract)
+	 coverage_score: 0.5966850828729282
+	 precision: 0.6875
+	 recall: 0.25882352941176473
+	 f_measure: 0.3760683760683761
+solution 12: ∃ :imageContains.((:Physical) ⊓ (:Graph))
+	 coverage_score: 0.5966850828729282
+	 precision: 0.7
+	 recall: 0.24705882352941178
+	 f_measure: 0.3652173913043478
+solution 13: ∃ :imageContains.((:Mountain) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.6243093922651933
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 14: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:UplandArea))
+	 coverage_score: 0.6243093922651933
+	 precision: 1.0
+	 recall: 0.2
+	 f_measure: 0.33333333333333337
+solution 15: ∃ :imageContains.(:SelfConnectedObject)
+	 coverage_score: 0.5027624309392266
+	 precision: 0.4489795918367347
+	 recall: 0.25882352941176473
+	 f_measure: 0.32835820895522394
+solution 16: ∃ :imageContains.(:LandArea)
+	 coverage_score: 0.569060773480663
+	 precision: 0.6842105263157895
+	 recall: 0.15294117647058825
+	 f_measure: 0.25000000000000006
+solution 17: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 18: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Object ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 19: ∃ :imageContains.((:Physical ⊓ ¬ :Device) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 20: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Physical))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 21: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Object))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 22: ∃ :imageContains.((:Entity) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 23: ∃ :imageContains.((:Entity) ⊓ (:Entity ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 24: ∃ :imageContains.((:Entity) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 25: ∃ :imageContains.((:Entity) ⊓ (:Object ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 26: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Object))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 27: ∃ :imageContains.((:Entity) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 28: ∃ :imageContains.((:Entity) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 29: ∃ :imageContains.((:Entity) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 30: ∃ :imageContains.((:Entity) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 31: ∃ :imageContains.((:Object) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 32: ∃ :imageContains.(:Physical ⊓ ¬ :Device)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 33: ∃ :imageContains.(:Entity ⊓ ¬ :Holder)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 34: ∃ :imageContains.(:Object ⊓ ¬ :Container)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 35: ∃ :imageContains.(:Entity ⊓ ¬ :Container)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 36: ∃ :imageContains.(:Object ⊓ ¬ :Holder)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 37: ∃ :imageContains.(:Entity ⊓ ¬ :Artifact)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 38: ∃ :imageContains.(:Physical ⊓ ¬ :Artifact)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 39: ∃ :imageContains.(:Object ⊓ ¬ :Artifact)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 40: ∃ :imageContains.(:Entity ⊓ ¬ :Device)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 41: ∃ :imageContains.(:Physical ⊓ ¬ :Holder)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 42: ∃ :imageContains.(:Physical ⊓ ¬ :Container)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 43: ∃ :imageContains.(:Object ⊓ ¬ :Device)
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5238095238095238
+	 recall: 0.12941176470588237
+	 f_measure: 0.2075471698113208
+solution 44: ∃ :imageContains.(:Physical ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.4972375690607735
+	 precision: 0.39285714285714285
+	 recall: 0.12941176470588237
+	 f_measure: 0.1946902654867257
+solution 45: ∃ :imageContains.(:Object ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.4972375690607735
+	 precision: 0.39285714285714285
+	 recall: 0.12941176470588237
+	 f_measure: 0.1946902654867257
+solution 46: ∃ :imageContains.(:Entity ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.4972375690607735
+	 precision: 0.39285714285714285
+	 recall: 0.12941176470588237
+	 f_measure: 0.1946902654867257
+solution 47: ∃ :imageContains.((:Physical ⊓ ¬ :Device) ⊓ (:Region))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5263157894736842
+	 recall: 0.11764705882352941
+	 f_measure: 0.1923076923076923
+solution 48: ∃ :imageContains.((:GeographicArea) ⊓ (:Object ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5263157894736842
+	 recall: 0.11764705882352941
+	 f_measure: 0.1923076923076923
+solution 49: ∃ :imageContains.((:GeographicArea) ⊓ (:Entity ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5263157894736842
+	 recall: 0.11764705882352941
+	 f_measure: 0.1923076923076923
+solution 50: ∃ :imageContains.((:Entity ⊓ ¬ :Container) ⊓ (:Region))
+	 coverage_score: 0.5359116022099447
+	 precision: 0.5263157894736842
+	 recall: 0.11764705882352941
+	 f_measure: 0.1923076923076923
+solution 51: ∃ :imageContains.((:UplandArea) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 52: ∃ :imageContains.((:LandForm) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 53: ∃ :imageContains.((:UplandArea) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 54: ∃ :imageContains.((:LandForm) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 55: ∃ :imageContains.((:UplandArea) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 56: ∃ :imageContains.((:LandForm) ⊓ (:Entity ⊓ ¬ :Artifact))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 57: ∃ :imageContains.((:LandForm) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 58: ∃ :imageContains.((:LandForm) ⊓ (:Object ⊓ ¬ :Device))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 59: ∃ :imageContains.(:Object ⊓ ¬ :CorpuscularObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 60: ∃ :imageContains.(:Physical ⊓ ¬ :CorpuscularObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 61: ∃ :imageContains.(:Entity ⊓ ¬ :OrganicObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 62: ∃ :imageContains.(:Physical ⊓ ¬ :OrganicObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 63: ∃ :imageContains.(:Object ⊓ ¬ :OrganicObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 64: ∃ :imageContains.(:SelfConnectedObject ⊓ ¬ :CorpuscularObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 65: ∃ :imageContains.(:SelfConnectedObject ⊓ ¬ :OrganicObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 66: ∃ :imageContains.(:Entity ⊓ ¬ :CorpuscularObject)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 67: ∃ :imageContains.(:Substance)
+	 coverage_score: 0.569060773480663
+	 precision: 0.8181818181818182
+	 recall: 0.10588235294117647
+	 f_measure: 0.18750000000000003
+solution 68: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Mountain))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 69: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Mountain))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 70: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 71: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 72: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:UplandArea))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 73: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 74: ∃ :imageContains.((:Mountain) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 75: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 76: ∃ :imageContains.((:LandForm) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 77: ∃ :imageContains.((:Mountain) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 78: ∃ :imageContains.((:LandForm) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 79: ∃ :imageContains.((:Mountain) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 80: ∃ :imageContains.((:LandForm) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 81: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:UplandArea))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 82: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 83: ∃ :imageContains.((:LandForm) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.56353591160221
+	 precision: 1.0
+	 recall: 0.07058823529411765
+	 f_measure: 0.13186813186813187
+solution 84: ∃ :imageContains.(:Mixture)
+	 coverage_score: 0.5580110497237569
+	 precision: 1.0
+	 recall: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 85: ∃ :imageContains.(:Cloud)
+	 coverage_score: 0.5580110497237569
+	 precision: 1.0
+	 recall: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 86: ∃ :imageContains.(:GasMixture)
+	 coverage_score: 0.5580110497237569
+	 precision: 1.0
+	 recall: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 87: ∃ :imageContains.((:Object ⊓ ¬ :Holder) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 88: ∃ :imageContains.((:Object ⊓ ¬ :Holder) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 89: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 90: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 91: ∃ :imageContains.((:Abstract) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 92: ∃ :imageContains.((:Tree) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 93: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Tree))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 94: ∃ :imageContains.((:GeographicArea) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 95: ∃ :imageContains.((:Graph) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 96: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Object))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 97: ∃ :imageContains.((:Object ⊓ ¬ :Holder) ⊓ (:Region))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 98: ∃ :imageContains.((:Physical) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 99: ∃ :imageContains.((:GeographicArea) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 100: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Graph))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 101: ∃ :imageContains.((:Physical) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 102: ∃ :imageContains.((:Abstract) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 103: ∃ :imageContains.((:Physical) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 104: ∃ :imageContains.((:GeographicArea) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 105: ∃ :imageContains.((:Object) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 106: ∃ :imageContains.((:Tree) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 107: ∃ :imageContains.((:Tree) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 108: ∃ :imageContains.((:Physical) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 109: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Tree))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 110: ∃ :imageContains.((:Object ⊓ ¬ :Holder) ⊓ (:Abstract))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 111: ∃ :imageContains.((:Physical) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 112: ∃ :imageContains.((:Object) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 113: ∃ :imageContains.((:Graph) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 114: ∃ :imageContains.((:Object) ⊓ (:Abstract))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 115: ∃ :imageContains.((:Tree) ⊓ (:Physical))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 116: ∃ :imageContains.((:GeographicArea) ⊓ (:Graph))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 117: ∃ :imageContains.((:Tree) ⊓ (:Object))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 118: ∃ :imageContains.((:Abstract) ⊓ (:Region))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 119: ∃ :imageContains.((:Graph) ⊓ (:Object))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 120: ∃ :imageContains.((:GeographicArea) ⊓ (:Tree))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 121: ∃ :imageContains.((:Physical) ⊓ (:Abstract))
+	 coverage_score: 0.5248618784530387
+	 precision: 0.45454545454545453
+	 recall: 0.058823529411764705
+	 f_measure: 0.10416666666666667
+solution 122: ∃ :imageContains.((:Tree) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 123: ∃ :imageContains.((:Graph) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 124: ∃ :imageContains.((:Graph) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 125: ∃ :imageContains.((:Graph) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 126: ∃ :imageContains.((:Tree) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 127: ∃ :imageContains.((:GeographicArea) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 128: ∃ :imageContains.((:GeographicArea) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 129: ∃ :imageContains.((:Tree) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 130: ∃ :imageContains.((:GeographicArea) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 131: ∃ :imageContains.((:Graph) ⊓ (:Region))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 132: ∃ :imageContains.((:Tree) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 133: ∃ :imageContains.((:Tree) ⊓ (:Region))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 134: ∃ :imageContains.((:GeographicArea) ⊓ (:Abstract))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 135: ∃ :imageContains.((:GeographicArea) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 136: ∃ :imageContains.((:Graph) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.5193370165745856
+	 precision: 0.4
+	 recall: 0.047058823529411764
+	 f_measure: 0.08421052631578947
+solution 137: ∃ :imageContains.(:LocalizablePlace)
+	 coverage_score: 0.049723756906077346
+	 precision: 0.06930693069306931
+	 recall: 0.08235294117647059
+	 f_measure: 0.07526881720430108
+solution 138: ∃ :imageContains.(:StationaryArtifact)
+	 coverage_score: 0.049723756906077346
+	 precision: 0.06930693069306931
+	 recall: 0.08235294117647059
+	 f_measure: 0.07526881720430108
+solution 139: ∃ :imageContains.(:Artifact)
+	 coverage_score: 0.04419889502762431
+	 precision: 0.06862745098039216
+	 recall: 0.08235294117647059
+	 f_measure: 0.0748663101604278
+solution 140: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 141: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 142: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 143: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 144: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 145: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 146: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 147: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Abstract))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 148: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Region))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 149: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Mountain))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 150: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:UplandArea))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 151: ∃ :imageContains.((:Physical ⊓ ¬ :Artifact) ⊓ (:Region))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 152: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Region))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 153: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 154: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 155: ∃ :imageContains.((:Entity ⊓ ¬ :Device) ⊓ (:Abstract))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 156: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 157: ∃ :imageContains.((:Object ⊓ ¬ :Artifact) ⊓ (:Abstract))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 158: ∃ :imageContains.(:Physical ⊓ ¬ :GeographicArea)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 159: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Region))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 160: ∃ :imageContains.(:Object ⊓ ¬ :LocalizablePlace)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 161: ∃ :imageContains.(:Entity ⊓ ¬ :GeographicArea)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 162: ∃ :imageContains.(:Object ⊓ ¬ :GeographicArea)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 163: ∃ :imageContains.(:Entity ⊓ ¬ :LocalizablePlace)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 164: ∃ :imageContains.((:SelfConnectedObject) ⊓ (:Abstract))
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 165: ∃ :imageContains.(:Region ⊓ ¬ :LocalizablePlace)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 166: ∃ :imageContains.(:Region ⊓ ¬ :StationaryArtifact)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 167: ∃ :imageContains.(:Region ⊓ ¬ :GeographicArea)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 168: ∃ :imageContains.(:Physical ⊓ ¬ :LocalizablePlace)
+	 coverage_score: 0.5469613259668509
+	 precision: 1.0
+	 recall: 0.03529411764705882
+	 f_measure: 0.06818181818181818
+solution 169: ∃ :imageContains.((:LandArea) ⊓ (:Physical ⊓ ¬ :Device))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 170: ∃ :imageContains.((:LandArea) ⊓ (:Entity ⊓ ¬ :Container))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 171: ∃ :imageContains.((:LandArea) ⊓ (:Object ⊓ ¬ :Holder))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 172: ∃ :imageContains.((:LandArea) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 173: ∃ :imageContains.((:LandArea) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 174: ∃ :imageContains.((:LandArea) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 175: ∃ :imageContains.((:LandArea) ⊓ (:SelfConnectedObject))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 176: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 177: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Object ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 178: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 179: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Physical ⊓ ¬ :Artifact))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 180: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 181: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Entity ⊓ ¬ :Device))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 182: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Graph))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 183: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Object))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 184: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Graph))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 185: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Physical))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 186: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:Object))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 187: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:LandArea))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 188: ∃ :imageContains.((:Entity ⊓ ¬ :Artifact) ⊓ (:Physical))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 189: ∃ :imageContains.((:Object ⊓ ¬ :Device) ⊓ (:LandArea))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 190: ∃ :imageContains.(:StationaryArtifact ⊓ :LandArea)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+
+Total solutions found: 190
+
+F1 average: 0.1535194005376403
+Precision average: 0.7165251932301876
+Recall average: 0.11151702786377687
+Coverage average: 0.5389648153532998
+
+F1 max: 0.9506172839506173
+Precision max: 1.0
+Recall max: 0.9764705882352941
+Coverage max: 0.9558011049723757
+
+Total solutions found: 190
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_sumo_concepts_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.03.07 AM
+Program duration: 31.76 sec

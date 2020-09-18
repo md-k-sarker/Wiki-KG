@@ -1,0 +1,8 @@
+001 # 0 # 0 # sky # sky # ""
+002 # 0 # 0 # mountain, mount # mountain # "rocky"
+003 # 0 # 0 # grass # grass # ""
+004 # 0 # 0 # flower # flowers # ""
+005 # 0 # 0 # plant, flora, plant life # plants # ""
+001 # 1 # 0 # cloud # cloud # ""
+006 # 0 # 0 # tree # trees # ""
+007 # 0 # 0 # tree # tree # ""

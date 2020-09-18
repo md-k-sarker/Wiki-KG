@@ -1,0 +1,990 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.com/residue/analysis#"
+     xml:base="http://www.daselab.com/residue/analysis"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:analysis="http://www.daselab.com/residue/analysis#">
+    <owl:Ontology rdf:about="http://www.daselab.com/residue/analysis"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.com/residue/analysis#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Bag -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Bag"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Basket -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Basket"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Book -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Book"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Box -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Box"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Ceiling -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Ceiling"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Clothing -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Clothing"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Curtain -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Curtain"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Door -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Door"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Dress -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Dress"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Floor -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Floor"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Head -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Head"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Jacket -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Jacket"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Jar -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Jar"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Leg -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Leg"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Paper -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Paper"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Person -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Person"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Purse -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Purse"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Sneakers -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Sneakers"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Toy -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Toy"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Wall -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Wall"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Window -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Window"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#ADE_train_00011665 -->
+
+    <owl:Thing rdf:about="http://www.daselab.com/residue/analysis#ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_001_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_001_1_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_002_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_002_1_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_003_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_003_1_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_004_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_004_1_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_005_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_006_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_007_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_008_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_009_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_010_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_011_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_012_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_013_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_014_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_015_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_016_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_019_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_020_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_021_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_022_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_023_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_024_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_025_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_026_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_028_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_029_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_030_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_031_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_032_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_033_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_034_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_035_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_037_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_040_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_041_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_042_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_043_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_044_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_045_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_046_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_047_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_048_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_049_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_051_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_052_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_053_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_054_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_055_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_056_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_057_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_058_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_059_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_060_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_063_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_065_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_066_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_067_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_068_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_069_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_070_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_071_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_072_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_073_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_074_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_076_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_077_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_078_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_079_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_080_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_081_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_082_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_083_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_084_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_085_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_086_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_087_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_088_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_089_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_090_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_091_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_092_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_093_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_094_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_095_0_ADE_train_00011665"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_096_0_ADE_train_00011665"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_001_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_001_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Wall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_001_1_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_001_1_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_002_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_002_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Wall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_002_1_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_002_1_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_003_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_003_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Floor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_003_1_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_003_1_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Leg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_004_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_004_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Ceiling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_004_1_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_004_1_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Head"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_005_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_005_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_006_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_006_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Window"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_007_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_007_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Window"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_008_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_008_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Window"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_009_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_009_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_010_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_010_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_011_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_011_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_012_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_012_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_013_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_013_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_014_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_014_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_015_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_015_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_016_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_016_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_019_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_019_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_020_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_020_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_021_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_021_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_022_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_022_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Basket"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_023_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_023_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Book"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_024_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_024_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Book"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_025_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_025_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Book"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_026_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_026_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Book"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_028_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_028_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Clothing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_029_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_029_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_030_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_030_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_031_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_031_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_032_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_032_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_033_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_033_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_034_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_034_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_035_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_035_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_037_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_037_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_040_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_040_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_041_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_041_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_042_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_042_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_043_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_043_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_044_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_044_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_045_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_045_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_046_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_046_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_047_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_047_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Door"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_048_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_048_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_049_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_049_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_051_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_051_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_052_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_052_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_053_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_053_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_054_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_054_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Sneakers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_055_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_055_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_056_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_056_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_057_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_057_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_058_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_058_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_059_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_059_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Clothing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_060_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_060_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Toy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_063_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_063_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Clothing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_065_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_065_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_066_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_066_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_067_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_067_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_068_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_068_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_069_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_069_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Jacket"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_070_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_070_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Dress"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_071_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_071_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_072_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_072_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_073_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_073_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_074_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_074_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Paper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_076_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_076_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Jar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_077_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_077_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_078_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_078_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_079_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_079_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_080_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_080_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_081_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_081_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_082_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_082_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Toy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_083_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_083_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Toy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_084_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_084_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Toy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_085_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_085_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Paper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_086_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_086_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Paper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_087_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_087_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Paper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_088_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_088_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Box"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_089_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_089_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Bag"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_090_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_090_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Purse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_091_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_091_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Window"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_092_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_092_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Window"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_093_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_093_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Jacket"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_094_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_094_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Curtain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_095_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_095_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Jacket"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_096_0_ADE_train_00011665 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_096_0_ADE_train_00011665">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Jacket"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.0) https://github.com/owlcs/owlapi -->
+

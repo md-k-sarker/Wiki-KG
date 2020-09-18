@@ -1,0 +1,576 @@
+Program started.............
+Program starts at: 08.12.2020  12.44.59 PM
+Working with confFile: Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_dbpedia_schema_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00011979
+	ADE_train_00011976
+	ADE_train_00011975
+	ADE_train_00011978
+	ADE_train_00011977
+	ADE_train_00011972
+	ADE_train_00012028
+	ADE_train_00011971
+	ADE_train_00011974
+	ADE_train_00012026
+	ADE_train_00011973
+	ADE_train_00012027
+	ADE_train_00012024
+	ADE_train_00012025
+	ADE_train_00011970
+	ADE_train_00012022
+	ADE_train_00012023
+	ADE_train_00012020
+	ADE_train_00012021
+	ADE_train_00011947
+	ADE_train_00011946
+	ADE_train_00011949
+	ADE_train_00011948
+	ADE_train_00011987
+	ADE_train_00011986
+	ADE_train_00011945
+	ADE_train_00011989
+	ADE_train_00011944
+	ADE_train_00011988
+	ADE_train_00011983
+	ADE_train_00011982
+	ADE_train_00011985
+	ADE_train_00011984
+	ADE_train_00011981
+	ADE_train_00011980
+	ADE_train_00011958
+	ADE_train_00011957
+	ADE_train_00011959
+	ADE_train_00011954
+	ADE_train_00011998
+	ADE_train_00011953
+	ADE_train_00011997
+	ADE_train_00011956
+	ADE_train_00012008
+	ADE_train_00011955
+	ADE_train_00011999
+	ADE_train_00012009
+	ADE_train_00011950
+	ADE_train_00011994
+	ADE_train_00012006
+	ADE_train_00012007
+	ADE_train_00011993
+	ADE_train_00011952
+	ADE_train_00011996
+	ADE_train_00012004
+	ADE_train_00011951
+	ADE_train_00011995
+	ADE_train_00012005
+	ADE_train_00011990
+	ADE_train_00012002
+	ADE_train_00012003
+	ADE_train_00011992
+	ADE_train_00012000
+	ADE_train_00011991
+	ADE_train_00012001
+	ADE_train_00011969
+	ADE_train_00011968
+	ADE_train_00011965
+	ADE_train_00011964
+	ADE_train_00011967
+	ADE_train_00012019
+	ADE_train_00011966
+	ADE_train_00011961
+	ADE_train_00012017
+	ADE_train_00012018
+	ADE_train_00011960
+	ADE_train_00011963
+	ADE_train_00012015
+	ADE_train_00011962
+	ADE_train_00012016
+	ADE_train_00012013
+	ADE_train_00012014
+	ADE_train_00012011
+	ADE_train_00012012
+	ADE_train_00012010
+negIndivs from conf:
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00020099
+	ADE_train_00019709
+	ADE_train_00020098
+	ADE_train_00019708
+	ADE_train_00011697
+	ADE_train_00011696
+	ADE_train_00011693
+	ADE_train_00011692
+	ADE_train_00011695
+	ADE_train_00011694
+	ADE_train_00011691
+	ADE_train_00019750
+	ADE_train_00011690
+	ADE_train_00019730
+	ADE_train_00019732
+	ADE_train_00000931
+	ADE_train_00019731
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019739
+	ADE_train_00011668
+	ADE_train_00011667
+	ADE_train_00011669
+	ADE_train_00011664
+	ADE_train_00011663
+	ADE_train_00011666
+	ADE_train_00011665
+	ADE_train_00011662
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00011679
+	ADE_train_00011678
+	ADE_train_00011675
+	ADE_train_00011674
+	ADE_train_00011677
+	ADE_train_00011676
+	ADE_train_00011671
+	ADE_train_00011670
+	ADE_train_00011673
+	ADE_train_00011672
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00020101
+	ADE_train_00020100
+	ADE_train_00019753
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019719
+	ADE_train_00011689
+	ADE_train_00011686
+	ADE_train_00011685
+	ADE_train_00011688
+	ADE_train_00011687
+	ADE_train_00011682
+	ADE_train_00011681
+	ADE_train_00011684
+	ADE_train_00011683
+	ADE_train_00011680
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.12.2020  12.44.59 PM
+Total positive types (direct+indirect) found using all objectProperty: 36
+Total negative types (direct+indirect) found using all objectProperty: 43
+
+Algorithm ends at: 08.12.2020  12.45.35 PM
+
+Algorithm duration: 36.295 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:NaturalPlace)
+	 coverage_score: 0.9558011049723757
+	 precision: 1.0
+	 recall: 0.9058823529411765
+	 f_measure: 0.9506172839506173
+solution 2: ∃ :imageContains.((null ⊓ :Mountain) ⊓ (null))
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 3: ∃ :imageContains.((null ⊓ :Mountain) ⊓ (null))
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 4: ∃ :imageContains.((:Place) ⊓ (null ⊓ :Mountain))
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 5: ∃ :imageContains.((null) ⊓ (null ⊓ :Mountain))
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 6: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 7: ∃ :imageContains.(null ⊓ :Mountain)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 8: ∃ :imageContains.(null ⊓ :Mountain)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 9: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 10: ∃ :imageContains.((:Mountain) ⊓ (null))
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 11: ∃ :imageContains.(:Mountain)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 12: ∃ :imageContains.(null)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 13: ∃ :imageContains.(null)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 14: ∃ :imageContains.((null) ⊓ (:Place))
+	 coverage_score: 0.8397790055248618
+	 precision: 0.78
+	 recall: 0.9176470588235294
+	 f_measure: 0.8432432432432432
+solution 15: ∃ :imageContains.(:Place)
+	 coverage_score: 0.8397790055248618
+	 precision: 0.78
+	 recall: 0.9176470588235294
+	 f_measure: 0.8432432432432432
+solution 16: ∃ :imageContains.(null)
+	 coverage_score: 0.8397790055248618
+	 precision: 0.78
+	 recall: 0.9176470588235294
+	 f_measure: 0.8432432432432432
+solution 17: ∃ :imageContains.(:Location)
+	 coverage_score: 0.8397790055248618
+	 precision: 0.78
+	 recall: 0.9176470588235294
+	 f_measure: 0.8432432432432432
+solution 18: ∃ :imageContains.((null ⊓ :Mountain) ⊓ (:ArchitecturalStructure))
+	 coverage_score: 0.5966850828729282
+	 precision: 1.0
+	 recall: 0.1411764705882353
+	 f_measure: 0.24742268041237114
+solution 19: ∃ :imageContains.(:ArchitecturalStructure)
+	 coverage_score: 0.48066298342541436
+	 precision: 0.37142857142857144
+	 recall: 0.15294117647058825
+	 f_measure: 0.21666666666666667
+solution 20: ∃ :imageContains.(:RouteOfTransportation)
+	 coverage_score: 0.5524861878453039
+	 precision: 0.625
+	 recall: 0.11764705882352941
+	 f_measure: 0.19801980198019803
+solution 21: ∃ :imageContains.(:Infrastructure)
+	 coverage_score: 0.5524861878453039
+	 precision: 0.625
+	 recall: 0.11764705882352941
+	 f_measure: 0.19801980198019803
+solution 22: ∃ :imageContains.((null) ⊓ (null ⊓ :Mountain))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 23: ∃ :imageContains.((:Road) ⊓ (null ⊓ :Mountain))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 24: ∃ :imageContains.((:RouteOfTransportation) ⊓ (null ⊓ null))
+	 coverage_score: 0.580110497237569
+	 precision: 1.0
+	 recall: 0.10588235294117647
+	 f_measure: 0.19148936170212766
+solution 25: ∃ :imageContains.((null) ⊓ (:Road ⊓ null))
+	 coverage_score: 0.5469613259668509
+	 precision: 0.6
+	 recall: 0.10588235294117647
+	 f_measure: 0.18
+solution 26: ∃ :imageContains.(:Road ⊓ null)
+	 coverage_score: 0.5469613259668509
+	 precision: 0.6
+	 recall: 0.10588235294117647
+	 f_measure: 0.18
+solution 27: ∃ :imageContains.(:Road)
+	 coverage_score: 0.5469613259668509
+	 precision: 0.6
+	 recall: 0.10588235294117647
+	 f_measure: 0.18
+solution 28: ∃ :imageContains.(null)
+	 coverage_score: 0.5469613259668509
+	 precision: 0.6
+	 recall: 0.10588235294117647
+	 f_measure: 0.18
+solution 29: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 30: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 31: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 32: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 33: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 34: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 35: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 36: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 37: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 38: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 39: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 40: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 41: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 42: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 43: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 44: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 45: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 46: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 47: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 48: ∃ :imageContains.(null)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 49: ∃ :imageContains.(:Agent)
+	 coverage_score: 0.287292817679558
+	 precision: 0.07692307692307693
+	 recall: 0.047058823529411764
+	 f_measure: 0.058394160583941604
+solution 50: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 51: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 52: ∃ :imageContains.((:Place) ⊓ (null ⊓ null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 53: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 54: ∃ :imageContains.((null ⊓ :Mountain) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 55: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 56: ∃ :imageContains.((null) ⊓ (null ⊓ :Mountain))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 57: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 58: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 59: ∃ :imageContains.((:Place) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 60: ∃ :imageContains.((:NaturalPlace) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 61: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 62: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 63: ∃ :imageContains.((:Place) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 64: ∃ :imageContains.((:Mountain) ⊓ (null))
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 65: ∃ :imageContains.((:Location) ⊓ (null))
+	 coverage_score: 0.44751381215469616
+	 precision: 0.10526315789473684
+	 recall: 0.023529411764705882
+	 f_measure: 0.03846153846153846
+solution 66: ∃ :imageContains.((null) ⊓ (:Location))
+	 coverage_score: 0.44751381215469616
+	 precision: 0.10526315789473684
+	 recall: 0.023529411764705882
+	 f_measure: 0.03846153846153846
+solution 67: ∃ :imageContains.((null) ⊓ (:Place))
+	 coverage_score: 0.44751381215469616
+	 precision: 0.10526315789473684
+	 recall: 0.023529411764705882
+	 f_measure: 0.03846153846153846
+solution 68: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.44751381215469616
+	 precision: 0.10526315789473684
+	 recall: 0.023529411764705882
+	 f_measure: 0.03846153846153846
+
+Total solutions found: 68
+
+F1 average: 0.2923111549731758
+Precision average: 0.6055568502704727
+Recall average: 0.26487889273356396
+Coverage average: 0.5554923626909326
+
+F1 max: 0.9506172839506173
+Precision max: 1.0
+Recall max: 0.9176470588235294
+Coverage max: 0.9558011049723757
+
+Total solutions found: 68
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_dbpedia_schema_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.12.2020  12.45.35 PM
+Program duration: 36.308 sec

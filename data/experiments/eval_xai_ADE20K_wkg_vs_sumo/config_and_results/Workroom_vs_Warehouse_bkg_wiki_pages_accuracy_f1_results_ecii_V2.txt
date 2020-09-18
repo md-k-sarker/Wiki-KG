@@ -1,0 +1,214 @@
+Program started.............
+Program starts at: 08.10.2020  03.01.25 AM
+Working with confFile: Workroom_vs_Warehouse_bkg_wiki_pages_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00020100
+	ADE_train_00020101
+	ADE_train_00020098
+	ADE_train_00020099
+negIndivs from conf:
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019739
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.01.25 AM
+Total positive types (direct+indirect) found using all objectProperty: 35
+Total negative types (direct+indirect) found using all objectProperty: 109
+
+Algorithm ends at: 08.10.2020  03.01.26 AM
+
+Algorithm duration: 1.122 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:Desk)
+	 coverage_score: 0.9661016949152542
+	 precision: 1.0
+	 recall: 0.5
+	 f_measure: 0.6666666666666666
+solution 2: ∃ :imageContains.(:Tool)
+	 coverage_score: 0.9491525423728814
+	 precision: 0.6666666666666666
+	 recall: 0.5
+	 f_measure: 0.5714285714285715
+solution 3: ∃ :imageContains.(:machine_interaction)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 4: ∃ :imageContains.(:Bucket)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 5: ∃ :imageContains.(:Projector)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 6: ∃ :imageContains.(:Mechanical_hand_tools)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 7: ∃ :imageContains.(:Tank)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 8: ∃ :imageContains.(:Brush)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 9: ∃ :imageContains.(:Notebook)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 10: ∃ :imageContains.(:Book)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 11: ∃ :imageContains.(:Human_communication)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 12: ∃ :imageContains.(:Workbench)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 13: ∃ :imageContains.(:Window)
+	 coverage_score: 0.8813559322033898
+	 precision: 0.2857142857142857
+	 recall: 0.5
+	 f_measure: 0.36363636363636365
+solution 14: ∃ :imageContains.(:Handle)
+	 coverage_score: 0.9322033898305084
+	 precision: 0.5
+	 recall: 0.25
+	 f_measure: 0.3333333333333333
+solution 15: ∃ :imageContains.(:Box)
+	 coverage_score: 0.6779661016949152
+	 precision: 0.17391304347826086
+	 recall: 1.0
+	 f_measure: 0.29629629629629634
+solution 16: ∃ :imageContains.(:Door)
+	 coverage_score: 0.8305084745762712
+	 precision: 0.2
+	 recall: 0.5
+	 f_measure: 0.28571428571428575
+solution 17: ∃ :imageContains.(:Bag)
+	 coverage_score: 0.9152542372881356
+	 precision: 0.3333333333333333
+	 recall: 0.25
+	 f_measure: 0.28571428571428575
+solution 18: ∃ :imageContains.(:Wall)
+	 coverage_score: 0.3050847457627119
+	 precision: 0.08888888888888889
+	 recall: 1.0
+	 f_measure: 0.163265306122449
+solution 19: ∃ :imageContains.(:Floor)
+	 coverage_score: 0.13559322033898305
+	 precision: 0.05660377358490566
+	 recall: 0.75
+	 f_measure: 0.10526315789473685
+solution 20: ∃ :imageContains.(:Ceiling)
+	 coverage_score: 0.1864406779661017
+	 precision: 0.021739130434782608
+	 recall: 0.25
+	 f_measure: 0.04
+
+Total solutions found: 20
+
+F1 average: 0.3555659133403495
+Precision average: 0.6663429561050562
+Recall average: 0.4
+Coverage average: 0.8135593220338981
+
+F1 max: 0.6666666666666666
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 0.9661016949152542
+
+Total solutions found: 20
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Workroom_vs_Warehouse_bkg_wiki_pages_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.01.26 AM
+Program duration: 1.127 sec

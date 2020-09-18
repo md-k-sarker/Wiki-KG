@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.daselab.com/residue/analysis#"
+     xml:base="http://www.daselab.com/residue/analysis"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:analysis="http://www.daselab.com/residue/analysis#">
+    <owl:Ontology rdf:about="http://www.daselab.com/residue/analysis"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#imageContains -->
+
+    <owl:ObjectProperty rdf:about="http://www.daselab.com/residue/analysis#imageContains"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Bottles -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Bottles"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Building -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Building"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Sky -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Sky"/>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#Vegetables -->
+
+    <owl:Class rdf:about="http://www.daselab.com/residue/analysis#Vegetables"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#ADE_train_00011684 -->
+
+    <owl:Thing rdf:about="http://www.daselab.com/residue/analysis#ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_001_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_003_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_004_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_013_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_020_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_021_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_022_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_023_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_024_0_ADE_train_00011684"/>
+        <imageContains rdf:resource="http://www.daselab.com/residue/analysis#obj_025_0_ADE_train_00011684"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_001_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_001_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Sky"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_003_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_003_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Building"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_004_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_004_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Building"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_013_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_013_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Vegetables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_020_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_020_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Vegetables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_021_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_021_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Vegetables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_022_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_022_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Vegetables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_023_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_023_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Vegetables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_024_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_024_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Bottles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.daselab.com/residue/analysis#obj_025_0_ADE_train_00011684 -->
+
+    <owl:NamedIndividual rdf:about="http://www.daselab.com/residue/analysis#obj_025_0_ADE_train_00011684">
+        <rdf:type rdf:resource="http://www.daselab.com/residue/analysis#Vegetables"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.0) https://github.com/owlcs/owlapi -->
+

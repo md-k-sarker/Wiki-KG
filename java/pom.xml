@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.dase</groupId>
+    <artifactId>wiki_analysis</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <finalAppName>${artifactId}</finalAppName>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk.source.version>1.8</jdk.source.version>
+        <jdk.target.version>1.8</jdk.target.version>
+        <owlapi.version>4.5.0</owlapi.version>
+        <!-- owlapi used by dl-learner version  4.5.0. latest version: 5.x.y/5.1.4-->
+        <jfact.version>4.0.4</jfact.version>
+        <!-- jfact used by dl-learner version  4.0.4.  latest version: 5.0.1-->
+        <hermit.version>1.3.8.413</hermit.version>
+        <!-- hermit used by dl-learner 1.3.8.413.    latest version 1.4.1.513-->
+        <factpp-owlapi.version>1.6.2</factpp-owlapi.version>
+        <!--factpp latest version unknown -->
+        <elk-owlapi.version>0.4.3-dllearner</elk-owlapi.version>
+        <!--elk used by dl-learner 0.4.3-dllearner.  latest version 0.5.0-SNAPSHOT-->
+        <owllink.version>1.2.2</owllink.version>
+        <pellet.version>2.5.0-dllearner</pellet.version>
+        <!-- pellet used by dl-learner 2.5.0-dllearner. Github has open source version: 2.3.1. https://github.com/stardog-union/pellet/releases-->
+
+        <secondstring.version>0.1</secondstring.version>
+
+        <slf4j.version>1.7.25</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>net.sourceforge.owlapi</groupId>
+            <artifactId>owlapi-distribution</artifactId>
+            <version>${owlapi.version}</version>
+            <type>pom</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- Reasoners -->
+        <!-- https://search.maven.org/#search%7Cga%7C1%7Corg.semanticweb.hermit -->
+        <dependency>
+            <groupId>net.sourceforge.owlapi</groupId>
+            <artifactId>org.semanticweb.hermit</artifactId>
+            <version>${hermit.version}</version>
+            <type>jar</type>
+        </dependency>
+
+        <!-- Pellet -->
+        <dependency>
+            <groupId>com.clarkparsia.pellet</groupId>
+            <artifactId>pellet-distribution</artifactId>
+            <version>${pellet.version}</version>
+            <type>pom</type>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.clarkparsia.pellet</groupId>
+                    <artifactId>pellet-cli</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.clarkparsia.pellet</groupId>
+                    <artifactId>pellet-examples</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.clarkparsia.pellet</groupId>
+                    <artifactId>pellet-test</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- JFact -->
+        <dependency>
+            <!-- OWL api latest version http://search.maven.org/#artifactdetails%7Cnet.sourceforge.owlapi%7Cowlapi-parent%7C5.1.4%7Cpom-->
+            <groupId>net.sourceforge.owlapi</groupId>
+            <artifactId>jfact</artifactId>
+            <version>${jfact.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>net.sourceforge.owlapi</groupId>
+                    <artifactId>owlapi-distribution</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>net.sf.trove4j</groupId>
+                    <artifactId>trove4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- Fact++ -->
+        <dependency>
+            <groupId>com.google.code.factplusplus</groupId>
+            <artifactId>factpp-owlapi</artifactId>
+            <version>${factpp-owlapi.version}</version>
+        </dependency>
+
+        <!-- elk -->
+        <dependency>
+            <groupId>org.semanticweb.elk</groupId>
+            <artifactId>elk-owlapi</artifactId>
+            <version>${elk-owlapi.version}</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.wcohen/com.wcohen.secondstring -->
+        <!-- String matching -->
+        <dependency>
+            <!-- https://mvnrepository.com/artifact/com.wcohen/com.wcohen.secondstring -->
+            <groupId>com.wcohen</groupId>
+            <artifactId>com.wcohen.secondstring</artifactId>
+            <version>${secondstring.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.apache.jena/apache-jena -->
+        <dependency>
+            <groupId>org.apache.jena</groupId>
+            <artifactId>apache-jena</artifactId>
+            <version>3.1.0</version>
+            <type>pom</type>
+        </dependency>
+
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.18</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
+
+        <!--Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <!--slf4j-log4j12 is just apibinding of the real logging framework log4j. -->
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <finalName>${artifactId}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <targetPath>META-INF/resources</targetPath>
+            </resource>
+        </resources>
+
+        <plugins>
+            <!-- Set a JDK compiler level -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <configuration>
+                    <source>${jdk.source.version}</source>
+                    <target>${jdk.target.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+
+        <!-- Maven central -->
+        <repository>
+            <id>maven.central</id>
+            <name>Maven central</name>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
+
+        <!-- Release version -->
+        <repository>
+            <releases />
+            <id>maven.aksw.internal</id>
+            <name>University Leipzig, AKSW Maven2 Repository</name>
+            <url>http://maven.aksw.org/repository/internal/</url>
+        </repository>
+
+        <repository>
+            <snapshots />
+            <id>maven.aksw.snapshots</id>
+            <name>University Leipzig, AKSW Maven2 Repository</name>
+            <url>http://maven.aksw.org/repository/snapshots</url>
+        </repository>
+
+        <repository>
+            <id>davidsoergel.releases</id>
+            <name>David Soergel's Maven Repository</name>
+            <url>http://dev.davidsoergel.com/nexus/content/repositories/releases</url>
+        </repository>
+
+    </repositories>
+
+</project>

@@ -1,0 +1,7 @@
+001 # 0 # 0 # sky # sky # ""
+002 # 0 # 0 # cables # cables # ""
+003 # 0 # 0 # cables # cables # ""
+004 # 0 # 0 # mountain, mount # mountain # ""
+005 # 0 # 0 # ski lift # ski lift # ""
+006 # 0 # 0 # grass # grass # ""
+007 # 0 # 0 # tree # tree # ""

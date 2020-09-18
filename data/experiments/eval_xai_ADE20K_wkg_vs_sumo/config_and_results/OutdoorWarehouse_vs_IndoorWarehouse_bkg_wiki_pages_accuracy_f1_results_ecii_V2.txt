@@ -1,0 +1,1090 @@
+Program started.............
+Program starts at: 08.10.2020  03.03.17 AM
+Working with confFile: OutdoorWarehouse_vs_IndoorWarehouse_bkg_wiki_pages_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00019756
+	ADE_train_00019755
+	ADE_train_00019754
+negIndivs from conf:
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019712
+	ADE_train_00019711
+	ADE_train_00019710
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019739
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.03.17 AM
+Total positive types (direct+indirect) found using all objectProperty: 48
+Total negative types (direct+indirect) found using all objectProperty: 77
+
+Algorithm ends at: 08.10.2020  03.03.18 AM
+
+Algorithm duration: 0.871 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 2: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 3: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 4: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 5: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 6: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 7: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 8: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 9: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 10: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 11: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 12: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 13: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 14: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 15: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 16: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Economy ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 17: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 18: ∃ :imageContains.((:Technology ⊓ :Economy) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 19: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 20: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 21: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 22: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 23: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 24: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 25: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 26: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 27: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 28: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 29: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 30: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 31: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 32: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 33: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 34: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 35: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 36: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 37: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Economy ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 38: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 39: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 40: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Subfields_by_academic_discipline ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 41: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 42: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 43: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 44: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 45: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 46: ∃ :imageContains.((:Technology ⊓ :Economy) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 47: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 48: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 49: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 50: ∃ :imageContains.((:Technology ⊓ :Economic_sectors) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 51: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Subfields_by_academic_discipline ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 52: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 53: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 54: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 55: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 56: ∃ :imageContains.((:Sky) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 57: ∃ :imageContains.((:Technology ⊓ :Economy) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 58: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 59: ∃ :imageContains.((:Sky) ⊓ (:Culture ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 60: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 61: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 62: ∃ :imageContains.((:Technology ⊓ :Economy) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 63: ∃ :imageContains.((:Sky) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 64: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 65: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 66: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 67: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 68: ∃ :imageContains.((:Economy) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 69: ∃ :imageContains.((:Economy) ⊓ (:Culture ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 70: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 71: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 72: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 73: ∃ :imageContains.((:Economy) ⊓ (:Subfields_by_academic_discipline ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 74: ∃ :imageContains.((:Economy) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 75: ∃ :imageContains.((:Engineering) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 76: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 77: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 78: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 79: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 80: ∃ :imageContains.((:Economy) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 81: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 82: ∃ :imageContains.((:Sky) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 83: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Economy ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 84: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 85: ∃ :imageContains.((:Economy) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 86: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 87: ∃ :imageContains.((:Road) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 88: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 89: ∃ :imageContains.((:Technology ⊓ :Economic_sectors) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 90: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 91: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 92: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 93: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 94: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Culture ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 95: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 96: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 97: ∃ :imageContains.((:Sky) ⊓ (:Economy ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 98: ∃ :imageContains.((:Economy) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 99: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 100: ∃ :imageContains.((:Sky) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 101: ∃ :imageContains.((:Road) ⊓ (:Technology ⊓ :Economy))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 102: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 103: ∃ :imageContains.((:Economic_sectors) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 104: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 105: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Technology) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 106: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 107: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Culture) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 108: ∃ :imageContains.((:Technology ⊓ :Economy) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 109: ∃ :imageContains.((:Culture ⊓ :Academic_disciplines) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 110: ∃ :imageContains.((:Academic_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 111: ∃ :imageContains.((:Economy) ⊓ (:Economy ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 112: ∃ :imageContains.((:Sky) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 113: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 114: ∃ :imageContains.((:Technology ⊓ :Economic_sectors) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 115: ∃ :imageContains.((:Technology ⊓ :Economic_sectors) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 116: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 117: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Road))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 118: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 119: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 120: ∃ :imageContains.((:Economy) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 121: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 122: ∃ :imageContains.((:Technology ⊓ :Economy) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 123: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 124: ∃ :imageContains.((:Subfields_by_academic_discipline ⊓ :Economic_sectors) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 125: ∃ :imageContains.((:Society ⊓ :Engineering_disciplines) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 126: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Subfields_by_academic_discipline ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 127: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 128: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 129: ∃ :imageContains.((:Engineering) ⊓ (:Technology ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 130: ∃ :imageContains.((:Road) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 131: ∃ :imageContains.((:Sky) ⊓ (:Society ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 132: ∃ :imageContains.((:Sky) ⊓ (:Subfields_by_academic_discipline ⊓ :Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 133: ∃ :imageContains.((:Sky) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 134: ∃ :imageContains.((:Economy) ⊓ (:Culture ⊓ :Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 135: ∃ :imageContains.((:Culture ⊓ :Engineering_disciplines) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 136: ∃ :imageContains.((:Engineering_disciplines) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 137: ∃ :imageContains.((:Economy) ⊓ (:Subfields_by_academic_discipline ⊓ :Culture))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 138: ∃ :imageContains.((:Economy ⊓ :Engineering_disciplines) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 139: ∃ :imageContains.((:Road) ⊓ (:Society ⊓ :Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 140: ∃ :imageContains.((:Society ⊓ :Academic_disciplines) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 141: ∃ :imageContains.((:Sky) ⊓ (:Culture ⊓ :Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 142: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Subfields_by_academic_discipline ⊓ :Technology))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 143: ∃ :imageContains.(:Society ⊓ :Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 144: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Economic_sectors)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 145: ∃ :imageContains.(:Society ⊓ :Engineering_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 146: ∃ :imageContains.(:Economic_sectors ⊓ :Engineering)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 147: ∃ :imageContains.((:Economy) ⊓ (:Subfields_by_academic_discipline))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 148: ∃ :imageContains.(:Culture ⊓ :Engineering)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 149: ∃ :imageContains.(:Technology ⊓ :Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 150: ∃ :imageContains.(:Technology ⊓ :Economic_sectors)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 151: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Culture)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 152: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 153: ∃ :imageContains.(:Engineering ⊓ :Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 154: ∃ :imageContains.((:Academic_disciplines) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 155: ∃ :imageContains.((:Economic_sectors) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 156: ∃ :imageContains.(:Economy ⊓ :Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 157: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Technology)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 158: ∃ :imageContains.(:Economic_sectors ⊓ :Engineering_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 159: ∃ :imageContains.((:Economy) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 160: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Engineering)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 161: ∃ :imageContains.((:Engineering) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 162: ∃ :imageContains.(:Culture ⊓ :Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 163: ∃ :imageContains.((:Economy) ⊓ (:Engineering_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 164: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Society)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 165: ∃ :imageContains.(:Economic_sectors ⊓ :Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 166: ∃ :imageContains.((:Subfields_by_academic_discipline) ⊓ (:Engineering))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 167: ∃ :imageContains.(:Engineering ⊓ :Society)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 168: ∃ :imageContains.(:Engineering ⊓ :Economy)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 169: ∃ :imageContains.((:Economy) ⊓ (:Academic_disciplines))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 170: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Economy)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 171: ∃ :imageContains.(:Economy ⊓ :Engineering_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 172: ∃ :imageContains.(:Culture ⊓ :Engineering_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 173: ∃ :imageContains.(:Technology ⊓ :Economy)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 174: ∃ :imageContains.((:Engineering) ⊓ (:Economic_sectors))
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 175: ∃ :imageContains.(:Building)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 176: ∃ :imageContains.(:Construction)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 177: ∃ :imageContains.(:Economy)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 178: ∃ :imageContains.(:Engineering_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 179: ∃ :imageContains.(:Road)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 180: ∃ :imageContains.(:Subfields_by_academic_discipline)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 181: ∃ :imageContains.(:Economic_sectors)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 182: ∃ :imageContains.(:Sky)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 183: ∃ :imageContains.(:Academic_disciplines)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 184: ∃ :imageContains.(:Engineering)
+	 coverage_score: 1.0
+	 precision: 1.0
+	 recall: 1.0
+	 f_measure: 1.0
+solution 185: ∃ :imageContains.(:Technology ⊓ :Society)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 186: ∃ :imageContains.(:Technology ⊓ :Culture)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 187: ∃ :imageContains.(:Society)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 188: ∃ :imageContains.(:Nature)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 189: ∃ :imageContains.(:Technology)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 190: ∃ :imageContains.(:Universe)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 191: ∃ :imageContains.(:Culture)
+	 coverage_score: 0.9818181818181818
+	 precision: 0.75
+	 recall: 1.0
+	 f_measure: 0.8571428571428571
+solution 192: ∃ :imageContains.(:Sidewalk)
+	 coverage_score: 0.9818181818181818
+	 precision: 1.0
+	 recall: 0.6666666666666666
+	 f_measure: 0.8
+solution 193: ∃ :imageContains.(:Main_topic_classifications)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.6
+	 recall: 1.0
+	 f_measure: 0.7499999999999999
+solution 194: ∃ :imageContains.(:Window)
+	 coverage_score: 0.9636363636363636
+	 precision: 0.6
+	 recall: 1.0
+	 f_measure: 0.7499999999999999
+solution 195: ∃ :imageContains.(:Wheel)
+	 coverage_score: 0.9454545454545454
+	 precision: 0.5
+	 recall: 0.3333333333333333
+	 f_measure: 0.4
+solution 196: ∃ :imageContains.(:Sign)
+	 coverage_score: 0.9272727272727272
+	 precision: 0.3333333333333333
+	 recall: 0.3333333333333333
+	 f_measure: 0.3333333333333333
+
+Total solutions found: 196
+
+F1 average: 0.9848639455782315
+Precision average: 0.9810374149659864
+Recall average: 0.9914965986394558
+Coverage average: 0.998237476808905
+
+F1 max: 1.0
+Precision max: 1.0
+Recall max: 1.0
+Coverage max: 1.0
+
+Total solutions found: 196
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/OutdoorWarehouse_vs_IndoorWarehouse_bkg_wiki_pages_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.03.18 AM
+Program duration: 0.883 sec

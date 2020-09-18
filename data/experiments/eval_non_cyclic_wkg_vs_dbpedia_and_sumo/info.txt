@@ -1,0 +1,7 @@
+* wiki_classes.csv.zip---- all wikipedia classes in wikipedia ontology
+
+
+Dbpedia concepts hashMap size: 760
+Wiki concepts hashMap size: 1293710
+same_counter: 52
+different_counter: 708

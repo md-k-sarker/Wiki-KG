@@ -1,0 +1,59 @@
+## Running non-cyclic evaluation experiment
+
+
+
+## Running xai evaluation experiment
+** all images of mountain, market, workroom and warehouse are taken.
+
+1. ontology from images are made by mapping image attributes with wiki_concept, wiki_page and sumo_concept.
+
+2. Combining: Ontologies are combined.
+    - sumo onto: sumo + small ontos
+        sumo_combined_with_small_owls_mapping_concepts.owl
+    - wiki page onto: wiki page + cats + small ontos
+        wiki_combined_with_small_owls_mapping_concepts.owl
+    - wiki cats onto: wiki cats + small ontos
+        wiki_merged_combined_with_small_owls_mapping_pages.owl 
+    - dbpedia schema onto: dbpedia schema+ small ontos
+        dbpedia_combined_with_small_owls_mapping_schema.owl
+
+3. Stripping:
+    sumo -----
+    -s obj /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/image_owls/sumo_combined_with_small_owls_mapping_concepts.owl /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/images_owls/all_image_names_iris.csv sumo_iri sumo_obj_prop http://www.daselab.org/ontologies/sumo
+    
+    after stripping ontology: sumo_combined_with_small_owls_mapping_concepts_stripped.owl
+
+    wiki concept ----
+    -s obj /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/image_owls/wiki_combined_with_small_owls_mapping_concepts.owl /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/images_owls/all_image_names_iris.csv wiki_iri wiki_obj_prop http://www.daselab.com/residue/analysis
+    
+    after stripping ontology: wiki_combined_with_small_owls_mapping_concepts_stripped.owl
+
+    wiki pages ----
+    -s obj /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/image_owls/wiki_merged_combined_with_small_owls_mapping_pages.owl /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/images_owls/all_image_names_iris.csv wiki_iri wiki_obj_prop http://www.daselab.com/residue/analysis
+    
+    after stripping ontology: wiki_merged_combined_with_small_owls_mapping_pages_stripped.owl
+
+    dbpedia schema ----
+    -s obj /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/images_owls/dbpedia_combined_with_small_owls_mapping_schema.owl /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/images_owls/all_image_names_iris.csv dbpedia_iri dbpedia_obj_prop http://www.daselab.org/ontologies/dbpedia
+    
+    after stripping ontology: dbpedia_combined_with_small_owls_mapping_schema_stripped.owl
+
+4. Writing config
+    - tedious task
+
+5. running program
+    -e -b /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/ADE20K_sumo_vs_wkg/config_and_results/
+
+
+
+
+
+
+## we have renamed folder: 
+    ADE20K_sumo_vs_wkg 
+        to 
+    eval_xai_ADE20K_wkg_vs_sumo
+
+    .......
+        to
+    eval_non_cyclic_wkg_vs_dbpedia_and_sumo

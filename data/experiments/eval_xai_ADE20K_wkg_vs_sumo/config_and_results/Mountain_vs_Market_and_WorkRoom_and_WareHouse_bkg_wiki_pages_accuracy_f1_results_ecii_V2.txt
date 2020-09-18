@@ -1,0 +1,1136 @@
+Program started.............
+Program starts at: 08.10.2020  03.03.08 AM
+Working with confFile: Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_wiki_pages_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00011945
+	ADE_train_00011989
+	ADE_train_00011944
+	ADE_train_00011988
+	ADE_train_00011987
+	ADE_train_00011986
+	ADE_train_00011949
+	ADE_train_00011948
+	ADE_train_00011947
+	ADE_train_00011946
+	ADE_train_00011981
+	ADE_train_00011980
+	ADE_train_00011985
+	ADE_train_00011984
+	ADE_train_00011983
+	ADE_train_00011982
+	ADE_train_00011956
+	ADE_train_00011955
+	ADE_train_00011999
+	ADE_train_00012009
+	ADE_train_00011954
+	ADE_train_00011998
+	ADE_train_00012008
+	ADE_train_00011953
+	ADE_train_00011997
+	ADE_train_00011959
+	ADE_train_00011958
+	ADE_train_00011957
+	ADE_train_00012003
+	ADE_train_00011992
+	ADE_train_00012002
+	ADE_train_00011991
+	ADE_train_00012001
+	ADE_train_00011990
+	ADE_train_00012000
+	ADE_train_00012007
+	ADE_train_00011952
+	ADE_train_00011996
+	ADE_train_00012006
+	ADE_train_00011951
+	ADE_train_00011995
+	ADE_train_00012005
+	ADE_train_00011950
+	ADE_train_00011994
+	ADE_train_00012004
+	ADE_train_00011993
+	ADE_train_00011967
+	ADE_train_00011966
+	ADE_train_00011965
+	ADE_train_00012019
+	ADE_train_00011964
+	ADE_train_00011969
+	ADE_train_00011968
+	ADE_train_00012014
+	ADE_train_00012013
+	ADE_train_00012012
+	ADE_train_00012011
+	ADE_train_00012018
+	ADE_train_00011963
+	ADE_train_00012017
+	ADE_train_00011962
+	ADE_train_00012016
+	ADE_train_00011961
+	ADE_train_00012015
+	ADE_train_00011960
+	ADE_train_00012010
+	ADE_train_00011978
+	ADE_train_00011977
+	ADE_train_00011976
+	ADE_train_00011975
+	ADE_train_00011979
+	ADE_train_00012025
+	ADE_train_00011970
+	ADE_train_00012024
+	ADE_train_00012023
+	ADE_train_00012022
+	ADE_train_00011974
+	ADE_train_00012028
+	ADE_train_00011973
+	ADE_train_00012027
+	ADE_train_00011972
+	ADE_train_00012026
+	ADE_train_00011971
+	ADE_train_00012021
+	ADE_train_00012020
+negIndivs from conf:
+	ADE_train_00020100
+	ADE_train_00020101
+	ADE_train_00011669
+	ADE_train_00011668
+	ADE_train_00011667
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019707
+	ADE_train_00011662
+	ADE_train_00019706
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00011666
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00011665
+	ADE_train_00019745
+	ADE_train_00011664
+	ADE_train_00011663
+	ADE_train_00019744
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00000931
+	ADE_train_00020098
+	ADE_train_00020099
+	ADE_train_00011679
+	ADE_train_00011678
+	ADE_train_00019719
+	ADE_train_00019718
+	ADE_train_00011673
+	ADE_train_00019717
+	ADE_train_00011672
+	ADE_train_00019716
+	ADE_train_00011671
+	ADE_train_00011670
+	ADE_train_00019715
+	ADE_train_00019714
+	ADE_train_00011677
+	ADE_train_00019713
+	ADE_train_00011676
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00011675
+	ADE_train_00011674
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019750
+	ADE_train_00011689
+	ADE_train_00019729
+	ADE_train_00011684
+	ADE_train_00019728
+	ADE_train_00011683
+	ADE_train_00019727
+	ADE_train_00011682
+	ADE_train_00011681
+	ADE_train_00019726
+	ADE_train_00019725
+	ADE_train_00011688
+	ADE_train_00019724
+	ADE_train_00011687
+	ADE_train_00019723
+	ADE_train_00011686
+	ADE_train_00011685
+	ADE_train_00019722
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00011680
+	ADE_train_00011695
+	ADE_train_00019739
+	ADE_train_00011694
+	ADE_train_00019738
+	ADE_train_00011693
+	ADE_train_00011692
+	ADE_train_00019737
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019734
+	ADE_train_00011697
+	ADE_train_00011696
+	ADE_train_00019733
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019730
+	ADE_train_00011691
+	ADE_train_00011690
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.10.2020  03.03.08 AM
+Total positive types (direct+indirect) found using all objectProperty: 136
+Total negative types (direct+indirect) found using all objectProperty: 350
+
+Algorithm ends at: 08.10.2020  03.03.13 AM
+
+Algorithm duration: 5.255 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.(:Mountain)
+	 coverage_score: 0.9502762430939227
+	 precision: 1.0
+	 recall: 0.8941176470588236
+	 f_measure: 0.9440993788819877
+solution 2: ∃ :imageContains.(:Sky)
+	 coverage_score: 0.8950276243093923
+	 precision: 0.8367346938775511
+	 recall: 0.9647058823529412
+	 f_measure: 0.8961748633879782
+solution 3: ∃ :imageContains.(:Nature)
+	 coverage_score: 0.861878453038674
+	 precision: 0.7830188679245284
+	 recall: 0.9764705882352941
+	 f_measure: 0.8691099476439791
+solution 4: ∃ :imageContains.(:Universe)
+	 coverage_score: 0.861878453038674
+	 precision: 0.7830188679245284
+	 recall: 0.9764705882352941
+	 f_measure: 0.8691099476439791
+solution 5: ∃ :imageContains.(:Main_topic_classifications)
+	 coverage_score: 0.7845303867403315
+	 precision: 0.6916666666666667
+	 recall: 0.9764705882352941
+	 f_measure: 0.8097560975609757
+solution 6: ∃ :imageContains.(:Tree)
+	 coverage_score: 0.6022099447513812
+	 precision: 0.7096774193548387
+	 recall: 0.25882352941176473
+	 f_measure: 0.37931034482758624
+solution 7: ∃ :imageContains.(:Nature ⊓ :Science)
+	 coverage_score: 0.5580110497237569
+	 precision: 0.6190476190476191
+	 recall: 0.15294117647058825
+	 f_measure: 0.24528301886792456
+solution 8: ∃ :imageContains.(:Universe ⊓ :Science)
+	 coverage_score: 0.5580110497237569
+	 precision: 0.6190476190476191
+	 recall: 0.15294117647058825
+	 f_measure: 0.24528301886792456
+solution 9: ∃ :imageContains.(:Science)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.15294117647058825
+	 f_measure: 0.23423423423423426
+solution 10: ∃ :imageContains.(:Matter)
+	 coverage_score: 0.56353591160221
+	 precision: 0.6666666666666666
+	 recall: 0.1411764705882353
+	 f_measure: 0.23300970873786406
+solution 11: ∃ :imageContains.(:Phases_of_matter)
+	 coverage_score: 0.585635359116022
+	 precision: 1.0
+	 recall: 0.11764705882352941
+	 f_measure: 0.21052631578947367
+solution 12: ∃ :imageContains.(:Phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 0.9
+	 recall: 0.10588235294117647
+	 f_measure: 0.18947368421052632
+solution 13: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 14: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Forms_of_water ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 15: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Nature ⊓ :Science))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 16: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Universe ⊓ :Science))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 17: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 18: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Forms_of_water ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 19: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Nature ⊓ :Science))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 20: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 21: ∃ :imageContains.((:Phenomena ⊓ :Phases_of_matter) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 22: ∃ :imageContains.((:Winter_phenomena ⊓ :Phases_of_matter) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 23: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Nature ⊓ :Science))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 24: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 25: ∃ :imageContains.((:Phenomena ⊓ :Phases_of_matter) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 26: ∃ :imageContains.((:Forms_of_water) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 27: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 28: ∃ :imageContains.((:Matter) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 29: ∃ :imageContains.((:Universe) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 30: ∃ :imageContains.((:Phenomena ⊓ :Phases_of_matter) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 31: ∃ :imageContains.((:Phenomena) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 32: ∃ :imageContains.((:Nature) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 33: ∃ :imageContains.((:Universe) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 34: ∃ :imageContains.((:Science) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 35: ∃ :imageContains.((:Universe) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 36: ∃ :imageContains.((:Winter_phenomena ⊓ :Phases_of_matter) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 37: ∃ :imageContains.((:Forms_of_water ⊓ :Winter_phenomena) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 38: ∃ :imageContains.((:Universe) ⊓ (:Universe ⊓ :Science))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 39: ∃ :imageContains.((:Matter) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 40: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 41: ∃ :imageContains.((:Nature) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 42: ∃ :imageContains.((:Phenomena) ⊓ (:Matter ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 43: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 44: ∃ :imageContains.((:Phenomena ⊓ :Phases_of_matter) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 45: ∃ :imageContains.((:Winter_phenomena) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 46: ∃ :imageContains.((:Matter) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 47: ∃ :imageContains.((:Science) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 48: ∃ :imageContains.((:Universe) ⊓ (:Nature ⊓ :Science))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 49: ∃ :imageContains.((:Phenomena) ⊓ (:Forms_of_water ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 50: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 51: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 52: ∃ :imageContains.((:Universe) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 53: ∃ :imageContains.((:Phenomena) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 54: ∃ :imageContains.((:Science) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 55: ∃ :imageContains.((:Phenomena ⊓ :Phases_of_matter) ⊓ (:Nature))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 56: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Matter ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 57: ∃ :imageContains.((:Matter) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 58: ∃ :imageContains.((:Phenomena) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 59: ∃ :imageContains.((:Universe) ⊓ (:Forms_of_water ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 60: ∃ :imageContains.((:Phenomena) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 61: ∃ :imageContains.((:Forms_of_water) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 62: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 63: ∃ :imageContains.((:Winter_phenomena) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 64: ∃ :imageContains.((:Universe) ⊓ (:Matter ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 65: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Forms_of_water ⊓ :Phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 66: ∃ :imageContains.((:Forms_of_water) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 67: ∃ :imageContains.(:Forms_of_water ⊓ :Winter_phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 68: ∃ :imageContains.(:Phenomena ⊓ :Phases_of_matter)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 69: ∃ :imageContains.((:Forms_of_water) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 70: ∃ :imageContains.(:Matter ⊓ :Winter_phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 71: ∃ :imageContains.((:Phenomena) ⊓ (:Matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 72: ∃ :imageContains.((:Phases_of_matter) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 73: ∃ :imageContains.(:Matter ⊓ :Phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 74: ∃ :imageContains.(:Forms_of_water ⊓ :Phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 75: ∃ :imageContains.(:Winter_phenomena ⊓ :Phases_of_matter)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 76: ∃ :imageContains.((:Phenomena) ⊓ (:Phases_of_matter))
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 77: ∃ :imageContains.(:Winter_phenomena)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 78: ∃ :imageContains.(:Snow)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 79: ∃ :imageContains.(:Forms_of_water)
+	 coverage_score: 0.574585635359116
+	 precision: 1.0
+	 recall: 0.09411764705882353
+	 f_measure: 0.17204301075268816
+solution 80: ∃ :imageContains.((:Sky) ⊓ (:Matter ⊓ :Winter_phenomena))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 81: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Mountain))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 82: ∃ :imageContains.((:Mountain) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 83: ∃ :imageContains.((:Sky) ⊓ (:Universe ⊓ :Science))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 84: ∃ :imageContains.((:Sky) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 85: ∃ :imageContains.((:Mountain) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 86: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Mountain))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 87: ∃ :imageContains.((:Sky) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 88: ∃ :imageContains.((:Sky) ⊓ (:Nature ⊓ :Science))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 89: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Mountain))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 90: ∃ :imageContains.((:Sky) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 91: ∃ :imageContains.((:Mountain) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 92: ∃ :imageContains.((:Sky) ⊓ (:Forms_of_water ⊓ :Phenomena))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 93: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Mountain))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 94: ∃ :imageContains.((:Sky) ⊓ (:Matter ⊓ :Phenomena))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 95: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Mountain))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 96: ∃ :imageContains.((:Mountain) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.569060773480663
+	 precision: 1.0
+	 recall: 0.08235294117647059
+	 f_measure: 0.15217391304347827
+solution 97: ∃ :imageContains.(:Subfields_by_academic_discipline)
+	 coverage_score: 0.425414364640884
+	 precision: 0.22857142857142856
+	 recall: 0.09411764705882353
+	 f_measure: 0.13333333333333336
+solution 98: ∃ :imageContains.(:Academic_disciplines)
+	 coverage_score: 0.4143646408839779
+	 precision: 0.21621621621621623
+	 recall: 0.09411764705882353
+	 f_measure: 0.13114754098360656
+solution 99: ∃ :imageContains.(:Culture)
+	 coverage_score: 0.40331491712707185
+	 precision: 0.20512820512820512
+	 recall: 0.09411764705882353
+	 f_measure: 0.12903225806451613
+solution 100: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Technology)
+	 coverage_score: 0.4419889502762431
+	 precision: 0.23333333333333334
+	 recall: 0.08235294117647059
+	 f_measure: 0.12173913043478261
+solution 101: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Engineering)
+	 coverage_score: 0.4419889502762431
+	 precision: 0.23333333333333334
+	 recall: 0.08235294117647059
+	 f_measure: 0.12173913043478261
+solution 102: ∃ :imageContains.(:Engineering_disciplines)
+	 coverage_score: 0.4419889502762431
+	 precision: 0.23333333333333334
+	 recall: 0.08235294117647059
+	 f_measure: 0.12173913043478261
+solution 103: ∃ :imageContains.(:Engineering)
+	 coverage_score: 0.4419889502762431
+	 precision: 0.23333333333333334
+	 recall: 0.08235294117647059
+	 f_measure: 0.12173913043478261
+solution 104: ∃ :imageContains.(:Technology)
+	 coverage_score: 0.4198895027624309
+	 precision: 0.20588235294117646
+	 recall: 0.08235294117647059
+	 f_measure: 0.11764705882352942
+solution 105: ∃ :imageContains.(:Cloud)
+	 coverage_score: 0.5580110497237569
+	 precision: 1.0
+	 recall: 0.058823529411764705
+	 f_measure: 0.1111111111111111
+solution 106: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Nature)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 107: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Universe)
+	 coverage_score: 0.5248618784530387
+	 precision: 0.42857142857142855
+	 recall: 0.03529411764705882
+	 f_measure: 0.06521739130434782
+solution 108: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Science)
+	 coverage_score: 0.49171270718232046
+	 precision: 0.23076923076923078
+	 recall: 0.03529411764705882
+	 f_measure: 0.06122448979591837
+solution 109: ∃ :imageContains.(:Matter ⊓ :Engineering_disciplines)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 110: ∃ :imageContains.(:Engineering ⊓ :Phases_of_matter)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 111: ∃ :imageContains.(:Technology ⊓ :Phases_of_matter)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 112: ∃ :imageContains.(:Engineering_disciplines ⊓ :Phases_of_matter)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 113: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Phases_of_matter)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 114: ∃ :imageContains.(:Matter ⊓ :Engineering)
+	 coverage_score: 0.5414364640883977
+	 precision: 1.0
+	 recall: 0.023529411764705882
+	 f_measure: 0.04597701149425288
+solution 115: ∃ :imageContains.(:Nature ⊓ :Engineering_disciplines)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.023529411764705882
+	 f_measure: 0.0449438202247191
+solution 116: ∃ :imageContains.(:Universe ⊓ :Engineering_disciplines)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.023529411764705882
+	 f_measure: 0.0449438202247191
+solution 117: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Matter)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.023529411764705882
+	 f_measure: 0.0449438202247191
+solution 118: ∃ :imageContains.(:Engineering ⊓ :Universe)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.023529411764705882
+	 f_measure: 0.0449438202247191
+solution 119: ∃ :imageContains.(:Nature ⊓ :Engineering)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.023529411764705882
+	 f_measure: 0.0449438202247191
+solution 120: ∃ :imageContains.(:Technology ⊓ :Matter)
+	 coverage_score: 0.5193370165745856
+	 precision: 0.3333333333333333
+	 recall: 0.023529411764705882
+	 f_measure: 0.04395604395604396
+solution 121: ∃ :imageContains.(:Engineering ⊓ :Science)
+	 coverage_score: 0.5138121546961326
+	 precision: 0.2857142857142857
+	 recall: 0.023529411764705882
+	 f_measure: 0.043478260869565216
+solution 122: ∃ :imageContains.(:Science ⊓ :Engineering_disciplines)
+	 coverage_score: 0.5138121546961326
+	 precision: 0.2857142857142857
+	 recall: 0.023529411764705882
+	 f_measure: 0.043478260869565216
+solution 123: ∃ :imageContains.(:Technology ⊓ :Universe)
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2222222222222222
+	 recall: 0.023529411764705882
+	 f_measure: 0.0425531914893617
+solution 124: ∃ :imageContains.(:Technology ⊓ :Nature)
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2222222222222222
+	 recall: 0.023529411764705882
+	 f_measure: 0.0425531914893617
+solution 125: ∃ :imageContains.(:Technology ⊓ :Science)
+	 coverage_score: 0.5027624309392266
+	 precision: 0.2222222222222222
+	 recall: 0.023529411764705882
+	 f_measure: 0.0425531914893617
+solution 126: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 127: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 128: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 129: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 130: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 131: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 132: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 133: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 134: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 135: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 136: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 137: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 138: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 139: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 140: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 141: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 142: ∃ :imageContains.((:Tree) ⊓ (:Phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 143: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 144: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 145: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 146: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Tree))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 147: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 148: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Nature))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 149: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Forms_of_water))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 150: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Forms_of_water))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 151: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Nature))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 152: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Tree))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 153: ∃ :imageContains.((:Tree) ⊓ (:Forms_of_water ⊓ :Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 154: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Nature))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 155: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 156: ∃ :imageContains.((:Nature ⊓ :Science) ⊓ (:Tree))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 157: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Nature))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 158: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Forms_of_water))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 159: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 160: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 161: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Nature))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 162: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 163: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 164: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Tree))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 165: ∃ :imageContains.((:Matter ⊓ :Phenomena) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 166: ∃ :imageContains.((:Universe ⊓ :Science) ⊓ (:Tree))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 167: ∃ :imageContains.((:Forms_of_water ⊓ :Phenomena) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 168: ∃ :imageContains.((:Matter ⊓ :Winter_phenomena) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 169: ∃ :imageContains.((:Tree) ⊓ (:Winter_phenomena ⊓ :Phases_of_matter))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 170: ∃ :imageContains.((:Matter) ⊓ (:Winter_phenomena))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 171: ∃ :imageContains.((:Phenomena) ⊓ (:Forms_of_water))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 172: ∃ :imageContains.(:Sky ⊓ :Phenomena)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 173: ∃ :imageContains.((:Tree) ⊓ (:Main_topic_classifications))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 174: ∃ :imageContains.((:Science) ⊓ (:Nature))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 175: ∃ :imageContains.(:Sky ⊓ :Science)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 176: ∃ :imageContains.(:Sky ⊓ :Subfields_by_academic_discipline)
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 177: ∃ :imageContains.((:Phenomena) ⊓ (:Sky))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 178: ∃ :imageContains.((:Universe) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 179: ∃ :imageContains.((:Sky) ⊓ (:Science))
+	 coverage_score: 0.5359116022099447
+	 precision: 1.0
+	 recall: 0.011764705882352941
+	 f_measure: 0.023255813953488372
+solution 180: ∃ :imageContains.(:Subfields_by_academic_discipline ⊓ :Phenomena)
+	 coverage_score: 0.5303867403314917
+	 precision: 0.5
+	 recall: 0.011764705882352941
+	 f_measure: 0.02298850574712644
+
+Total solutions found: 180
+
+F1 average: 0.13098917593761805
+Precision average: 0.8975408367557836
+Recall average: 0.08601307189542465
+Coverage average: 0.5580724370779634
+
+F1 max: 0.9440993788819877
+Precision max: 1.0
+Recall max: 0.9764705882352941
+Coverage max: 0.9502762430939227
+
+Total solutions found: 180
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Mountain_vs_Market_and_WorkRoom_and_WareHouse_bkg_wiki_pages_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.10.2020  03.03.13 AM
+Program duration: 5.267 sec

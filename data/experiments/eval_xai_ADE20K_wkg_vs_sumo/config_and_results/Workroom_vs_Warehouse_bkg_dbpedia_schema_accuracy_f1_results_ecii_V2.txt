@@ -1,0 +1,709 @@
+Program started.............
+Program starts at: 08.12.2020  12.45.36 PM
+Working with confFile: Workroom_vs_Warehouse_bkg_dbpedia_schema_accuracy_f1.config
+
+User defined parameters:
+ecciAlgorithmVersion: V2
+K1/conceptLimitInNegExpr: 1
+K2/hornClauseLimit: 2
+K3/objPropsCombinationLimit: 1
+K4/conceptLimitInPosExpr: 3
+K5/hornClausesListMaxSize: 20
+K6/candidateClassesListMaxSize: 3
+K7/removeCommonTypes: false
+limitPosTypes: true
+k9/posClassListMaxSize: 20
+posTypeMinCoverIndivsSize: 1
+limitNegTypes: true
+k10/negClassListMaxSize: 15
+negTypeMinCoverIndivsSize: 1
+DefaultScoreType: F1_MEASURE
+ReasonerName: pellet
+k8/ValidateByReasonerSize: 0
+posIndivs from conf:
+	ADE_train_00020099
+	ADE_train_00020098
+	ADE_train_00020101
+	ADE_train_00020100
+negIndivs from conf:
+	ADE_train_00019741
+	ADE_train_00019740
+	ADE_train_00019743
+	ADE_train_00019742
+	ADE_train_00019745
+	ADE_train_00019744
+	ADE_train_00019703
+	ADE_train_00019747
+	ADE_train_00019702
+	ADE_train_00019746
+	ADE_train_00019705
+	ADE_train_00019749
+	ADE_train_00019704
+	ADE_train_00019748
+	ADE_train_00019707
+	ADE_train_00019706
+	ADE_train_00019709
+	ADE_train_00019708
+	ADE_train_00019750
+	ADE_train_00019730
+	ADE_train_00019732
+	ADE_train_00019731
+	ADE_train_00019734
+	ADE_train_00019733
+	ADE_train_00019736
+	ADE_train_00019735
+	ADE_train_00019738
+	ADE_train_00019737
+	ADE_train_00019739
+	ADE_train_00019721
+	ADE_train_00019720
+	ADE_train_00019723
+	ADE_train_00019722
+	ADE_train_00019725
+	ADE_train_00019724
+	ADE_train_00019727
+	ADE_train_00019726
+	ADE_train_00019729
+	ADE_train_00019728
+	ADE_train_00019752
+	ADE_train_00019751
+	ADE_train_00019710
+	ADE_train_00019754
+	ADE_train_00019753
+	ADE_train_00019712
+	ADE_train_00019756
+	ADE_train_00019711
+	ADE_train_00019755
+	ADE_train_00019714
+	ADE_train_00019713
+	ADE_train_00019716
+	ADE_train_00019715
+	ADE_train_00019718
+	ADE_train_00019717
+	ADE_train_00019719
+objProps from conf:
+	__%!empty%!__
+	imageContains
+Algorithm starts at: 08.12.2020  12.45.36 PM
+Total positive types (direct+indirect) found using all objectProperty: 8
+Total negative types (direct+indirect) found using all objectProperty: 21
+
+Algorithm ends at: 08.12.2020  12.45.41 PM
+
+Algorithm duration: 5.031 sec
+
+####################Solutions (sorted by F1_MEASURE)####################:
+solution 1: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 2: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 3: ∃ :imageContains.((null ⊓ :Work) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 4: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 5: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 6: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 7: ∃ :imageContains.((null ⊓ :Work) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 8: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 9: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 10: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 11: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 12: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 13: ∃ :imageContains.((null ⊓ :Work) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 14: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 15: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 16: ∃ :imageContains.((null ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 17: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 18: ∃ :imageContains.((null ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 19: ∃ :imageContains.((null ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 20: ∃ :imageContains.((null ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 21: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 22: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 23: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 24: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 25: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 26: ∃ :imageContains.((null ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 27: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 28: ∃ :imageContains.((null ⊓ null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 29: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 30: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 31: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 32: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 33: ∃ :imageContains.((null ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 34: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 35: ∃ :imageContains.((null ⊓ :Work) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 36: ∃ :imageContains.((:Book ⊓ null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 37: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Book))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 38: ∃ :imageContains.((null ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 39: ∃ :imageContains.((null ⊓ null) ⊓ (:WrittenWork))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 40: ∃ :imageContains.((null ⊓ :Work) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 41: ∃ :imageContains.((null ⊓ null) ⊓ (:Book))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 42: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 43: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 44: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 45: ∃ :imageContains.((:Book ⊓ null) ⊓ (:WrittenWork))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 46: ∃ :imageContains.((null ⊓ null) ⊓ (:WrittenWork))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 47: ∃ :imageContains.((null ⊓ :Work) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 48: ∃ :imageContains.((null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 49: ∃ :imageContains.((null ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 50: ∃ :imageContains.((:Book ⊓ null) ⊓ (:WrittenWork))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 51: ∃ :imageContains.((:Book ⊓ null) ⊓ (:WrittenWork))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 52: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 53: ∃ :imageContains.((:Book) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 54: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 55: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 56: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 57: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Book))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 58: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 59: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 60: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 61: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 62: ∃ :imageContains.((null) ⊓ (null ⊓ :Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 63: ∃ :imageContains.((null) ⊓ (null ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 64: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 65: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 66: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 67: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 68: ∃ :imageContains.((null ⊓ :Work) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 69: ∃ :imageContains.((null ⊓ null) ⊓ (:Book))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 70: ∃ :imageContains.((null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 71: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 72: ∃ :imageContains.((:Book) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 73: ∃ :imageContains.((null ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 74: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 75: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 76: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 77: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 78: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 79: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 80: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 81: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 82: ∃ :imageContains.((null ⊓ null) ⊓ (:WrittenWork))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 83: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 84: ∃ :imageContains.((:Book ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 85: ∃ :imageContains.((:Book ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 86: ∃ :imageContains.((null) ⊓ (:Book ⊓ null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 87: ∃ :imageContains.((null ⊓ null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 88: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 89: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 90: ∃ :imageContains.((null ⊓ :Work) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 91: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 92: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 93: ∃ :imageContains.((null ⊓ null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 94: ∃ :imageContains.(:Book ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 95: ∃ :imageContains.(:Book ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 96: ∃ :imageContains.((null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 97: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 98: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 99: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 100: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 101: ∃ :imageContains.((null) ⊓ (:Book))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 102: ∃ :imageContains.((:Book) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 103: ∃ :imageContains.((:Book) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 104: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 105: ∃ :imageContains.(null ⊓ :Work)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 106: ∃ :imageContains.((null) ⊓ (:Work))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 107: ∃ :imageContains.((null) ⊓ (null))
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 108: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 109: ∃ :imageContains.(:Book ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 110: ∃ :imageContains.(null ⊓ null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 111: ∃ :imageContains.(null ⊓ :Work)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 112: ∃ :imageContains.(null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 113: ∃ :imageContains.(null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 114: ∃ :imageContains.(null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 115: ∃ :imageContains.(:Book)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 116: ∃ :imageContains.(null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 117: ∃ :imageContains.(:Work)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 118: ∃ :imageContains.(null)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+solution 119: ∃ :imageContains.(:WrittenWork)
+	 coverage_score: 0.9491525423728814
+	 precision: 1.0
+	 recall: 0.25
+	 f_measure: 0.4
+
+Total solutions found: 119
+
+F1 average: 0.39999999999999913
+Precision average: 1.0
+Recall average: 0.25
+Coverage average: 0.9491525423728827
+
+F1 max: 0.4
+Precision max: 1.0
+Recall max: 0.25
+Coverage max: 0.9491525423728814
+
+Total solutions found: 119
+Result saved at: /Users/sarker/Dropbox/2020-CIKM-Wiki-hierarchy/experiments/eval_xai_ADE20K_wkg_vs_sumo/config_and_results/Workroom_vs_Warehouse_bkg_dbpedia_schema_accuracy_f1_results_ecii_V2.txt
+
+Program finished.
+Program ends at: 08.12.2020  12.45.41 PM
+Program duration: 5.045 sec
