@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2df8acc-cf1d-4adb-aaf8-999e48425068" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../data/experiments/eval_non_cyclic_wkg_vs_dbpedia_and_sumo/~$classes_found_in_both_dbpedia_and_wiki_with_all_parents.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/experiments/eval_non_cyclic_wkg_vs_dbpedia_and_sumo/~$classes_found_in_both_dbpedia_sumo_and_wiki_with_all_parents.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/app.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/ecii.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/AnalysisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/ConfigParams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/SharedDataHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/Utility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ade20k/CreateOWLFromADE20kAndMapwithDbpedia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ade20k/CreateOWLFromADE20kAndMapwithSumo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ade20k/CreateOWLFromADE20kAndMapwithWiki.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/MapWithOtherKG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/WikiCatsNoCycleWithPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/WikiKGStats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/analysis/WikiKGStatsJena.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/MalFormedIRIException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/SameInputOutputPathException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiki/creation/TaxoSql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiki/creation/UnicodeProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiki/creation/datadump/WikiCatsCyclic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiki/creation/datadump/WikiCatsCyclicWithPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiki/creation/datadump/WikiCatsNoCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wiki/creation/datadump/WikiCatsNoCycleWithPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestMapWithWiki.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +135,11 @@
       <workItem from="1597735526325" duration="9446000" />
       <workItem from="1598016438552" duration="5118000" />
       <workItem from="1599412716723" duration="1880000" />
-      <workItem from="1600441032483" duration="3828000" />
+      <workItem from="1600441032483" duration="5175000" />
+      <workItem from="1601332841520" duration="12000" />
+      <workItem from="1601910719865" duration="959000" />
+      <workItem from="1601962540141" duration="997000" />
+      <workItem from="1602008654888" duration="656000" />
     </task>
     <servers />
   </component>
@@ -221,10 +200,10 @@
     </state>
     <state x="-1395" y="-157" width="1240" height="1011" key="dock-window-1/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1597741669016" />
     <state x="-1395" y="-157" width="1240" height="1011" key="dock-window-1/0.23.1440.877/0.-1057.1920.1057/-1920.-157.1920.1057@0.-1057.1920.1057" timestamp="1598116362814" />
-    <state x="470" y="-834" width="798" height="591" key="find.popup" timestamp="1600441864139">
+    <state x="470" y="-834" width="798" height="591" key="find.popup" timestamp="1601910769091">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="470" y="-834" width="798" height="591" key="find.popup/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1600441864139" />
+    <state x="470" y="-834" width="798" height="591" key="find.popup/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1601910769091" />
     <state x="421" y="216" width="598" height="490" key="find.popup/0.23.1440.877/-1920.-157.1920.1057/0.-1057.1920.1057@0.23.1440.877" timestamp="1597081807380" />
   </component>
 </project>
